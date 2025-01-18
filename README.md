@@ -37,16 +37,16 @@ git clone https://github.com/qiufengqijun/mini_qwen.git
 cd mini_qwen
 
 # demo_xx.py和mini_qwen_xx.py基本一致，为了减少显存占用，进行了以下修改：
-# 在demo_xx.py中， 将data/替换为mini_data/
-# 在demo_xx.py中， 设置per_device_train_batch_size=1
-# 在demo_pt.py中， 设置block_size = 128
-# 在demo_sft.py中，设置max_seq_length=128
-# 在demo_dpo.py中，设置max_length=128 max_prompt_length=64
+# 在demo/demo_xx.py中， 将data/替换为mini_data/
+# 在demo/demo_xx.py中， 设置per_device_train_batch_size=1
+# 在demo/demo_pt.py中， 设置block_size = 128
+# 在demo/demo_sft.py中，设置max_seq_length=128
+# 在demo/demo_dpo.py中，设置max_length=128 max_prompt_length=64
 
 # 参考run.sh中的“单卡在命令行运行”
-python demo_pt.py
-python demo_sft.py
-python demo_dpo.py
+python demo/demo_pt.py
+python demo/demo_sft.py
+python demo/demo_dpo.py
 ```
 ## 模型下载链接
 本项目将训练过程中的几乎所有模型都进行了保存，下载链接如下：
