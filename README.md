@@ -405,7 +405,7 @@ python mini_qwen_eval.py
 
 loss曲线先迅速下降，后缓慢降低，非常符合预期。
 
-![这是图片](images/training_loss_pt.png)
+![这是图片](https://github.com/qiufengqijun/mini_qwen/raw/main/images/training_loss_pt.png)
 
 #### 模型评估
 - 直接询问模型问题，可以看出模型会出现复读机现象(过长的重复内容使用。。。。。。省略)。
