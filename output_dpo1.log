@@ -1,0 +1,1713 @@
+nohup: ignoring input
+[2025-01-16 14:46:29,866] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+W0116 14:46:32.109732 139815128467264 torch/distributed/run.py:757] 
+W0116 14:46:32.109732 139815128467264 torch/distributed/run.py:757] *****************************************
+W0116 14:46:32.109732 139815128467264 torch/distributed/run.py:757] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0116 14:46:32.109732 139815128467264 torch/distributed/run.py:757] *****************************************
+[2025-01-16 14:46:36,209] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-01-16 14:46:36,209] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-01-16 14:46:36,213] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-01-16 14:46:36,218] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-01-16 14:46:36,218] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-01-16 14:46:36,220] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+[2025-01-16 14:46:38,918] [INFO] [comm.py:637:init_distributed] cdb=None
+[2025-01-16 14:46:38,924] [INFO] [comm.py:637:init_distributed] cdb=None
+[2025-01-16 14:46:38,931] [INFO] [comm.py:637:init_distributed] cdb=None
+[2025-01-16 14:46:38,933] [INFO] [comm.py:637:init_distributed] cdb=None
+[2025-01-16 14:46:38,977] [INFO] [comm.py:637:init_distributed] cdb=None
+[2025-01-16 14:46:39,037] [INFO] [comm.py:637:init_distributed] cdb=None
+[2025-01-16 14:46:39,037] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+/usr/local/python/lib/python3.8/site-packages/huggingface_hub/utils/_deprecation.py:100: FutureWarning: Deprecated argument(s) used in '__init__': dataset_num_proc, max_length, max_prompt_length. Will not be supported from version '1.0.0'.
+
+Deprecated positional argument(s) used in DPOTrainer, please use the DPOConfig to set these arguments instead.
+  warnings.warn(message, FutureWarning)
+/usr/local/python/lib/python3.8/site-packages/huggingface_hub/utils/_deprecation.py:100: FutureWarning: Deprecated argument(s) used in '__init__': dataset_num_proc, max_length, max_prompt_length. Will not be supported from version '1.0.0'.
+
+Deprecated positional argument(s) used in DPOTrainer, please use the DPOConfig to set these arguments instead.
+  warnings.warn(message, FutureWarning)
+/usr/local/python/lib/python3.8/site-packages/huggingface_hub/utils/_deprecation.py:100: FutureWarning: Deprecated argument(s) used in '__init__': dataset_num_proc, max_length, max_prompt_length. Will not be supported from version '1.0.0'.
+
+Deprecated positional argument(s) used in DPOTrainer, please use the DPOConfig to set these arguments instead.
+  warnings.warn(message, FutureWarning)
+/usr/local/python/lib/python3.8/site-packages/huggingface_hub/utils/_deprecation.py:100: FutureWarning: Deprecated argument(s) used in '__init__': dataset_num_proc, max_length, max_prompt_length. Will not be supported from version '1.0.0'.
+
+Deprecated positional argument(s) used in DPOTrainer, please use the DPOConfig to set these arguments instead.
+  warnings.warn(message, FutureWarning)
+/usr/local/python/lib/python3.8/site-packages/huggingface_hub/utils/_deprecation.py:100: FutureWarning: Deprecated argument(s) used in '__init__': dataset_num_proc, max_length, max_prompt_length. Will not be supported from version '1.0.0'.
+
+Deprecated positional argument(s) used in DPOTrainer, please use the DPOConfig to set these arguments instead.
+  warnings.warn(message, FutureWarning)
+/usr/local/python/lib/python3.8/site-packages/huggingface_hub/utils/_deprecation.py:100: FutureWarning: Deprecated argument(s) used in '__init__': dataset_num_proc, max_length, max_prompt_length. Will not be supported from version '1.0.0'.
+
+Deprecated positional argument(s) used in DPOTrainer, please use the DPOConfig to set these arguments instead.
+  warnings.warn(message, FutureWarning)
+/usr/local/python/lib/python3.8/site-packages/trl/trainer/dpo_trainer.py:655: UserWarning: You passed `max_length` to the DPOTrainer, the value you passed will override the one in the `DPOConfig`.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/trl/trainer/dpo_trainer.py:655: UserWarning: You passed `max_length` to the DPOTrainer, the value you passed will override the one in the `DPOConfig`.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/trl/trainer/dpo_trainer.py:668: UserWarning: You passed `max_prompt_length` to the DPOTrainer, the value you passed will override the one in the `DPOConfig`.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/trl/trainer/dpo_trainer.py:668: UserWarning: You passed `max_prompt_length` to the DPOTrainer, the value you passed will override the one in the `DPOConfig`.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/trl/trainer/dpo_trainer.py:708: UserWarning: When using DPODataCollatorWithPadding, you should set `remove_unused_columns=False` in your TrainingArguments we have set it for you, but you should do it yourself in the future.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/trl/trainer/dpo_trainer.py:655: UserWarning: You passed `max_length` to the DPOTrainer, the value you passed will override the one in the `DPOConfig`.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/trl/trainer/dpo_trainer.py:655: UserWarning: You passed `max_length` to the DPOTrainer, the value you passed will override the one in the `DPOConfig`.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/trl/trainer/dpo_trainer.py:708: UserWarning: When using DPODataCollatorWithPadding, you should set `remove_unused_columns=False` in your TrainingArguments we have set it for you, but you should do it yourself in the future.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/trl/trainer/dpo_trainer.py:668: UserWarning: You passed `max_prompt_length` to the DPOTrainer, the value you passed will override the one in the `DPOConfig`.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/trl/trainer/dpo_trainer.py:668: UserWarning: You passed `max_prompt_length` to the DPOTrainer, the value you passed will override the one in the `DPOConfig`.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/trl/trainer/dpo_trainer.py:708: UserWarning: When using DPODataCollatorWithPadding, you should set `remove_unused_columns=False` in your TrainingArguments we have set it for you, but you should do it yourself in the future.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/trl/trainer/dpo_trainer.py:708: UserWarning: When using DPODataCollatorWithPadding, you should set `remove_unused_columns=False` in your TrainingArguments we have set it for you, but you should do it yourself in the future.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/trl/trainer/dpo_trainer.py:788: UserWarning: You passed `dataset_num_proc` to the DPOTrainer, the value you passed will override the one in the `DPOConfig`.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/trl/trainer/dpo_trainer.py:788: UserWarning: You passed `dataset_num_proc` to the DPOTrainer, the value you passed will override the one in the `DPOConfig`.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/trl/trainer/dpo_trainer.py:788: UserWarning: You passed `dataset_num_proc` to the DPOTrainer, the value you passed will override the one in the `DPOConfig`.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/trl/trainer/dpo_trainer.py:788: UserWarning: You passed `dataset_num_proc` to the DPOTrainer, the value you passed will override the one in the `DPOConfig`.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/trl/trainer/dpo_trainer.py:655: UserWarning: You passed `max_length` to the DPOTrainer, the value you passed will override the one in the `DPOConfig`.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/trl/trainer/dpo_trainer.py:668: UserWarning: You passed `max_prompt_length` to the DPOTrainer, the value you passed will override the one in the `DPOConfig`.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/trl/trainer/dpo_trainer.py:708: UserWarning: When using DPODataCollatorWithPadding, you should set `remove_unused_columns=False` in your TrainingArguments we have set it for you, but you should do it yourself in the future.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/trl/trainer/dpo_trainer.py:655: UserWarning: You passed `max_length` to the DPOTrainer, the value you passed will override the one in the `DPOConfig`.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/trl/trainer/dpo_trainer.py:668: UserWarning: You passed `max_prompt_length` to the DPOTrainer, the value you passed will override the one in the `DPOConfig`.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/trl/trainer/dpo_trainer.py:708: UserWarning: When using DPODataCollatorWithPadding, you should set `remove_unused_columns=False` in your TrainingArguments we have set it for you, but you should do it yourself in the future.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/trl/trainer/dpo_trainer.py:788: UserWarning: You passed `dataset_num_proc` to the DPOTrainer, the value you passed will override the one in the `DPOConfig`.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/trl/trainer/dpo_trainer.py:788: UserWarning: You passed `dataset_num_proc` to the DPOTrainer, the value you passed will override the one in the `DPOConfig`.
+  warnings.warn(
+
+Tokenizing train dataset (num_proc=16):   0%|          | 0/59438 [00:00<?, ? examples/s]
+Tokenizing train dataset (num_proc=16):   2%|▏         | 1000/59438 [00:05<05:18, 183.73 examples/s]
+Tokenizing train dataset (num_proc=16):   3%|▎         | 2000/59438 [00:05<02:14, 427.66 examples/s]
+Tokenizing train dataset (num_proc=16):   7%|▋         | 4000/59438 [00:05<00:51, 1083.01 examples/s]
+Tokenizing train dataset (num_proc=16):   8%|▊         | 5000/59438 [00:05<00:37, 1444.35 examples/s]
+Tokenizing train dataset (num_proc=16):  12%|█▏        | 7000/59438 [00:06<00:22, 2325.26 examples/s]
+Tokenizing train dataset (num_proc=16):  17%|█▋        | 10000/59438 [00:06<00:11, 4267.47 examples/s]
+Tokenizing train dataset (num_proc=16):  20%|██        | 12000/59438 [00:06<00:09, 4959.08 examples/s]
+Tokenizing train dataset (num_proc=16):  24%|██▎       | 14000/59438 [00:06<00:07, 5997.78 examples/s]
+Tokenizing train dataset (num_proc=16):  27%|██▋       | 16000/59438 [00:06<00:06, 7197.53 examples/s]
+Tokenizing train dataset (num_proc=16):  30%|███       | 18000/59438 [00:10<00:26, 1577.91 examples/s]
+Tokenizing train dataset (num_proc=16):  32%|███▏      | 19000/59438 [00:10<00:22, 1836.79 examples/s]
+Tokenizing train dataset (num_proc=16):  37%|███▋      | 22000/59438 [00:10<00:12, 3006.03 examples/s]
+Tokenizing train dataset (num_proc=16):  40%|████      | 24000/59438 [00:10<00:09, 3756.39 examples/s]
+Tokenizing train dataset (num_proc=16):  44%|████▎     | 26000/59438 [00:11<00:06, 4850.47 examples/s]
+Tokenizing train dataset (num_proc=16):  47%|████▋     | 28000/59438 [00:11<00:06, 4992.25 examples/s]
+Tokenizing train dataset (num_proc=16):  50%|█████     | 30000/59438 [00:11<00:04, 6364.13 examples/s]
+Tokenizing train dataset (num_proc=16):  56%|█████▌    | 33000/59438 [00:14<00:14, 1879.42 examples/s]
+Tokenizing train dataset (num_proc=16):  57%|█████▋    | 34000/59438 [00:15<00:12, 2086.20 examples/s]
+Tokenizing train dataset (num_proc=16):  59%|█████▉    | 35000/59438 [00:15<00:10, 2329.13 examples/s]
+Tokenizing train dataset (num_proc=16):  61%|██████    | 36000/59438 [00:15<00:08, 2659.95 examples/s]
+Tokenizing train dataset (num_proc=16):  66%|██████▌   | 39000/59438 [00:15<00:04, 4411.17 examples/s]
+Tokenizing train dataset (num_proc=16):  71%|███████   | 42000/59438 [00:15<00:02, 6026.95 examples/s]
+Tokenizing train dataset (num_proc=16):  74%|███████▍  | 44000/59438 [00:16<00:02, 6325.89 examples/s]
+Tokenizing train dataset (num_proc=16):  79%|███████▉  | 47000/59438 [00:16<00:01, 7620.82 examples/s]
+Tokenizing train dataset (num_proc=16):  82%|████████▏ | 48715/59438 [00:18<00:04, 2678.88 examples/s]
+Tokenizing train dataset (num_proc=16):  84%|████████▍ | 50145/59438 [00:18<00:02, 3155.00 examples/s]
+Tokenizing train dataset (num_proc=16):  87%|████████▋ | 51575/59438 [00:18<00:02, 3365.73 examples/s]
+Tokenizing train dataset (num_proc=16):  90%|█████████ | 53720/59438 [00:19<00:01, 4456.55 examples/s]
+Tokenizing train dataset (num_proc=16):  93%|█████████▎| 55150/59438 [00:19<00:00, 4535.56 examples/s]
+Tokenizing train dataset (num_proc=16):  96%|█████████▋| 57293/59438 [00:19<00:00, 5342.85 examples/s]
+Tokenizing train dataset (num_proc=16):  99%|█████████▉| 58723/59438 [00:19<00:00, 5771.07 examples/s]
+Tokenizing train dataset (num_proc=16): 100%|██████████| 59438/59438 [00:20<00:00, 2963.77 examples/s]
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393355 [0] NCCL INFO Bootstrap : Using eth1:11.234.49.10<0>
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393355 [0] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393355 [0] NCCL INFO cudaDriverVersion 12000
+NCCL version 2.20.5+cuda11.0
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393359 [4] NCCL INFO cudaDriverVersion 12000
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393359 [4] NCCL INFO Bootstrap : Using eth1:11.234.49.10<0>
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393359 [4] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393360 [5] NCCL INFO cudaDriverVersion 12000
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393360 [5] NCCL INFO Bootstrap : Using eth1:11.234.49.10<0>
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393360 [5] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393357 [2] NCCL INFO cudaDriverVersion 12000
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393357 [2] NCCL INFO Bootstrap : Using eth1:11.234.49.10<0>
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393357 [2] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393358 [3] NCCL INFO cudaDriverVersion 12000
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393358 [3] NCCL INFO Bootstrap : Using eth1:11.234.49.10<0>
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393358 [3] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393356 [1] NCCL INFO cudaDriverVersion 12000
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393356 [1] NCCL INFO Bootstrap : Using eth1:11.234.49.10<0>
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393356 [1] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO NET/IB : No device found.
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO NET/IB : No device found.
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO NET/Socket : Using [0]eth1:11.234.49.10<0>
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO NET/Socket : Using [0]eth1:11.234.49.10<0>
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Using non-device net plugin version 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Using network Socket
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Using non-device net plugin version 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Using network Socket
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO NET/IB : No device found.
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO NET/Socket : Using [0]eth1:11.234.49.10<0>
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Using non-device net plugin version 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Using network Socket
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO NET/IB : No device found.
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO NET/Socket : Using [0]eth1:11.234.49.10<0>
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Using non-device net plugin version 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Using network Socket
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO NET/IB : No device found.
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO NET/Socket : Using [0]eth1:11.234.49.10<0>
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Using non-device net plugin version 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Using network Socket
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO NET/IB : No device found.
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO NET/Socket : Using [0]eth1:11.234.49.10<0>
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Using non-device net plugin version 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Using network Socket
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO comm 0xe6acf1b0 rank 5 nranks 6 cudaDev 5 nvmlDev 5 busId dd000 commId 0x68c80bf02d2e6543 - Init START
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO comm 0xe6fb7180 rank 3 nranks 6 cudaDev 3 nvmlDev 3 busId c4000 commId 0x68c80bf02d2e6543 - Init START
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO comm 0xe6b769d0 rank 2 nranks 6 cudaDev 2 nvmlDev 2 busId 85000 commId 0x68c80bf02d2e6543 - Init START
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO comm 0xe1a06860 rank 1 nranks 6 cudaDev 1 nvmlDev 1 busId 62000 commId 0x68c80bf02d2e6543 - Init START
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO comm 0xe6365270 rank 4 nranks 6 cudaDev 4 nvmlDev 4 busId d0000 commId 0x68c80bf02d2e6543 - Init START
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO comm 0xe67c45a0 rank 0 nranks 6 cudaDev 0 nvmlDev 0 busId 56000 commId 0x68c80bf02d2e6543 - Init START
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Setting affinity for GPU 5 to ffffffff,ffff0000,00000000,ffffffff,ffff0000,00000000
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Setting affinity for GPU 4 to ffffffff,ffff0000,00000000,ffffffff,ffff0000,00000000
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Setting affinity for GPU 0 to 03ffffe0,00000000,00000000,03ffffe0
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Setting affinity for GPU 3 to ffffffff,ffff0000,00000000,ffffffff,ffff0000,00000000
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Setting affinity for GPU 1 to 03ffffe0,00000000,00000000,03ffffe0
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Setting affinity for GPU 2 to ffffffff,ffff0000,00000000,ffffffff,ffff0000,00000000
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO comm 0xe6b769d0 rank 2 nRanks 6 nNodes 1 localRanks 6 localRank 2 MNNVL 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO comm 0xe6365270 rank 4 nRanks 6 nNodes 1 localRanks 6 localRank 4 MNNVL 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO comm 0xe1a06860 rank 1 nRanks 6 nNodes 1 localRanks 6 localRank 1 MNNVL 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO comm 0xe6fb7180 rank 3 nRanks 6 nNodes 1 localRanks 6 localRank 3 MNNVL 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO comm 0xe67c45a0 rank 0 nRanks 6 nNodes 1 localRanks 6 localRank 0 MNNVL 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO comm 0xe6acf1b0 rank 5 nRanks 6 nNodes 1 localRanks 6 localRank 5 MNNVL 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Trees [0] 3/-1/-1->2->1 [1] 3/-1/-1->2->1 [2] 3/-1/-1->2->1 [3] 3/-1/-1->2->1 [4] 3/-1/-1->2->1 [5] 3/-1/-1->2->1 [6] 3/-1/-1->2->1 [7] 3/-1/-1->2->1 [8] 3/-1/-1->2->1 [9] 3/-1/-1->2->1 [10] 3/-1/-1->2->1 [11] 3/-1/-1->2->1 [12] 3/-1/-1->2->1 [13] 3/-1/-1->2->1 [14] 3/-1/-1->2->1 [15] 3/-1/-1->2->1
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Trees [0] 5/-1/-1->4->3 [1] 5/-1/-1->4->3 [2] 5/-1/-1->4->3 [3] 5/-1/-1->4->3 [4] 5/-1/-1->4->3 [5] 5/-1/-1->4->3 [6] 5/-1/-1->4->3 [7] 5/-1/-1->4->3 [8] 5/-1/-1->4->3 [9] 5/-1/-1->4->3 [10] 5/-1/-1->4->3 [11] 5/-1/-1->4->3 [12] 5/-1/-1->4->3 [13] 5/-1/-1->4->3 [14] 5/-1/-1->4->3 [15] 5/-1/-1->4->3
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO P2P Chunksize set to 524288
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Trees [0] 2/-1/-1->1->0 [1] 2/-1/-1->1->0 [2] 2/-1/-1->1->0 [3] 2/-1/-1->1->0 [4] 2/-1/-1->1->0 [5] 2/-1/-1->1->0 [6] 2/-1/-1->1->0 [7] 2/-1/-1->1->0 [8] 2/-1/-1->1->0 [9] 2/-1/-1->1->0 [10] 2/-1/-1->1->0 [11] 2/-1/-1->1->0 [12] 2/-1/-1->1->0 [13] 2/-1/-1->1->0 [14] 2/-1/-1->1->0 [15] 2/-1/-1->1->0
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO P2P Chunksize set to 524288
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Trees [0] 4/-1/-1->3->2 [1] 4/-1/-1->3->2 [2] 4/-1/-1->3->2 [3] 4/-1/-1->3->2 [4] 4/-1/-1->3->2 [5] 4/-1/-1->3->2 [6] 4/-1/-1->3->2 [7] 4/-1/-1->3->2 [8] 4/-1/-1->3->2 [9] 4/-1/-1->3->2 [10] 4/-1/-1->3->2 [11] 4/-1/-1->3->2 [12] 4/-1/-1->3->2 [13] 4/-1/-1->3->2 [14] 4/-1/-1->3->2 [15] 4/-1/-1->3->2
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO P2P Chunksize set to 524288
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Channel 00/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Channel 01/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Trees [0] -1/-1/-1->5->4 [1] -1/-1/-1->5->4 [2] -1/-1/-1->5->4 [3] -1/-1/-1->5->4 [4] -1/-1/-1->5->4 [5] -1/-1/-1->5->4 [6] -1/-1/-1->5->4 [7] -1/-1/-1->5->4 [8] -1/-1/-1->5->4 [9] -1/-1/-1->5->4 [10] -1/-1/-1->5->4 [11] -1/-1/-1->5->4 [12] -1/-1/-1->5->4 [13] -1/-1/-1->5->4 [14] -1/-1/-1->5->4 [15] -1/-1/-1->5->4
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO P2P Chunksize set to 524288
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Channel 02/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Channel 03/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO P2P Chunksize set to 524288
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Channel 04/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Channel 05/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Channel 06/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Channel 07/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Channel 08/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Channel 09/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Channel 10/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Channel 11/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Channel 12/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Channel 13/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Channel 14/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Channel 15/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Trees [0] 1/-1/-1->0->-1 [1] 1/-1/-1->0->-1 [2] 1/-1/-1->0->-1 [3] 1/-1/-1->0->-1 [4] 1/-1/-1->0->-1 [5] 1/-1/-1->0->-1 [6] 1/-1/-1->0->-1 [7] 1/-1/-1->0->-1 [8] 1/-1/-1->0->-1 [9] 1/-1/-1->0->-1 [10] 1/-1/-1->0->-1 [11] 1/-1/-1->0->-1 [12] 1/-1/-1->0->-1 [13] 1/-1/-1->0->-1 [14] 1/-1/-1->0->-1 [15] 1/-1/-1->0->-1
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO P2P Chunksize set to 524288
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Channel 00/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Channel 00/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Channel 01/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Channel 00/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Channel 00/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Channel 01/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Channel 02/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Channel 00/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Channel 01/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Channel 01/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Channel 02/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Channel 03/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Channel 01/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Channel 02/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Channel 02/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Channel 03/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Channel 04/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Channel 00/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Channel 02/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Channel 03/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Channel 03/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Channel 04/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Channel 05/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Channel 01/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Channel 03/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Channel 04/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Channel 04/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Channel 05/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Channel 06/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Channel 02/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Channel 04/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Channel 05/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Channel 05/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Channel 06/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Channel 07/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Channel 03/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Channel 05/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Channel 06/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Channel 06/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Channel 07/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Channel 08/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Channel 04/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Channel 06/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Channel 07/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Channel 07/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Channel 08/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Channel 09/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Channel 05/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Channel 07/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Channel 08/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Channel 08/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Channel 09/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Channel 10/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Channel 06/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Channel 08/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Channel 09/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Channel 09/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Channel 10/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Channel 11/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Channel 07/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Channel 09/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Channel 10/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Channel 10/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Channel 11/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Channel 12/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Channel 08/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Channel 10/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Channel 11/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Channel 11/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Channel 12/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Channel 13/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Channel 09/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Channel 11/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Channel 12/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Channel 12/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Channel 13/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Channel 14/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Channel 10/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Channel 12/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Channel 13/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Channel 13/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Channel 14/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Channel 15/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Channel 11/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Channel 13/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Channel 14/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Channel 14/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Channel 15/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Channel 12/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Channel 14/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Channel 15/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Channel 15/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Channel 13/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Channel 15/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Channel 14/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Channel 15/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Connected all rings
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Connected all rings
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Connected all rings
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Connected all rings
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Connected all rings
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Connected all rings
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Channel 00/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Channel 01/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Channel 02/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Channel 03/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Channel 04/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Channel 05/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Channel 06/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Channel 07/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Channel 08/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Channel 09/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Channel 10/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Channel 11/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Channel 12/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Channel 00/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Channel 00/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Channel 13/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Channel 01/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Channel 01/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Channel 00/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Channel 14/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Channel 02/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Channel 02/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Channel 01/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Channel 15/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Channel 03/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Channel 03/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Channel 02/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Channel 04/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Channel 04/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Channel 03/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Channel 05/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Channel 05/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Channel 04/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Channel 06/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Channel 06/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Channel 05/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Channel 07/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Channel 00/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Channel 07/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Channel 06/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Channel 08/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Channel 01/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Channel 08/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Channel 07/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Channel 09/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Channel 02/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Channel 08/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Channel 09/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Channel 10/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Channel 03/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Channel 09/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Channel 10/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Channel 11/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Channel 04/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Channel 10/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Channel 11/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Channel 12/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Channel 05/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Channel 11/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Channel 12/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Channel 13/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Channel 06/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Channel 12/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Channel 13/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Channel 14/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Channel 07/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Channel 13/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Channel 14/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Channel 15/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Channel 08/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Channel 14/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Channel 15/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Channel 09/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Channel 15/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Channel 10/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Channel 11/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Channel 12/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Channel 13/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Channel 14/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Channel 15/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO Connected all trees
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO threadThresholds 8/8/64 | 48/8/64 | 512 | 512
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO 16 coll channels, 0 collnet channels, 0 nvls channels, 16 p2p channels, 16 p2p channels per peer
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO Connected all trees
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO threadThresholds 8/8/64 | 48/8/64 | 512 | 512
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO 16 coll channels, 0 collnet channels, 0 nvls channels, 16 p2p channels, 16 p2p channels per peer
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO Connected all trees
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO threadThresholds 8/8/64 | 48/8/64 | 512 | 512
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO 16 coll channels, 0 collnet channels, 0 nvls channels, 16 p2p channels, 16 p2p channels per peer
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO Connected all trees
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO Connected all trees
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO Connected all trees
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO threadThresholds 8/8/64 | 48/8/64 | 512 | 512
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO threadThresholds 8/8/64 | 48/8/64 | 512 | 512
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO threadThresholds 8/8/64 | 48/8/64 | 512 | 512
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO 16 coll channels, 0 collnet channels, 0 nvls channels, 16 p2p channels, 16 p2p channels per peer
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO 16 coll channels, 0 collnet channels, 0 nvls channels, 16 p2p channels, 16 p2p channels per peer
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO 16 coll channels, 0 collnet channels, 0 nvls channels, 16 p2p channels, 16 p2p channels per peer
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:393553 [3] NCCL INFO comm 0xe6fb7180 rank 3 nranks 6 cudaDev 3 nvmlDev 3 busId c4000 commId 0x68c80bf02d2e6543 - Init COMPLETE
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393551 [2] NCCL INFO comm 0xe6b769d0 rank 2 nranks 6 cudaDev 2 nvmlDev 2 busId 85000 commId 0x68c80bf02d2e6543 - Init COMPLETE
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393550 [5] NCCL INFO comm 0xe6acf1b0 rank 5 nranks 6 cudaDev 5 nvmlDev 5 busId dd000 commId 0x68c80bf02d2e6543 - Init COMPLETE
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393549 [4] NCCL INFO comm 0xe6365270 rank 4 nranks 6 cudaDev 4 nvmlDev 4 busId d0000 commId 0x68c80bf02d2e6543 - Init COMPLETE
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:393552 [1] NCCL INFO comm 0xe1a06860 rank 1 nranks 6 cudaDev 1 nvmlDev 1 busId 62000 commId 0x68c80bf02d2e6543 - Init COMPLETE
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393548 [0] NCCL INFO comm 0xe67c45a0 rank 0 nranks 6 cudaDev 0 nvmlDev 0 busId 56000 commId 0x68c80bf02d2e6543 - Init COMPLETE
+Detected kernel version 5.4.203, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+[2025-01-16 14:47:08,320] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed info: version=0.14.0, git-hash=unknown, git-branch=unknown
+
+Tokenizing train dataset (num_proc=16):   0%|          | 0/59438 [00:00<?, ? examples/s]
+Tokenizing train dataset (num_proc=16):   0%|          | 0/59438 [00:00<?, ? examples/s]
+Tokenizing train dataset (num_proc=16):   0%|          | 0/59438 [00:00<?, ? examples/s]
+Tokenizing train dataset (num_proc=16):   0%|          | 0/59438 [00:00<?, ? examples/s]
+Tokenizing train dataset (num_proc=16):   0%|          | 0/59438 [00:00<?, ? examples/s]
+Tokenizing train dataset (num_proc=16):   2%|▏         | 1000/59438 [00:05<05:37, 172.97 examples/s]
+Tokenizing train dataset (num_proc=16):   2%|▏         | 1000/59438 [00:06<06:18, 154.44 examples/s]
+Tokenizing train dataset (num_proc=16):   2%|▏         | 1000/59438 [00:06<06:25, 151.55 examples/s]
+Tokenizing train dataset (num_proc=16):   3%|▎         | 2000/59438 [00:06<02:44, 349.54 examples/s]
+Tokenizing train dataset (num_proc=16):   3%|▎         | 2000/59438 [00:06<02:41, 355.68 examples/s]
+Tokenizing train dataset (num_proc=16):   2%|▏         | 1000/59438 [00:06<06:11, 157.45 examples/s]
+Tokenizing train dataset (num_proc=16):   5%|▌         | 3000/59438 [00:06<01:39, 567.21 examples/s]
+Tokenizing train dataset (num_proc=16):   2%|▏         | 1000/59438 [00:06<06:17, 154.83 examples/s]
+Tokenizing train dataset (num_proc=16):   7%|▋         | 4000/59438 [00:06<01:06, 827.95 examples/s]
+Tokenizing train dataset (num_proc=16):   8%|▊         | 5000/59438 [00:07<00:45, 1184.33 examples/s]
+Tokenizing train dataset (num_proc=16):   8%|▊         | 5000/59438 [00:07<00:50, 1079.64 examples/s]
+Tokenizing train dataset (num_proc=16):   3%|▎         | 2000/59438 [00:06<02:39, 359.54 examples/s]
+Tokenizing train dataset (num_proc=16):   3%|▎         | 2000/59438 [00:06<02:45, 347.57 examples/s]
+Tokenizing train dataset (num_proc=16):   5%|▌         | 3000/59438 [00:07<01:41, 556.98 examples/s]
+Tokenizing train dataset (num_proc=16):  13%|█▎        | 8000/59438 [00:07<00:26, 1919.43 examples/s]
+Tokenizing train dataset (num_proc=16):   7%|▋         | 4000/59438 [00:07<01:06, 838.78 examples/s]
+Tokenizing train dataset (num_proc=16):  10%|█         | 6000/59438 [00:07<00:40, 1308.00 examples/s]
+Tokenizing train dataset (num_proc=16):  15%|█▌        | 9000/59438 [00:07<00:23, 2187.62 examples/s]
+Tokenizing train dataset (num_proc=16):  12%|█▏        | 7000/59438 [00:07<00:29, 1771.29 examples/s]
+Tokenizing train dataset (num_proc=16):  12%|█▏        | 7000/59438 [00:07<00:30, 1706.89 examples/s]
+Tokenizing train dataset (num_proc=16):   8%|▊         | 5000/59438 [00:07<00:48, 1116.40 examples/s]
+Tokenizing train dataset (num_proc=16):  13%|█▎        | 8000/59438 [00:07<00:23, 2203.39 examples/s]
+Tokenizing train dataset (num_proc=16):  12%|█▏        | 7000/59438 [00:07<00:26, 1951.56 examples/s]
+Tokenizing train dataset (num_proc=16):  13%|█▎        | 8000/59438 [00:08<00:26, 1907.73 examples/s]
+Tokenizing train dataset (num_proc=16):  17%|█▋        | 10000/59438 [00:08<00:22, 2238.76 examples/s]
+Tokenizing train dataset (num_proc=16):  15%|█▌        | 9000/59438 [00:08<00:17, 2854.52 examples/s]
+Tokenizing train dataset (num_proc=16):  15%|█▌        | 9000/59438 [00:08<00:22, 2269.23 examples/s]
+Tokenizing train dataset (num_proc=16):   8%|▊         | 5000/59438 [00:07<00:57, 939.95 examples/s]
+Tokenizing train dataset (num_proc=16):  13%|█▎        | 8000/59438 [00:07<00:22, 2253.14 examples/s]
+Tokenizing train dataset (num_proc=16):  17%|█▋        | 10000/59438 [00:08<00:17, 2758.80 examples/s]
+Tokenizing train dataset (num_proc=16):  19%|█▊        | 11000/59438 [00:08<00:19, 2479.15 examples/s]
+Tokenizing train dataset (num_proc=16):  17%|█▋        | 10000/59438 [00:08<00:16, 3026.89 examples/s]
+Tokenizing train dataset (num_proc=16):  19%|█▊        | 11000/59438 [00:08<00:14, 3305.80 examples/s]
+Tokenizing train dataset (num_proc=16):  15%|█▌        | 9000/59438 [00:08<00:20, 2421.39 examples/s]
+Tokenizing train dataset (num_proc=16):  12%|█▏        | 7000/59438 [00:08<00:37, 1390.55 examples/s]
+Tokenizing train dataset (num_proc=16):  20%|██        | 12000/59438 [00:08<00:13, 3601.76 examples/s]
+Tokenizing train dataset (num_proc=16):  17%|█▋        | 10000/59438 [00:08<00:16, 3008.08 examples/s]
+Tokenizing train dataset (num_proc=16):  15%|█▌        | 9000/59438 [00:08<00:26, 1909.17 examples/s]
+Tokenizing train dataset (num_proc=16):  25%|██▌       | 15000/59438 [00:09<00:08, 5192.98 examples/s]
+Tokenizing train dataset (num_proc=16):  17%|█▋        | 10000/59438 [00:08<00:21, 2255.13 examples/s]
+Tokenizing train dataset (num_proc=16):  24%|██▎       | 14000/59438 [00:09<00:13, 3432.37 examples/s]
+Tokenizing train dataset (num_proc=16):  19%|█▊        | 11000/59438 [00:08<00:18, 2601.76 examples/s]
+Tokenizing train dataset (num_proc=16):  19%|█▊        | 11000/59438 [00:09<00:23, 2045.05 examples/s]
+Tokenizing train dataset (num_proc=16):  27%|██▋       | 16000/59438 [00:09<00:11, 3919.10 examples/s]
+Tokenizing train dataset (num_proc=16):  22%|██▏       | 13000/59438 [00:09<00:23, 1990.26 examples/s]
+Tokenizing train dataset (num_proc=16):  20%|██        | 12000/59438 [00:09<00:19, 2480.96 examples/s]
+Tokenizing train dataset (num_proc=16):  22%|██▏       | 13000/59438 [00:09<00:15, 2996.77 examples/s]
+Tokenizing train dataset (num_proc=16):  20%|██        | 12000/59438 [00:09<00:21, 2174.23 examples/s]
+Tokenizing train dataset (num_proc=16):  24%|██▎       | 14000/59438 [00:09<00:21, 2152.51 examples/s]
+Tokenizing train dataset (num_proc=16):  22%|██▏       | 13000/59438 [00:09<00:19, 2423.10 examples/s]
+Tokenizing train dataset (num_proc=16):  24%|██▎       | 14000/59438 [00:09<00:15, 2954.93 examples/s]
+Tokenizing train dataset (num_proc=16):  25%|██▌       | 15000/59438 [00:10<00:20, 2175.20 examples/s]
+Tokenizing train dataset (num_proc=16):  27%|██▋       | 16000/59438 [00:10<00:17, 2477.78 examples/s]
+Tokenizing train dataset (num_proc=16):  25%|██▌       | 15000/59438 [00:10<00:22, 1945.55 examples/s]
+Tokenizing train dataset (num_proc=16):  25%|██▌       | 15000/59438 [00:10<00:18, 2460.33 examples/s]
+Tokenizing train dataset (num_proc=16):  25%|██▌       | 15000/59438 [00:10<00:16, 2728.81 examples/s]
+Tokenizing train dataset (num_proc=16):  27%|██▋       | 16000/59438 [00:10<00:20, 2087.34 examples/s]
+Tokenizing train dataset (num_proc=16):  27%|██▋       | 16000/59438 [00:10<00:15, 2752.61 examples/s]
+Tokenizing train dataset (num_proc=16):  27%|██▋       | 16000/59438 [00:11<00:22, 1895.44 examples/s]
+Tokenizing train dataset (num_proc=16):  29%|██▊       | 17000/59438 [00:11<00:26, 1621.45 examples/s]
+Tokenizing train dataset (num_proc=16):  29%|██▊       | 17000/59438 [00:11<00:27, 1539.39 examples/s]
+Tokenizing train dataset (num_proc=16):  30%|███       | 18000/59438 [00:12<00:22, 1864.07 examples/s]
+Tokenizing train dataset (num_proc=16):  30%|███       | 18000/59438 [00:12<00:24, 1720.52 examples/s]
+Tokenizing train dataset (num_proc=16):  29%|██▊       | 17000/59438 [00:11<00:24, 1762.58 examples/s]
+Tokenizing train dataset (num_proc=16):  32%|███▏      | 19000/59438 [00:12<00:18, 2135.11 examples/s]
+Tokenizing train dataset (num_proc=16):  32%|███▏      | 19000/59438 [00:12<00:20, 1950.22 examples/s]
+Tokenizing train dataset (num_proc=16):  34%|███▎      | 20000/59438 [00:12<00:16, 2407.96 examples/s]
+Tokenizing train dataset (num_proc=16):  34%|███▎      | 20000/59438 [00:12<00:17, 2291.69 examples/s]
+Tokenizing train dataset (num_proc=16):  29%|██▊       | 17000/59438 [00:12<00:29, 1431.67 examples/s]
+Tokenizing train dataset (num_proc=16):  35%|███▌      | 21000/59438 [00:12<00:13, 2760.06 examples/s]
+Tokenizing train dataset (num_proc=16):  30%|███       | 18000/59438 [00:12<00:31, 1303.24 examples/s]
+Tokenizing train dataset (num_proc=16):  35%|███▌      | 21000/59438 [00:12<00:14, 2729.26 examples/s]
+Tokenizing train dataset (num_proc=16):  32%|███▏      | 19000/59438 [00:13<00:23, 1718.34 examples/s]
+Tokenizing train dataset (num_proc=16):  30%|███       | 18000/59438 [00:12<00:26, 1587.23 examples/s]
+Tokenizing train dataset (num_proc=16):  34%|███▎      | 20000/59438 [00:13<00:18, 2145.33 examples/s]
+Tokenizing train dataset (num_proc=16):  32%|███▏      | 19000/59438 [00:12<00:19, 2092.84 examples/s]
+Tokenizing train dataset (num_proc=16):  32%|███▏      | 19000/59438 [00:12<00:20, 1970.46 examples/s]
+Tokenizing train dataset (num_proc=16):  35%|███▌      | 21000/59438 [00:13<00:14, 2585.06 examples/s]
+Tokenizing train dataset (num_proc=16):  37%|███▋      | 22000/59438 [00:13<00:15, 2453.53 examples/s]
+Tokenizing train dataset (num_proc=16):  34%|███▎      | 20000/59438 [00:13<00:16, 2388.91 examples/s]
+Tokenizing train dataset (num_proc=16):  37%|███▋      | 22000/59438 [00:13<00:11, 3253.20 examples/s]
+Tokenizing train dataset (num_proc=16):  35%|███▌      | 21000/59438 [00:13<00:13, 2882.22 examples/s]
+Tokenizing train dataset (num_proc=16):  39%|███▊      | 23000/59438 [00:13<00:12, 2896.75 examples/s]
+Tokenizing train dataset (num_proc=16):  40%|████      | 24000/59438 [00:13<00:10, 3371.07 examples/s]
+Tokenizing train dataset (num_proc=16):  37%|███▋      | 22000/59438 [00:13<00:11, 3305.15 examples/s]
+Tokenizing train dataset (num_proc=16):  39%|███▊      | 23000/59438 [00:13<00:11, 3084.18 examples/s]
+Tokenizing train dataset (num_proc=16):  39%|███▊      | 23000/59438 [00:13<00:15, 2354.09 examples/s]
+Tokenizing train dataset (num_proc=16):  34%|███▎      | 20000/59438 [00:13<00:22, 1785.16 examples/s]
+Tokenizing train dataset (num_proc=16):  39%|███▊      | 23000/59438 [00:13<00:10, 3387.20 examples/s]
+Tokenizing train dataset (num_proc=16):  40%|████      | 24000/59438 [00:14<00:10, 3272.84 examples/s]
+Tokenizing train dataset (num_proc=16):  40%|████      | 24000/59438 [00:14<00:13, 2700.38 examples/s]
+Tokenizing train dataset (num_proc=16):  42%|████▏     | 25000/59438 [00:14<00:10, 3161.12 examples/s]
+Tokenizing train dataset (num_proc=16):  40%|████      | 24000/59438 [00:13<00:08, 3987.13 examples/s]
+Tokenizing train dataset (num_proc=16):  35%|███▌      | 21000/59438 [00:13<00:17, 2187.45 examples/s]
+Tokenizing train dataset (num_proc=16):  45%|████▌     | 27000/59438 [00:14<00:06, 5196.65 examples/s]
+Tokenizing train dataset (num_proc=16):  42%|████▏     | 25000/59438 [00:14<00:09, 3775.49 examples/s]
+Tokenizing train dataset (num_proc=16):  47%|████▋     | 28000/59438 [00:14<00:05, 5562.07 examples/s]
+Tokenizing train dataset (num_proc=16):  45%|████▌     | 27000/59438 [00:14<00:07, 4208.33 examples/s]
+Tokenizing train dataset (num_proc=16):  42%|████▏     | 25000/59438 [00:14<00:09, 3787.89 examples/s]
+Tokenizing train dataset (num_proc=16):  44%|████▎     | 26000/59438 [00:14<00:07, 4196.15 examples/s]
+Tokenizing train dataset (num_proc=16):  37%|███▋      | 22000/59438 [00:14<00:16, 2213.44 examples/s]
+Tokenizing train dataset (num_proc=16):  40%|████      | 24000/59438 [00:14<00:09, 3718.06 examples/s]
+Tokenizing train dataset (num_proc=16):  42%|████▏     | 25000/59438 [00:14<00:09, 3709.96 examples/s]
+Tokenizing train dataset (num_proc=16):  45%|████▌     | 27000/59438 [00:15<00:07, 4193.31 examples/s]
+Tokenizing train dataset (num_proc=16):  49%|████▉     | 29000/59438 [00:15<00:14, 2124.16 examples/s]
+Tokenizing train dataset (num_proc=16):  47%|████▋     | 28000/59438 [00:16<00:19, 1625.73 examples/s]
+Tokenizing train dataset (num_proc=16):  44%|████▎     | 26000/59438 [00:16<00:30, 1091.74 examples/s]
+Tokenizing train dataset (num_proc=16):  45%|████▌     | 27000/59438 [00:16<00:22, 1460.77 examples/s]
+Tokenizing train dataset (num_proc=16):  50%|█████     | 30000/59438 [00:16<00:18, 1614.77 examples/s]
+Tokenizing train dataset (num_proc=16):  50%|█████     | 30000/59438 [00:17<00:09, 2956.33 examples/s]
+Tokenizing train dataset (num_proc=16):  52%|█████▏    | 31000/59438 [00:17<00:14, 1946.68 examples/s]
+Tokenizing train dataset (num_proc=16):  49%|████▉     | 29000/59438 [00:17<00:22, 1371.04 examples/s]
+Tokenizing train dataset (num_proc=16):  56%|█████▌    | 33000/59438 [00:17<00:09, 2892.40 examples/s]
+Tokenizing train dataset (num_proc=16):  50%|█████     | 30000/59438 [00:17<00:16, 1745.61 examples/s]
+Tokenizing train dataset (num_proc=16):  47%|████▋     | 28000/59438 [00:17<00:20, 1515.09 examples/s]
+Tokenizing train dataset (num_proc=16):  49%|████▉     | 29000/59438 [00:17<00:16, 1860.80 examples/s]
+Tokenizing train dataset (num_proc=16):  52%|█████▏    | 31000/59438 [00:17<00:11, 2386.65 examples/s]
+Tokenizing train dataset (num_proc=16):  50%|█████     | 30000/59438 [00:17<00:12, 2347.30 examples/s]
+Tokenizing train dataset (num_proc=16):  57%|█████▋    | 34000/59438 [00:18<00:10, 2365.97 examples/s]
+Tokenizing train dataset (num_proc=16):  45%|████▌     | 27000/59438 [00:17<00:38, 852.63 examples/s] 
+Tokenizing train dataset (num_proc=16):  54%|█████▍    | 32000/59438 [00:18<00:13, 2023.20 examples/s]
+Tokenizing train dataset (num_proc=16):  49%|████▉     | 29000/59438 [00:17<00:21, 1430.72 examples/s]
+Tokenizing train dataset (num_proc=16):  56%|█████▌    | 33000/59438 [00:18<00:11, 2322.32 examples/s]
+Tokenizing train dataset (num_proc=16):  54%|█████▍    | 32000/59438 [00:18<00:13, 2032.21 examples/s]
+Tokenizing train dataset (num_proc=16):  52%|█████▏    | 31000/59438 [00:18<00:14, 1967.28 examples/s]
+Tokenizing train dataset (num_proc=16):  59%|█████▉    | 35000/59438 [00:18<00:10, 2248.59 examples/s]
+Tokenizing train dataset (num_proc=16):  50%|█████     | 30000/59438 [00:18<00:17, 1654.90 examples/s]
+Tokenizing train dataset (num_proc=16):  56%|█████▌    | 33000/59438 [00:18<00:10, 2434.97 examples/s]
+Tokenizing train dataset (num_proc=16):  57%|█████▋    | 34000/59438 [00:18<00:10, 2490.08 examples/s]
+Tokenizing train dataset (num_proc=16):  57%|█████▋    | 34000/59438 [00:18<00:08, 2873.26 examples/s]
+Tokenizing train dataset (num_proc=16):  54%|█████▍    | 32000/59438 [00:18<00:11, 2486.19 examples/s]
+Tokenizing train dataset (num_proc=16):  62%|██████▏   | 37000/59438 [00:18<00:07, 2892.64 examples/s]
+Tokenizing train dataset (num_proc=16):  59%|█████▉    | 35000/59438 [00:18<00:06, 3530.10 examples/s]
+Tokenizing train dataset (num_proc=16):  59%|█████▉    | 35000/59438 [00:19<00:09, 2697.76 examples/s]
+Tokenizing train dataset (num_proc=16):  56%|█████▌    | 33000/59438 [00:18<00:09, 2727.78 examples/s]
+Tokenizing train dataset (num_proc=16):  61%|██████    | 36000/59438 [00:19<00:05, 3975.97 examples/s]
+Tokenizing train dataset (num_proc=16):  61%|██████    | 36000/59438 [00:19<00:06, 3351.60 examples/s]
+Tokenizing train dataset (num_proc=16):  54%|█████▍    | 32000/59438 [00:18<00:14, 1832.57 examples/s]
+Tokenizing train dataset (num_proc=16):  56%|█████▌    | 33000/59438 [00:18<00:11, 2375.06 examples/s]
+Tokenizing train dataset (num_proc=16):  64%|██████▍   | 38000/59438 [00:19<00:07, 2831.68 examples/s]
+Tokenizing train dataset (num_proc=16):  62%|██████▏   | 37000/59438 [00:19<00:05, 4207.14 examples/s]
+Tokenizing train dataset (num_proc=16):  57%|█████▋    | 34000/59438 [00:18<00:08, 2932.90 examples/s]
+Tokenizing train dataset (num_proc=16):  62%|██████▏   | 37000/59438 [00:19<00:04, 5121.63 examples/s]
+Tokenizing train dataset (num_proc=16):  64%|██████▍   | 38000/59438 [00:19<00:05, 4157.01 examples/s]
+Tokenizing train dataset (num_proc=16):  64%|██████▍   | 38000/59438 [00:19<00:03, 5625.02 examples/s]
+Tokenizing train dataset (num_proc=16):  66%|██████▌   | 39000/59438 [00:19<00:04, 4348.32 examples/s]
+Tokenizing train dataset (num_proc=16):  66%|██████▌   | 39000/59438 [00:19<00:04, 4101.71 examples/s]
+Tokenizing train dataset (num_proc=16):  67%|██████▋   | 40000/59438 [00:19<00:04, 4565.82 examples/s]
+Tokenizing train dataset (num_proc=16):  59%|█████▉    | 35000/59438 [00:19<00:09, 2656.49 examples/s]
+Tokenizing train dataset (num_proc=16):  66%|██████▌   | 39000/59438 [00:19<00:08, 2345.11 examples/s]
+Tokenizing train dataset (num_proc=16):  67%|██████▋   | 40000/59438 [00:20<00:04, 4360.25 examples/s]
+Tokenizing train dataset (num_proc=16):  68%|██████▊   | 40715/59438 [00:20<00:04, 4401.53 examples/s]
+Tokenizing train dataset (num_proc=16):  61%|██████    | 36000/59438 [00:19<00:07, 3042.81 examples/s]
+Tokenizing train dataset (num_proc=16):  66%|██████▌   | 39000/59438 [00:19<00:04, 4239.78 examples/s]
+Tokenizing train dataset (num_proc=16):  67%|██████▋   | 40000/59438 [00:20<00:06, 2857.58 examples/s]
+Tokenizing train dataset (num_proc=16):  70%|███████   | 41715/59438 [00:20<00:03, 5054.36 examples/s]
+Tokenizing train dataset (num_proc=16):  74%|███████▍  | 44000/59438 [00:20<00:02, 6257.75 examples/s]
+Tokenizing train dataset (num_proc=16):  64%|██████▍   | 38000/59438 [00:19<00:04, 4410.72 examples/s]
+Tokenizing train dataset (num_proc=16):  69%|██████▉   | 41000/59438 [00:19<00:03, 4953.44 examples/s]
+Tokenizing train dataset (num_proc=16):  69%|██████▉   | 41000/59438 [00:20<00:05, 3286.16 examples/s]
+Tokenizing train dataset (num_proc=16):  74%|███████▎  | 43715/59438 [00:20<00:02, 5324.97 examples/s]
+Tokenizing train dataset (num_proc=16):  71%|███████   | 42000/59438 [00:20<00:03, 5413.38 examples/s]
+Tokenizing train dataset (num_proc=16):  66%|██████▌   | 39000/59438 [00:20<00:05, 3786.29 examples/s]
+Tokenizing train dataset (num_proc=16):  69%|██████▉   | 41000/59438 [00:20<00:03, 5277.18 examples/s]
+Tokenizing train dataset (num_proc=16):  76%|███████▋  | 45430/59438 [00:21<00:03, 4005.73 examples/s]
+Tokenizing train dataset (num_proc=16):  70%|███████   | 41715/59438 [00:21<00:07, 2456.83 examples/s]
+Tokenizing train dataset (num_proc=16):  75%|███████▍  | 44430/59438 [00:21<00:05, 2965.70 examples/s]
+Tokenizing train dataset (num_proc=16):  72%|███████▏  | 42715/59438 [00:20<00:03, 4336.71 examples/s]
+Tokenizing train dataset (num_proc=16):  76%|███████▌  | 45145/59438 [00:22<00:09, 1568.32 examples/s]
+Tokenizing train dataset (num_proc=16):  74%|███████▎  | 43715/59438 [00:22<00:07, 2134.61 examples/s]
+Tokenizing train dataset (num_proc=16):  79%|███████▉  | 46860/59438 [00:22<00:06, 1951.53 examples/s]
+Tokenizing train dataset (num_proc=16):  77%|███████▋  | 45860/59438 [00:22<00:08, 1630.17 examples/s]
+Tokenizing train dataset (num_proc=16):  71%|███████▏  | 42430/59438 [00:23<00:16, 1015.75 examples/s]
+Tokenizing train dataset (num_proc=16):  81%|████████  | 47860/59438 [00:23<00:05, 2245.81 examples/s]
+Tokenizing train dataset (num_proc=16):  73%|███████▎  | 43430/59438 [00:22<00:10, 1491.34 examples/s]
+Tokenizing train dataset (num_proc=16):  75%|███████▍  | 44430/59438 [00:22<00:07, 1985.37 examples/s]
+Tokenizing train dataset (num_proc=16):  82%|████████▏ | 48575/59438 [00:23<00:04, 2472.05 examples/s]
+Tokenizing train dataset (num_proc=16):  73%|███████▎  | 43145/59438 [00:23<00:13, 1241.77 examples/s]
+Tokenizing train dataset (num_proc=16):  78%|███████▊  | 46575/59438 [00:23<00:07, 1625.91 examples/s]
+Tokenizing train dataset (num_proc=16):  74%|███████▍  | 43860/59438 [00:23<00:10, 1497.72 examples/s]
+Tokenizing train dataset (num_proc=16):  74%|███████▍  | 44145/59438 [00:23<00:09, 1542.31 examples/s]
+Tokenizing train dataset (num_proc=16):  77%|███████▋  | 45575/59438 [00:23<00:05, 2672.78 examples/s]
+Tokenizing train dataset (num_proc=16):  75%|███████▌  | 44860/59438 [00:23<00:08, 1809.34 examples/s]
+Tokenizing train dataset (num_proc=16):  76%|███████▌  | 45145/59438 [00:23<00:07, 1897.64 examples/s]
+Tokenizing train dataset (num_proc=16):  83%|████████▎ | 49290/59438 [00:23<00:04, 2192.56 examples/s]
+Tokenizing train dataset (num_proc=16):  78%|███████▊  | 46290/59438 [00:23<00:05, 2528.08 examples/s]
+Tokenizing train dataset (num_proc=16):  80%|███████▉  | 47290/59438 [00:23<00:03, 3197.00 examples/s]
+Tokenizing train dataset (num_proc=16):  77%|███████▋  | 45860/59438 [00:23<00:06, 1963.90 examples/s]
+Tokenizing train dataset (num_proc=16):  81%|████████  | 48005/59438 [00:23<00:06, 1842.60 examples/s]
+Tokenizing train dataset (num_proc=16):  83%|████████▎ | 49290/59438 [00:24<00:02, 4837.84 examples/s]
+Tokenizing train dataset (num_proc=16):  82%|████████▏ | 48720/59438 [00:24<00:04, 2164.48 examples/s]
+Tokenizing train dataset (num_proc=16):  84%|████████▍ | 50004/59438 [00:24<00:04, 1999.86 examples/s]
+Tokenizing train dataset (num_proc=16):  79%|███████▉  | 47005/59438 [00:23<00:05, 2330.81 examples/s]
+Tokenizing train dataset (num_proc=16):  85%|████████▌ | 50719/59438 [00:24<00:01, 5232.94 examples/s]
+Tokenizing train dataset (num_proc=16):  78%|███████▊  | 46575/59438 [00:23<00:06, 2041.77 examples/s]
+Tokenizing train dataset (num_proc=16):  84%|████████▍ | 50149/59438 [00:24<00:02, 3163.92 examples/s]
+Tokenizing train dataset (num_proc=16):  88%|████████▊ | 52149/59438 [00:24<00:02, 3447.52 examples/s]
+Tokenizing train dataset (num_proc=16):  80%|████████  | 47720/59438 [00:23<00:04, 2547.00 examples/s]
+Tokenizing train dataset (num_proc=16):  87%|████████▋ | 51719/59438 [00:24<00:01, 5402.17 examples/s]
+Tokenizing train dataset (num_proc=16):  83%|████████▎ | 49434/59438 [00:24<00:02, 3840.29 examples/s]
+Tokenizing train dataset (num_proc=16):  81%|████████  | 48004/59438 [00:24<00:04, 2550.87 examples/s]
+Tokenizing train dataset (num_proc=16):  84%|████████▍ | 50148/59438 [00:24<00:02, 4149.19 examples/s]
+Tokenizing train dataset (num_proc=16):  86%|████████▌ | 50863/59438 [00:24<00:03, 2717.85 examples/s]
+Tokenizing train dataset (num_proc=16):  83%|████████▎ | 49434/59438 [00:24<00:03, 3274.37 examples/s]
+Tokenizing train dataset (num_proc=16):  90%|████████▉ | 53434/59438 [00:24<00:01, 4619.02 examples/s]
+Tokenizing train dataset (num_proc=16):  85%|████████▍ | 50434/59438 [00:24<00:02, 3749.49 examples/s]
+Tokenizing train dataset (num_proc=16):  87%|████████▋ | 51863/59438 [00:25<00:02, 2713.19 examples/s]
+Tokenizing train dataset (num_proc=16):  92%|█████████▏| 54578/59438 [00:25<00:01, 3241.75 examples/s]
+Tokenizing train dataset (num_proc=16):  87%|████████▋ | 51434/59438 [00:24<00:01, 4213.72 examples/s]
+Tokenizing train dataset (num_proc=16):  88%|████████▊ | 52148/59438 [00:24<00:01, 4358.71 examples/s]
+Tokenizing train dataset (num_proc=16):  94%|█████████▎| 55578/59438 [00:25<00:01, 3299.89 examples/s]
+Tokenizing train dataset (num_proc=16):  86%|████████▌ | 51148/59438 [00:24<00:03, 2543.25 examples/s]
+Tokenizing train dataset (num_proc=16):  89%|████████▉ | 52863/59438 [00:25<00:02, 2512.57 examples/s]
+Tokenizing train dataset (num_proc=16):  88%|████████▊ | 52148/59438 [00:25<00:02, 2866.19 examples/s]
+Tokenizing train dataset (num_proc=16):  89%|████████▉ | 53148/59438 [00:25<00:01, 3297.80 examples/s]
+Tokenizing train dataset (num_proc=16):  91%|█████████ | 54148/59438 [00:25<00:01, 3598.15 examples/s]
+Tokenizing train dataset (num_proc=16):  92%|█████████▏| 54434/59438 [00:26<00:02, 2269.03 examples/s]
+Tokenizing train dataset (num_proc=16):  92%|█████████▏| 54863/59438 [00:25<00:01, 3515.25 examples/s]
+Tokenizing train dataset (num_proc=16):  95%|█████████▌| 56578/59438 [00:26<00:01, 2271.27 examples/s]
+Tokenizing train dataset (num_proc=16):  89%|████████▉ | 53148/59438 [00:26<00:03, 1984.13 examples/s]
+Tokenizing train dataset (num_proc=16):  92%|█████████▏| 54863/59438 [00:26<00:02, 2162.89 examples/s]
+Tokenizing train dataset (num_proc=16):  96%|█████████▋| 57293/59438 [00:26<00:00, 2194.43 examples/s]
+Tokenizing train dataset (num_proc=16):  93%|█████████▎| 55149/59438 [00:26<00:02, 1769.12 examples/s]
+Tokenizing train dataset (num_proc=16):  91%|█████████ | 54148/59438 [00:26<00:02, 2124.00 examples/s]
+Tokenizing train dataset (num_proc=16):  94%|█████████▍| 55863/59438 [00:27<00:01, 1987.21 examples/s]
+Tokenizing train dataset (num_proc=16):  94%|█████████▍| 55864/59438 [00:27<00:02, 1653.52 examples/s]
+Tokenizing train dataset (num_proc=16):  93%|█████████▎| 55148/59438 [00:27<00:02, 1784.91 examples/s]
+Tokenizing train dataset (num_proc=16):  94%|█████████▍| 55863/59438 [00:27<00:02, 1495.93 examples/s]
+Tokenizing train dataset (num_proc=16):  96%|█████████▋| 57294/59438 [00:27<00:00, 2180.72 examples/s]
+Tokenizing train dataset (num_proc=16):  98%|█████████▊| 58008/59438 [00:27<00:00, 2418.20 examples/s]
+Tokenizing train dataset (num_proc=16):  94%|█████████▍| 55863/59438 [00:27<00:01, 1859.41 examples/s]
+Tokenizing train dataset (num_proc=16):  99%|█████████▉| 58723/59438 [00:28<00:00, 2030.44 examples/s]
+Tokenizing train dataset (num_proc=16):  95%|█████████▌| 56578/59438 [00:28<00:02, 1240.23 examples/s]
+Tokenizing train dataset (num_proc=16):  95%|█████████▌| 56578/59438 [00:28<00:01, 1488.42 examples/s]
+Tokenizing train dataset (num_proc=16):  95%|█████████▌| 56578/59438 [00:28<00:02, 1113.05 examples/s]
+Tokenizing train dataset (num_proc=16):  96%|█████████▋| 57293/59438 [00:28<00:01, 1643.14 examples/s]
+Tokenizing train dataset (num_proc=16):  98%|█████████▊| 58008/59438 [00:29<00:00, 1650.10 examples/s]
+Tokenizing train dataset (num_proc=16):  96%|█████████▋| 57293/59438 [00:28<00:01, 1229.22 examples/s]
+Tokenizing train dataset (num_proc=16):  98%|█████████▊| 58008/59438 [00:29<00:01, 820.14 examples/s] 
+Tokenizing train dataset (num_proc=16):  99%|█████████▉| 58723/59438 [00:29<00:00, 1532.28 examples/s]
+Tokenizing train dataset (num_proc=16): 100%|██████████| 59438/59438 [00:30<00:00, 1100.22 examples/s]
+Tokenizing train dataset (num_proc=16):  99%|█████████▉| 58723/59438 [00:30<00:00, 1269.11 examples/s]
+Tokenizing train dataset (num_proc=16): 100%|██████████| 59438/59438 [00:30<00:00, 1000.94 examples/s]
+Tokenizing train dataset (num_proc=16):  98%|█████████▊| 58008/59438 [00:29<00:01, 1098.45 examples/s]
+Tokenizing train dataset (num_proc=16): 100%|██████████| 59438/59438 [00:30<00:00, 1961.16 examples/s]
+
+Tokenizing train dataset (num_proc=16): 100%|██████████| 59438/59438 [00:30<00:00, 1956.11 examples/s]
+
+Tokenizing train dataset (num_proc=16):  99%|█████████▉| 58723/59438 [00:30<00:00, 1312.84 examples/s]
+Tokenizing train dataset (num_proc=16): 100%|██████████| 59438/59438 [00:30<00:00, 1287.21 examples/s]
+Tokenizing train dataset (num_proc=16): 100%|██████████| 59438/59438 [00:30<00:00, 1926.33 examples/s]
+
+Tokenizing train dataset (num_proc=16): 100%|██████████| 59438/59438 [00:30<00:00, 1313.97 examples/s]
+Tokenizing train dataset (num_proc=16): 100%|██████████| 59438/59438 [00:30<00:00, 1044.33 examples/s]
+Tokenizing train dataset (num_proc=16): 100%|██████████| 59438/59438 [00:30<00:00, 1925.83 examples/s]
+
+Tokenizing train dataset (num_proc=16): 100%|██████████| 59438/59438 [00:31<00:00, 1917.17 examples/s]
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Using non-device net plugin version 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Using non-device net plugin version 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Using network Socket
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Using non-device net plugin version 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Using network Socket
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Using network Socket
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Using non-device net plugin version 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Using network Socket
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Using non-device net plugin version 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Using network Socket
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Using non-device net plugin version 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Using network Socket
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO bootstrapSplit: comm 0xec53c300 parent 0xe6b769d0 rank 2 nranks 6 color 470334428 key 2 prev 1 next 3 - DONE
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO bootstrapSplit: comm 0xeb03c000 parent 0xe1a06860 rank 1 nranks 6 color 470334428 key 1 prev 0 next 2 - DONE
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO comm 0xeb03c000 rank 1 nranks 6 cudaDev 1 nvmlDev 1 busId 62000 commId 0x760ccc2d805c87fe - Init START
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO bootstrapSplit: comm 0x2c333f30 parent 0xe67c45a0 rank 0 nranks 6 color 470334428 key 0 prev 5 next 1 - DONE
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO comm 0x2c333f30 rank 0 nranks 6 cudaDev 0 nvmlDev 0 busId 56000 commId 0x760ccc2d805c87fe - Init START
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO bootstrapSplit: comm 0xec379ea0 parent 0xe6365270 rank 4 nranks 6 color 470334428 key 4 prev 3 next 5 - DONE
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO comm 0xec379ea0 rank 4 nranks 6 cudaDev 4 nvmlDev 4 busId d0000 commId 0x760ccc2d805c87fe - Init START
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO bootstrapSplit: comm 0xed1c2c10 parent 0xe6fb7180 rank 3 nranks 6 color 470334428 key 3 prev 2 next 4 - DONE
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO bootstrapSplit: comm 0xecf827d0 parent 0xe6acf1b0 rank 5 nranks 6 color 470334428 key 5 prev 4 next 0 - DONE
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO comm 0xecf827d0 rank 5 nranks 6 cudaDev 5 nvmlDev 5 busId dd000 commId 0x760ccc2d805c87fe - Init START
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO comm 0xec53c300 rank 2 nranks 6 cudaDev 2 nvmlDev 2 busId 85000 commId 0x760ccc2d805c87fe - Init START
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO comm 0xed1c2c10 rank 3 nranks 6 cudaDev 3 nvmlDev 3 busId c4000 commId 0x760ccc2d805c87fe - Init START
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Setting affinity for GPU 3 to ffffffff,ffff0000,00000000,ffffffff,ffff0000,00000000
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Setting affinity for GPU 4 to ffffffff,ffff0000,00000000,ffffffff,ffff0000,00000000
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Setting affinity for GPU 5 to ffffffff,ffff0000,00000000,ffffffff,ffff0000,00000000
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Setting affinity for GPU 0 to 03ffffe0,00000000,00000000,03ffffe0
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Setting affinity for GPU 1 to 03ffffe0,00000000,00000000,03ffffe0
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Setting affinity for GPU 2 to ffffffff,ffff0000,00000000,ffffffff,ffff0000,00000000
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO comm 0xec53c300 rank 2 nRanks 6 nNodes 1 localRanks 6 localRank 2 MNNVL 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO comm 0xec379ea0 rank 4 nRanks 6 nNodes 1 localRanks 6 localRank 4 MNNVL 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO comm 0xed1c2c10 rank 3 nRanks 6 nNodes 1 localRanks 6 localRank 3 MNNVL 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO comm 0xeb03c000 rank 1 nRanks 6 nNodes 1 localRanks 6 localRank 1 MNNVL 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO comm 0x2c333f30 rank 0 nRanks 6 nNodes 1 localRanks 6 localRank 0 MNNVL 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO comm 0xecf827d0 rank 5 nRanks 6 nNodes 1 localRanks 6 localRank 5 MNNVL 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Trees [0] 3/-1/-1->2->1 [1] 3/-1/-1->2->1 [2] 3/-1/-1->2->1 [3] 3/-1/-1->2->1 [4] 3/-1/-1->2->1 [5] 3/-1/-1->2->1 [6] 3/-1/-1->2->1 [7] 3/-1/-1->2->1 [8] 3/-1/-1->2->1 [9] 3/-1/-1->2->1 [10] 3/-1/-1->2->1 [11] 3/-1/-1->2->1 [12] 3/-1/-1->2->1 [13] 3/-1/-1->2->1 [14] 3/-1/-1->2->1 [15] 3/-1/-1->2->1
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Trees [0] 5/-1/-1->4->3 [1] 5/-1/-1->4->3 [2] 5/-1/-1->4->3 [3] 5/-1/-1->4->3 [4] 5/-1/-1->4->3 [5] 5/-1/-1->4->3 [6] 5/-1/-1->4->3 [7] 5/-1/-1->4->3 [8] 5/-1/-1->4->3 [9] 5/-1/-1->4->3 [10] 5/-1/-1->4->3 [11] 5/-1/-1->4->3 [12] 5/-1/-1->4->3 [13] 5/-1/-1->4->3 [14] 5/-1/-1->4->3 [15] 5/-1/-1->4->3
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Trees [0] 4/-1/-1->3->2 [1] 4/-1/-1->3->2 [2] 4/-1/-1->3->2 [3] 4/-1/-1->3->2 [4] 4/-1/-1->3->2 [5] 4/-1/-1->3->2 [6] 4/-1/-1->3->2 [7] 4/-1/-1->3->2 [8] 4/-1/-1->3->2 [9] 4/-1/-1->3->2 [10] 4/-1/-1->3->2 [11] 4/-1/-1->3->2 [12] 4/-1/-1->3->2 [13] 4/-1/-1->3->2 [14] 4/-1/-1->3->2 [15] 4/-1/-1->3->2
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO P2P Chunksize set to 524288
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Trees [0] 2/-1/-1->1->0 [1] 2/-1/-1->1->0 [2] 2/-1/-1->1->0 [3] 2/-1/-1->1->0 [4] 2/-1/-1->1->0 [5] 2/-1/-1->1->0 [6] 2/-1/-1->1->0 [7] 2/-1/-1->1->0 [8] 2/-1/-1->1->0 [9] 2/-1/-1->1->0 [10] 2/-1/-1->1->0 [11] 2/-1/-1->1->0 [12] 2/-1/-1->1->0 [13] 2/-1/-1->1->0 [14] 2/-1/-1->1->0 [15] 2/-1/-1->1->0
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Channel 00/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Channel 01/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Trees [0] -1/-1/-1->5->4 [1] -1/-1/-1->5->4 [2] -1/-1/-1->5->4 [3] -1/-1/-1->5->4 [4] -1/-1/-1->5->4 [5] -1/-1/-1->5->4 [6] -1/-1/-1->5->4 [7] -1/-1/-1->5->4 [8] -1/-1/-1->5->4 [9] -1/-1/-1->5->4 [10] -1/-1/-1->5->4 [11] -1/-1/-1->5->4 [12] -1/-1/-1->5->4 [13] -1/-1/-1->5->4 [14] -1/-1/-1->5->4 [15] -1/-1/-1->5->4
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO P2P Chunksize set to 524288
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO P2P Chunksize set to 524288
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO P2P Chunksize set to 524288
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Channel 02/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Channel 03/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO P2P Chunksize set to 524288
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Channel 04/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Channel 05/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Channel 06/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Channel 07/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Channel 08/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Channel 09/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Channel 10/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Channel 11/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Channel 12/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Channel 13/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Channel 14/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Channel 15/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Trees [0] 1/-1/-1->0->-1 [1] 1/-1/-1->0->-1 [2] 1/-1/-1->0->-1 [3] 1/-1/-1->0->-1 [4] 1/-1/-1->0->-1 [5] 1/-1/-1->0->-1 [6] 1/-1/-1->0->-1 [7] 1/-1/-1->0->-1 [8] 1/-1/-1->0->-1 [9] 1/-1/-1->0->-1 [10] 1/-1/-1->0->-1 [11] 1/-1/-1->0->-1 [12] 1/-1/-1->0->-1 [13] 1/-1/-1->0->-1 [14] 1/-1/-1->0->-1 [15] 1/-1/-1->0->-1
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO P2P Chunksize set to 524288
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Channel 00/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Channel 00/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Channel 01/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Channel 01/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Channel 02/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Channel 00/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Channel 03/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Channel 01/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Channel 02/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Channel 04/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Channel 02/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Channel 03/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Channel 05/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Channel 04/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Channel 06/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Channel 05/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Channel 00/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Channel 07/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Channel 06/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Channel 00/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Channel 01/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Channel 08/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Channel 07/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Channel 01/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Channel 09/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Channel 02/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Channel 03/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Channel 08/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Channel 10/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Channel 03/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Channel 04/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Channel 09/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Channel 11/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Channel 04/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Channel 00/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Channel 05/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Channel 10/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Channel 12/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Channel 05/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Channel 01/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Channel 02/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Channel 06/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Channel 11/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Channel 06/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Channel 02/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Channel 03/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Channel 07/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Channel 12/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Channel 07/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Channel 03/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Channel 04/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Channel 08/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Channel 13/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Channel 08/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Channel 04/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Channel 05/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Channel 09/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Channel 13/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Channel 09/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Channel 14/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Channel 06/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Channel 10/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Channel 05/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Channel 15/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Channel 14/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Channel 10/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Channel 07/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Channel 11/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Channel 11/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Channel 06/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Channel 08/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Channel 15/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Channel 12/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Channel 12/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Channel 07/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Channel 09/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Channel 13/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Channel 13/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Channel 08/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Channel 10/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Channel 14/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Channel 14/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Channel 09/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Channel 11/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Channel 15/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Channel 15/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Channel 10/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Channel 12/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Channel 11/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Channel 13/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Channel 12/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Channel 14/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Channel 13/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Channel 15/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Channel 14/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Channel 15/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Connected all rings
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Connected all rings
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Connected all rings
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Channel 00/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Channel 01/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Connected all rings
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Connected all rings
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Connected all rings
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Channel 02/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Channel 03/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Channel 04/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Channel 05/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Channel 06/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Channel 07/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Channel 08/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Channel 09/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Channel 10/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Channel 11/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Channel 00/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Channel 00/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Channel 12/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Channel 01/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Channel 01/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Channel 13/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Channel 02/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Channel 02/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Channel 14/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Channel 03/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Channel 00/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Channel 03/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Channel 00/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Channel 15/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Channel 04/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Channel 01/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Channel 04/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Channel 01/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Channel 05/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Channel 05/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Channel 02/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Channel 02/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Channel 06/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Channel 06/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Channel 03/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Channel 03/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Channel 07/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Channel 07/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Channel 04/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Channel 04/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Channel 08/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Channel 08/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Channel 05/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Channel 05/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Channel 09/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Channel 09/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Channel 06/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Channel 06/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Channel 10/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Channel 10/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Channel 07/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Channel 07/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Channel 11/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Channel 11/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Channel 08/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Channel 12/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Channel 08/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Channel 12/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Channel 09/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Channel 13/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Channel 09/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Channel 13/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Channel 10/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Channel 14/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Channel 10/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Channel 14/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Channel 11/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Channel 15/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Channel 11/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Channel 15/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Channel 12/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Channel 12/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Channel 13/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Channel 13/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Channel 14/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Channel 14/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Channel 15/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Channel 15/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO Connected all trees
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO threadThresholds 8/8/64 | 48/8/64 | 512 | 512
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO 16 coll channels, 0 collnet channels, 0 nvls channels, 16 p2p channels, 16 p2p channels per peer
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO Connected all trees
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO threadThresholds 8/8/64 | 48/8/64 | 512 | 512
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO 16 coll channels, 0 collnet channels, 0 nvls channels, 16 p2p channels, 16 p2p channels per peer
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO Connected all trees
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO threadThresholds 8/8/64 | 48/8/64 | 512 | 512
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO 16 coll channels, 0 collnet channels, 0 nvls channels, 16 p2p channels, 16 p2p channels per peer
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO Connected all trees
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO Connected all trees
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO Connected all trees
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO threadThresholds 8/8/64 | 48/8/64 | 512 | 512
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO threadThresholds 8/8/64 | 48/8/64 | 512 | 512
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO threadThresholds 8/8/64 | 48/8/64 | 512 | 512
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO 16 coll channels, 0 collnet channels, 0 nvls channels, 16 p2p channels, 16 p2p channels per peer
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO 16 coll channels, 0 collnet channels, 0 nvls channels, 16 p2p channels, 16 p2p channels per peer
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO 16 coll channels, 0 collnet channels, 0 nvls channels, 16 p2p channels, 16 p2p channels per peer
+ts-8b1d8071943f9ab001945de267e23083-launcher:393357:393986 [2] NCCL INFO comm 0xec53c300 rank 2 nranks 6 cudaDev 2 nvmlDev 2 busId 85000 commId 0x760ccc2d805c87fe - Init COMPLETE
+ts-8b1d8071943f9ab001945de267e23083-launcher:393358:394003 [3] NCCL INFO comm 0xed1c2c10 rank 3 nranks 6 cudaDev 3 nvmlDev 3 busId c4000 commId 0x760ccc2d805c87fe - Init COMPLETE
+ts-8b1d8071943f9ab001945de267e23083-launcher:393355:393638 [0] NCCL INFO comm 0x2c333f30 rank 0 nranks 6 cudaDev 0 nvmlDev 0 busId 56000 commId 0x760ccc2d805c87fe - Init COMPLETE
+ts-8b1d8071943f9ab001945de267e23083-launcher:393359:393989 [4] NCCL INFO comm 0xec379ea0 rank 4 nranks 6 cudaDev 4 nvmlDev 4 busId d0000 commId 0x760ccc2d805c87fe - Init COMPLETE
+ts-8b1d8071943f9ab001945de267e23083-launcher:393356:394004 [1] NCCL INFO comm 0xeb03c000 rank 1 nranks 6 cudaDev 1 nvmlDev 1 busId 62000 commId 0x760ccc2d805c87fe - Init COMPLETE
+ts-8b1d8071943f9ab001945de267e23083-launcher:393360:393998 [5] NCCL INFO comm 0xecf827d0 rank 5 nranks 6 cudaDev 5 nvmlDev 5 busId dd000 commId 0x760ccc2d805c87fe - Init COMPLETE
+[2025-01-16 14:47:43,920] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Flops Profiler Enabled: False
+[2025-01-16 14:47:43,922] [INFO] [logging.py:96:log_dist] [Rank 0] Creating BF16 optimizer
+[2025-01-16 14:47:44,085] [INFO] [utils.py:800:see_memory_usage] begin bf16_optimizer
+[2025-01-16 14:47:44,086] [INFO] [utils.py:801:see_memory_usage] MA 1.93 GB         Max_MA 1.93 GB         CA 1.94 GB         Max_CA 2 GB 
+[2025-01-16 14:47:44,086] [INFO] [utils.py:808:see_memory_usage] CPU Virtual Memory:  used = 91.15 GB, percent = 4.5%
+[2025-01-16 14:47:44,254] [INFO] [utils.py:800:see_memory_usage] end bf16_optimizer
+[2025-01-16 14:47:44,254] [INFO] [utils.py:801:see_memory_usage] MA 1.93 GB         Max_MA 1.93 GB         CA 1.94 GB         Max_CA 2 GB 
+[2025-01-16 14:47:44,255] [INFO] [utils.py:808:see_memory_usage] CPU Virtual Memory:  used = 91.18 GB, percent = 4.5%
+[2025-01-16 14:47:44,256] [INFO] [config.py:996:print] DeepSpeedEngine configuration:
+[2025-01-16 14:47:44,257] [INFO] [config.py:1000:print]   activation_checkpointing_config  {
+    "partition_activations": false, 
+    "contiguous_memory_optimization": false, 
+    "cpu_checkpointing": false, 
+    "number_checkpoints": null, 
+    "synchronize_checkpoint_boundary": false, 
+    "profile": false
+}
+[2025-01-16 14:47:44,257] [INFO] [config.py:1000:print]   aio_config ................... {'block_size': 1048576, 'queue_depth': 8, 'thread_count': 1, 'single_submit': False, 'overlap_events': True}
+[2025-01-16 14:47:44,257] [INFO] [config.py:1000:print]   amp_enabled .................. False
+[2025-01-16 14:47:44,257] [INFO] [config.py:1000:print]   amp_params ................... False
+[2025-01-16 14:47:44,257] [INFO] [config.py:1000:print]   autotuning_config ............ {
+    "enabled": false, 
+    "start_step": null, 
+    "end_step": null, 
+    "metric_path": null, 
+    "arg_mappings": null, 
+    "metric": "throughput", 
+    "model_info": null, 
+    "results_dir": "autotuning_results", 
+    "exps_dir": "autotuning_exps", 
+    "overwrite": true, 
+    "fast": true, 
+    "start_profile_step": 3, 
+    "end_profile_step": 5, 
+    "tuner_type": "gridsearch", 
+    "tuner_early_stopping": 5, 
+    "tuner_num_trials": 50, 
+    "model_info_path": null, 
+    "mp_size": 1, 
+    "max_train_batch_size": null, 
+    "min_train_batch_size": 1, 
+    "max_train_micro_batch_size_per_gpu": 1.024000e+03, 
+    "min_train_micro_batch_size_per_gpu": 1, 
+    "num_tuning_micro_batch_sizes": 3
+}
+[2025-01-16 14:47:44,257] [INFO] [config.py:1000:print]   bfloat16_enabled ............. True
+[2025-01-16 14:47:44,257] [INFO] [config.py:1000:print]   bfloat16_immediate_grad_update  False
+[2025-01-16 14:47:44,257] [INFO] [config.py:1000:print]   checkpoint_parallel_write_pipeline  False
+[2025-01-16 14:47:44,257] [INFO] [config.py:1000:print]   checkpoint_tag_validation_enabled  True
+[2025-01-16 14:47:44,258] [INFO] [config.py:1000:print]   checkpoint_tag_validation_fail  False
+[2025-01-16 14:47:44,258] [INFO] [config.py:1000:print]   comms_config ................. <deepspeed.comm.config.DeepSpeedCommsConfig object at 0x7fb5c8021880>
+[2025-01-16 14:47:44,258] [INFO] [config.py:1000:print]   communication_data_type ...... None
+[2025-01-16 14:47:44,258] [INFO] [config.py:1000:print]   compile_config ............... enabled=False backend='inductor' kwargs={}
+[2025-01-16 14:47:44,258] [INFO] [config.py:1000:print]   compression_config ........... {'weight_quantization': {'shared_parameters': {'enabled': False, 'quantizer_kernel': False, 'schedule_offset': 0, 'quantize_groups': 1, 'quantize_verbose': False, 'quantization_type': 'symmetric', 'quantize_weight_in_forward': False, 'rounding': 'nearest', 'fp16_mixed_quantize': False, 'quantize_change_ratio': 0.001}, 'different_groups': {}}, 'activation_quantization': {'shared_parameters': {'enabled': False, 'quantization_type': 'symmetric', 'range_calibration': 'dynamic', 'schedule_offset': 1000}, 'different_groups': {}}, 'sparse_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'row_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'head_pruning': {'shared_parameters': {'enabled': False, 'method': 'topk', 'schedule_offset': 1000}, 'different_groups': {}}, 'channel_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'layer_reduction': {'enabled': False}}
+[2025-01-16 14:47:44,258] [INFO] [config.py:1000:print]   curriculum_enabled_legacy .... False
+[2025-01-16 14:47:44,258] [INFO] [config.py:1000:print]   curriculum_params_legacy ..... False
+[2025-01-16 14:47:44,258] [INFO] [config.py:1000:print]   data_efficiency_config ....... {'enabled': False, 'seed': 1234, 'data_sampling': {'enabled': False, 'num_epochs': 1000, 'num_workers': 0, 'curriculum_learning': {'enabled': False}}, 'data_routing': {'enabled': False, 'random_ltd': {'enabled': False, 'layer_token_lr_schedule': {'enabled': False}}}}
+[2025-01-16 14:47:44,258] [INFO] [config.py:1000:print]   data_efficiency_enabled ...... False
+[2025-01-16 14:47:44,258] [INFO] [config.py:1000:print]   dataloader_drop_last ......... False
+[2025-01-16 14:47:44,258] [INFO] [config.py:1000:print]   disable_allgather ............ False
+[2025-01-16 14:47:44,258] [INFO] [config.py:1000:print]   dump_state ................... False
+[2025-01-16 14:47:44,258] [INFO] [config.py:1000:print]   dynamic_loss_scale_args ...... None
+[2025-01-16 14:47:44,258] [INFO] [config.py:1000:print]   eigenvalue_enabled ........... False
+[2025-01-16 14:47:44,259] [INFO] [config.py:1000:print]   eigenvalue_gas_boundary_resolution  1
+[2025-01-16 14:47:44,259] [INFO] [config.py:1000:print]   eigenvalue_layer_name ........ bert.encoder.layer
+[2025-01-16 14:47:44,259] [INFO] [config.py:1000:print]   eigenvalue_layer_num ......... 0
+[2025-01-16 14:47:44,259] [INFO] [config.py:1000:print]   eigenvalue_max_iter .......... 100
+[2025-01-16 14:47:44,259] [INFO] [config.py:1000:print]   eigenvalue_stability ......... 1e-06
+[2025-01-16 14:47:44,259] [INFO] [config.py:1000:print]   eigenvalue_tol ............... 0.01
+[2025-01-16 14:47:44,259] [INFO] [config.py:1000:print]   eigenvalue_verbose ........... False
+[2025-01-16 14:47:44,259] [INFO] [config.py:1000:print]   elasticity_enabled ........... False
+[2025-01-16 14:47:44,259] [INFO] [config.py:1000:print]   flops_profiler_config ........ {
+    "enabled": false, 
+    "recompute_fwd_factor": 0.0, 
+    "profile_step": 1, 
+    "module_depth": -1, 
+    "top_modules": 1, 
+    "detailed": true, 
+    "output_file": null
+}
+[2025-01-16 14:47:44,259] [INFO] [config.py:1000:print]   fp16_auto_cast ............... None
+[2025-01-16 14:47:44,259] [INFO] [config.py:1000:print]   fp16_enabled ................. False
+[2025-01-16 14:47:44,259] [INFO] [config.py:1000:print]   fp16_master_weights_and_gradients  False
+[2025-01-16 14:47:44,259] [INFO] [config.py:1000:print]   global_rank .................. 0
+[2025-01-16 14:47:44,259] [INFO] [config.py:1000:print]   grad_accum_dtype ............. None
+[2025-01-16 14:47:44,259] [INFO] [config.py:1000:print]   gradient_accumulation_steps .. 16
+[2025-01-16 14:47:44,259] [INFO] [config.py:1000:print]   gradient_clipping ............ 1.0
+[2025-01-16 14:47:44,260] [INFO] [config.py:1000:print]   gradient_predivide_factor .... 1.0
+[2025-01-16 14:47:44,260] [INFO] [config.py:1000:print]   graph_harvesting ............. False
+[2025-01-16 14:47:44,260] [INFO] [config.py:1000:print]   hybrid_engine ................ enabled=False max_out_tokens=512 inference_tp_size=1 release_inference_cache=False pin_parameters=True tp_gather_partition_size=8
+[2025-01-16 14:47:44,260] [INFO] [config.py:1000:print]   initial_dynamic_scale ........ 1
+[2025-01-16 14:47:44,260] [INFO] [config.py:1000:print]   load_universal_checkpoint .... False
+[2025-01-16 14:47:44,260] [INFO] [config.py:1000:print]   loss_scale ................... 1.0
+[2025-01-16 14:47:44,260] [INFO] [config.py:1000:print]   memory_breakdown ............. False
+[2025-01-16 14:47:44,260] [INFO] [config.py:1000:print]   mics_hierarchial_params_gather  False
+[2025-01-16 14:47:44,260] [INFO] [config.py:1000:print]   mics_shard_size .............. -1
+[2025-01-16 14:47:44,260] [INFO] [config.py:1000:print]   monitor_config ............... tensorboard=TensorBoardConfig(enabled=False, output_path='', job_name='DeepSpeedJobName') wandb=WandbConfig(enabled=False, group=None, team=None, project='deepspeed') csv_monitor=CSVConfig(enabled=False, output_path='', job_name='DeepSpeedJobName') enabled=False
+[2025-01-16 14:47:44,260] [INFO] [config.py:1000:print]   nebula_config ................ {
+    "enabled": false, 
+    "persistent_storage_path": null, 
+    "persistent_time_interval": 100, 
+    "num_of_version_in_retention": 2, 
+    "enable_nebula_load": true, 
+    "load_path": null
+}
+[2025-01-16 14:47:44,260] [INFO] [config.py:1000:print]   optimizer_legacy_fusion ...... False
+[2025-01-16 14:47:44,260] [INFO] [config.py:1000:print]   optimizer_name ............... None
+[2025-01-16 14:47:44,260] [INFO] [config.py:1000:print]   optimizer_params ............. None
+[2025-01-16 14:47:44,260] [INFO] [config.py:1000:print]   pipeline ..................... {'stages': 'auto', 'partition': 'best', 'seed_layers': False, 'activation_checkpoint_interval': 0, 'pipe_partitioned': True, 'grad_partitioned': True}
+[2025-01-16 14:47:44,261] [INFO] [config.py:1000:print]   pld_enabled .................. False
+[2025-01-16 14:47:44,261] [INFO] [config.py:1000:print]   pld_params ................... False
+[2025-01-16 14:47:44,261] [INFO] [config.py:1000:print]   prescale_gradients ........... False
+[2025-01-16 14:47:44,261] [INFO] [config.py:1000:print]   scheduler_name ............... None
+[2025-01-16 14:47:44,261] [INFO] [config.py:1000:print]   scheduler_params ............. None
+[2025-01-16 14:47:44,261] [INFO] [config.py:1000:print]   seq_parallel_communication_data_type  torch.float32
+[2025-01-16 14:47:44,261] [INFO] [config.py:1000:print]   sparse_attention ............. None
+[2025-01-16 14:47:44,261] [INFO] [config.py:1000:print]   sparse_gradients_enabled ..... False
+[2025-01-16 14:47:44,261] [INFO] [config.py:1000:print]   steps_per_print .............. inf
+[2025-01-16 14:47:44,261] [INFO] [config.py:1000:print]   train_batch_size ............. 384
+[2025-01-16 14:47:44,261] [INFO] [config.py:1000:print]   train_micro_batch_size_per_gpu  4
+[2025-01-16 14:47:44,261] [INFO] [config.py:1000:print]   use_data_before_expert_parallel_  False
+[2025-01-16 14:47:44,261] [INFO] [config.py:1000:print]   use_node_local_storage ....... False
+[2025-01-16 14:47:44,261] [INFO] [config.py:1000:print]   wall_clock_breakdown ......... False
+[2025-01-16 14:47:44,261] [INFO] [config.py:1000:print]   weight_quantization_config ... None
+[2025-01-16 14:47:44,261] [INFO] [config.py:1000:print]   world_size ................... 6
+[2025-01-16 14:47:44,261] [INFO] [config.py:1000:print]   zero_allow_untested_optimizer  False
+[2025-01-16 14:47:44,262] [INFO] [config.py:1000:print]   zero_config .................. stage=0 contiguous_gradients=True reduce_scatter=True reduce_bucket_size=500,000,000 use_multi_rank_bucket_allreduce=True allgather_partitions=True allgather_bucket_size=500,000,000 overlap_comm=False load_from_fp32_weights=True elastic_checkpoint=False offload_param=DeepSpeedZeroOffloadParamConfig(device='none', nvme_path=None, buffer_count=5, buffer_size=100,000,000, max_in_cpu=1,000,000,000, pin_memory=False) offload_optimizer=DeepSpeedZeroOffloadOptimizerConfig(device='none', nvme_path=None, buffer_count=4, pin_memory=False, pipeline=False, pipeline_read=False, pipeline_write=False, fast_init=False, ratio=1.0) sub_group_size=1,000,000,000 cpu_offload_param=None cpu_offload_use_pin_memory=None cpu_offload=None prefetch_bucket_size=50,000,000 param_persistence_threshold=100,000 model_persistence_threshold=sys.maxsize max_live_parameters=1,000,000,000 max_reuse_distance=1,000,000,000 gather_16bit_weights_on_model_save=False stage3_gather_fp16_weights_on_model_save=False ignore_unused_parameters=True legacy_stage1=False round_robin_gradients=False zero_hpz_partition_size=1 zero_quantized_weights=False zero_quantized_nontrainable_weights=False zero_quantized_gradients=False mics_shard_size=-1 mics_hierarchical_params_gather=False memory_efficient_linear=True pipeline_loading_checkpoint=False override_module_apply=True
+[2025-01-16 14:47:44,262] [INFO] [config.py:1000:print]   zero_enabled ................. False
+[2025-01-16 14:47:44,262] [INFO] [config.py:1000:print]   zero_force_ds_cpu_optimizer .. True
+[2025-01-16 14:47:44,262] [INFO] [config.py:1000:print]   zero_optimization_stage ...... 0
+[2025-01-16 14:47:44,262] [INFO] [config.py:986:print_user_config]   json = {
+    "train_batch_size": 384, 
+    "train_micro_batch_size_per_gpu": 4, 
+    "gradient_accumulation_steps": 16, 
+    "zero_optimization": {
+        "stage": 0, 
+        "offload_optimizer": {
+            "device": "none", 
+            "nvme_path": null
+        }, 
+        "offload_param": {
+            "device": "none", 
+            "nvme_path": null
+        }, 
+        "stage3_gather_16bit_weights_on_model_save": false
+    }, 
+    "gradient_clipping": 1.0, 
+    "steps_per_print": inf, 
+    "bf16": {
+        "enabled": true
+    }, 
+    "fp16": {
+        "enabled": false
+    }
+}
+
+  0%|          | 0/462 [00:00<?, ?it/s]Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+Could not estimate the number of tokens of the input, floating-point operations will not be computed
+Could not estimate the number of tokens of the input, floating-point operations will not be computed
+Could not estimate the number of tokens of the input, floating-point operations will not be computed
+Could not estimate the number of tokens of the input, floating-point operations will not be computed
+Could not estimate the number of tokens of the input, floating-point operations will not be computed
+Could not estimate the number of tokens of the input, floating-point operations will not be computed
+
+  0%|          | 1/462 [00:11<1:30:50, 11.82s/it]
+  0%|          | 2/462 [00:18<1:08:04,  8.88s/it]
+  1%|          | 3/462 [00:25<1:01:26,  8.03s/it]
+  1%|          | 4/462 [00:32<57:44,  7.56s/it]  
+  1%|          | 5/462 [00:39<55:34,  7.30s/it]
+  1%|▏         | 6/462 [00:46<54:06,  7.12s/it]
+  2%|▏         | 7/462 [00:53<54:04,  7.13s/it]
+  2%|▏         | 8/462 [01:00<53:32,  7.07s/it]
+  2%|▏         | 9/462 [01:07<53:01,  7.02s/it]
+  2%|▏         | 10/462 [01:14<52:45,  7.00s/it]
+  2%|▏         | 11/462 [01:20<52:14,  6.95s/it]
+  3%|▎         | 12/462 [01:27<52:07,  6.95s/it]
+  3%|▎         | 13/462 [01:34<51:49,  6.93s/it]
+  3%|▎         | 14/462 [01:41<51:45,  6.93s/it]
+  3%|▎         | 15/462 [01:48<51:33,  6.92s/it]
+  3%|▎         | 16/462 [01:55<51:13,  6.89s/it]
+  4%|▎         | 17/462 [02:02<51:01,  6.88s/it]
+  4%|▍         | 18/462 [02:09<50:48,  6.87s/it]
+  4%|▍         | 19/462 [02:15<50:46,  6.88s/it]
+  4%|▍         | 20/462 [02:22<50:36,  6.87s/it]
+                                                
+{'loss': 0.6939, 'grad_norm': 19.332595825195312, 'learning_rate': 4.25531914893617e-07, 'rewards/chosen': -0.00210693315602839, 'rewards/rejected': -0.00040350016206502914, 'rewards/accuracies': 0.4453125, 'rewards/margins': -0.0017034339252859354, 'logps/rejected': -1094.6773681640625, 'logps/chosen': -1169.19970703125, 'logits/rejected': -1.4612081050872803, 'logits/chosen': -1.4594377279281616, 'epoch': 0.13}
+
+  4%|▍         | 20/462 [02:22<50:36,  6.87s/it]
+  5%|▍         | 21/462 [02:29<50:35,  6.88s/it]
+  5%|▍         | 22/462 [02:36<50:34,  6.90s/it]
+  5%|▍         | 23/462 [02:43<50:57,  6.97s/it]
+  5%|▌         | 24/462 [02:50<50:39,  6.94s/it]
+  5%|▌         | 25/462 [02:57<50:33,  6.94s/it]
+  6%|▌         | 26/462 [03:04<50:26,  6.94s/it]
+  6%|▌         | 27/462 [03:11<50:19,  6.94s/it]
+  6%|▌         | 28/462 [03:18<50:12,  6.94s/it]
+  6%|▋         | 29/462 [03:25<50:04,  6.94s/it]
+  6%|▋         | 30/462 [03:32<49:54,  6.93s/it]
+  7%|▋         | 31/462 [03:39<49:46,  6.93s/it]
+  7%|▋         | 32/462 [03:46<49:34,  6.92s/it]
+  7%|▋         | 33/462 [03:52<49:20,  6.90s/it]
+  7%|▋         | 34/462 [03:59<49:20,  6.92s/it]
+  8%|▊         | 35/462 [04:06<49:23,  6.94s/it]
+  8%|▊         | 36/462 [04:13<49:22,  6.95s/it]
+  8%|▊         | 37/462 [04:20<48:58,  6.91s/it]
+  8%|▊         | 38/462 [04:27<48:29,  6.86s/it]
+  8%|▊         | 39/462 [04:34<48:28,  6.88s/it]
+  9%|▊         | 40/462 [04:41<48:30,  6.90s/it]
+                                                
+{'loss': 0.6872, 'grad_norm': 18.568344116210938, 'learning_rate': 8.51063829787234e-07, 'rewards/chosen': 0.03910800442099571, 'rewards/rejected': 0.021668042987585068, 'rewards/accuracies': 0.5406249761581421, 'rewards/margins': 0.017439965158700943, 'logps/rejected': -1092.8284912109375, 'logps/chosen': -1165.282958984375, 'logits/rejected': -1.4628909826278687, 'logits/chosen': -1.4627224206924438, 'epoch': 0.26}
+
+  9%|▊         | 40/462 [04:41<48:30,  6.90s/it]
+  9%|▉         | 41/462 [04:48<48:22,  6.90s/it]
+  9%|▉         | 42/462 [04:55<48:12,  6.89s/it]
+  9%|▉         | 43/462 [05:01<48:05,  6.89s/it]
+ 10%|▉         | 44/462 [05:08<47:55,  6.88s/it]
+ 10%|▉         | 45/462 [05:15<48:00,  6.91s/it]
+ 10%|▉         | 46/462 [05:22<47:52,  6.91s/it]
+ 10%|█         | 47/462 [05:29<47:55,  6.93s/it]
+ 10%|█         | 48/462 [05:36<48:09,  6.98s/it]
+ 11%|█         | 49/462 [05:43<47:48,  6.95s/it]
+ 11%|█         | 50/462 [05:50<47:38,  6.94s/it]
+ 11%|█         | 51/462 [05:57<47:31,  6.94s/it]
+ 11%|█▏        | 52/462 [06:04<47:22,  6.93s/it]
+ 11%|█▏        | 53/462 [06:11<47:12,  6.93s/it]
+ 12%|█▏        | 54/462 [06:18<47:13,  6.94s/it]
+ 12%|█▏        | 55/462 [06:25<47:05,  6.94s/it]
+ 12%|█▏        | 56/462 [06:32<46:52,  6.93s/it]
+ 12%|█▏        | 57/462 [06:39<46:49,  6.94s/it]
+ 13%|█▎        | 58/462 [06:46<46:45,  6.94s/it]
+ 13%|█▎        | 59/462 [06:53<46:38,  6.94s/it]
+ 13%|█▎        | 60/462 [06:59<46:25,  6.93s/it]
+                                                
+{'loss': 0.6666, 'grad_norm': 18.772418975830078, 'learning_rate': 9.975807556654536e-07, 'rewards/chosen': 0.07422894239425659, 'rewards/rejected': -0.006529725156724453, 'rewards/accuracies': 0.5859375, 'rewards/margins': 0.08075866848230362, 'logps/rejected': -1052.363037109375, 'logps/chosen': -1135.7091064453125, 'logits/rejected': -1.4722058773040771, 'logits/chosen': -1.467190146446228, 'epoch': 0.39}
+
+ 13%|█▎        | 60/462 [06:59<46:25,  6.93s/it]
+ 13%|█▎        | 61/462 [07:06<46:09,  6.91s/it]
+ 13%|█▎        | 62/462 [07:13<45:59,  6.90s/it]
+ 14%|█▎        | 63/462 [07:20<45:54,  6.90s/it]
+ 14%|█▍        | 64/462 [07:27<45:57,  6.93s/it]
+ 14%|█▍        | 65/462 [07:34<45:51,  6.93s/it]
+ 14%|█▍        | 66/462 [07:41<45:42,  6.93s/it]
+ 15%|█▍        | 67/462 [07:48<45:36,  6.93s/it]
+ 15%|█▍        | 68/462 [07:55<45:31,  6.93s/it]
+ 15%|█▍        | 69/462 [08:02<45:30,  6.95s/it]
+ 15%|█▌        | 70/462 [08:09<45:32,  6.97s/it]
+ 15%|█▌        | 71/462 [08:16<45:26,  6.97s/it]
+ 16%|█▌        | 72/462 [08:23<45:14,  6.96s/it]
+ 16%|█▌        | 73/462 [08:30<45:05,  6.95s/it]
+ 16%|█▌        | 74/462 [08:37<44:54,  6.95s/it]
+ 16%|█▌        | 75/462 [08:43<44:37,  6.92s/it]
+ 16%|█▋        | 76/462 [08:50<44:25,  6.91s/it]
+ 17%|█▋        | 77/462 [08:57<44:26,  6.93s/it]
+ 17%|█▋        | 78/462 [09:04<44:19,  6.93s/it]
+ 17%|█▋        | 79/462 [09:11<44:06,  6.91s/it]
+ 17%|█▋        | 80/462 [09:18<43:54,  6.90s/it]
+                                                
+{'loss': 0.6414, 'grad_norm': 17.897037506103516, 'learning_rate': 9.844792862324257e-07, 'rewards/chosen': 0.02145938202738762, 'rewards/rejected': -0.15565641224384308, 'rewards/accuracies': 0.6195312738418579, 'rewards/margins': 0.1771157830953598, 'logps/rejected': -1102.7056884765625, 'logps/chosen': -1162.941650390625, 'logits/rejected': -1.4695825576782227, 'logits/chosen': -1.466443657875061, 'epoch': 0.52}
+
+ 17%|█▋        | 80/462 [09:18<43:54,  6.90s/it]
+ 18%|█▊        | 81/462 [09:25<43:55,  6.92s/it]
+ 18%|█▊        | 82/462 [09:32<43:41,  6.90s/it]
+ 18%|█▊        | 83/462 [09:39<43:43,  6.92s/it]
+ 18%|█▊        | 84/462 [09:46<43:39,  6.93s/it]
+ 18%|█▊        | 85/462 [09:53<43:23,  6.90s/it]
+ 19%|█▊        | 86/462 [09:59<43:14,  6.90s/it]
+ 19%|█▉        | 87/462 [10:06<43:09,  6.90s/it]
+ 19%|█▉        | 88/462 [10:13<43:12,  6.93s/it]
+ 19%|█▉        | 89/462 [10:20<42:54,  6.90s/it]
+ 19%|█▉        | 90/462 [10:27<42:41,  6.89s/it]
+ 20%|█▉        | 91/462 [10:34<42:37,  6.89s/it]
+ 20%|█▉        | 92/462 [10:41<42:28,  6.89s/it]
+ 20%|██        | 93/462 [10:48<42:29,  6.91s/it]
+ 20%|██        | 94/462 [10:55<42:18,  6.90s/it]
+ 21%|██        | 95/462 [11:02<42:15,  6.91s/it]
+ 21%|██        | 96/462 [11:09<42:13,  6.92s/it]
+ 21%|██        | 97/462 [11:15<41:58,  6.90s/it]
+ 21%|██        | 98/462 [11:22<41:53,  6.90s/it]
+ 21%|██▏       | 99/462 [11:29<41:40,  6.89s/it]
+ 22%|██▏       | 100/462 [11:36<41:25,  6.87s/it]
+                                                 
+{'loss': 0.6271, 'grad_norm': 17.51012420654297, 'learning_rate': 9.602934981446803e-07, 'rewards/chosen': -0.12715481221675873, 'rewards/rejected': -0.3830568790435791, 'rewards/accuracies': 0.641406238079071, 'rewards/margins': 0.25590211153030396, 'logps/rejected': -1109.5311279296875, 'logps/chosen': -1175.670166015625, 'logits/rejected': -1.457756757736206, 'logits/chosen': -1.4542160034179688, 'epoch': 0.65}
+
+ 22%|██▏       | 100/462 [11:36<41:25,  6.87s/it]
+ 22%|██▏       | 101/462 [11:43<41:18,  6.87s/it]
+ 22%|██▏       | 102/462 [11:50<41:25,  6.90s/it]
+ 22%|██▏       | 103/462 [11:57<41:12,  6.89s/it]
+ 23%|██▎       | 104/462 [12:04<41:11,  6.90s/it]
+ 23%|██▎       | 105/462 [12:10<41:01,  6.89s/it]
+ 23%|██▎       | 106/462 [12:18<41:50,  7.05s/it]
+ 23%|██▎       | 107/462 [12:25<41:37,  7.03s/it]
+ 23%|██▎       | 108/462 [12:32<41:16,  6.99s/it]
+ 24%|██▎       | 109/462 [12:39<40:55,  6.96s/it]
+ 24%|██▍       | 110/462 [12:46<40:47,  6.95s/it]
+ 24%|██▍       | 111/462 [12:53<40:35,  6.94s/it]
+ 24%|██▍       | 112/462 [12:59<40:23,  6.92s/it]
+ 24%|██▍       | 113/462 [13:06<40:12,  6.91s/it]
+ 25%|██▍       | 114/462 [13:13<40:02,  6.90s/it]
+ 25%|██▍       | 115/462 [13:20<39:49,  6.89s/it]
+ 25%|██▌       | 116/462 [13:27<39:44,  6.89s/it]
+ 25%|██▌       | 117/462 [13:34<39:47,  6.92s/it]
+ 26%|██▌       | 118/462 [13:41<39:37,  6.91s/it]
+ 26%|██▌       | 119/462 [13:48<39:30,  6.91s/it]
+ 26%|██▌       | 120/462 [13:55<39:23,  6.91s/it]
+                                                 
+{'loss': 0.6187, 'grad_norm': 17.659517288208008, 'learning_rate': 9.255767339076622e-07, 'rewards/chosen': -0.058144569396972656, 'rewards/rejected': -0.33454400300979614, 'rewards/accuracies': 0.6578124761581421, 'rewards/margins': 0.2763994336128235, 'logps/rejected': -1113.947509765625, 'logps/chosen': -1175.076904296875, 'logits/rejected': -1.4419472217559814, 'logits/chosen': -1.4380897283554077, 'epoch': 0.78}
+
+ 26%|██▌       | 120/462 [13:55<39:23,  6.91s/it]
+ 26%|██▌       | 121/462 [14:01<39:11,  6.89s/it]
+ 26%|██▋       | 122/462 [14:08<38:59,  6.88s/it]
+ 27%|██▋       | 123/462 [14:15<38:59,  6.90s/it]
+ 27%|██▋       | 124/462 [14:22<38:57,  6.92s/it]
+ 27%|██▋       | 125/462 [14:29<38:41,  6.89s/it]
+ 27%|██▋       | 126/462 [14:36<38:26,  6.86s/it]
+ 27%|██▋       | 127/462 [14:43<38:22,  6.87s/it]
+ 28%|██▊       | 128/462 [14:50<38:21,  6.89s/it]
+ 28%|██▊       | 129/462 [14:57<38:18,  6.90s/it]
+ 28%|██▊       | 130/462 [15:03<38:10,  6.90s/it]
+ 28%|██▊       | 131/462 [15:10<38:09,  6.92s/it]
+ 29%|██▊       | 132/462 [15:17<37:57,  6.90s/it]
+ 29%|██▉       | 133/462 [15:24<37:54,  6.91s/it]
+ 29%|██▉       | 134/462 [15:31<37:50,  6.92s/it]
+ 29%|██▉       | 135/462 [15:38<37:49,  6.94s/it]
+ 29%|██▉       | 136/462 [15:45<37:41,  6.94s/it]
+ 30%|██▉       | 137/462 [15:52<37:32,  6.93s/it]
+ 30%|██▉       | 138/462 [15:59<37:21,  6.92s/it]
+ 30%|███       | 139/462 [16:06<37:14,  6.92s/it]
+ 30%|███       | 140/462 [16:13<37:09,  6.92s/it]
+                                                 
+{'loss': 0.607, 'grad_norm': 18.309091567993164, 'learning_rate': 8.811232724274034e-07, 'rewards/chosen': -0.12076165527105331, 'rewards/rejected': -0.44595903158187866, 'rewards/accuracies': 0.643750011920929, 'rewards/margins': 0.32519739866256714, 'logps/rejected': -1087.9852294921875, 'logps/chosen': -1153.1395263671875, 'logits/rejected': -1.4533495903015137, 'logits/chosen': -1.4514620304107666, 'epoch': 0.9}
+
+ 30%|███       | 140/462 [16:13<37:09,  6.92s/it]
+ 31%|███       | 141/462 [16:20<37:21,  6.98s/it]
+ 31%|███       | 142/462 [16:27<37:26,  7.02s/it]
+ 31%|███       | 143/462 [16:34<37:10,  6.99s/it]
+ 31%|███       | 144/462 [16:41<36:46,  6.94s/it]
+ 31%|███▏      | 145/462 [16:48<36:39,  6.94s/it]
+ 32%|███▏      | 146/462 [16:55<36:28,  6.93s/it]
+ 32%|███▏      | 147/462 [17:02<36:25,  6.94s/it]
+ 32%|███▏      | 148/462 [17:08<36:14,  6.93s/it]
+ 32%|███▏      | 149/462 [17:15<36:11,  6.94s/it]
+ 32%|███▏      | 150/462 [17:22<35:58,  6.92s/it]
+ 33%|███▎      | 151/462 [17:29<35:55,  6.93s/it]
+ 33%|███▎      | 152/462 [17:36<35:49,  6.93s/it]
+ 33%|███▎      | 153/462 [17:43<35:38,  6.92s/it]
+ 33%|███▎      | 154/462 [17:50<35:30,  6.92s/it]/usr/local/python/lib/python3.8/site-packages/torch/nn/modules/module.py:1898: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/torch/nn/modules/module.py:1898: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/torch/nn/modules/module.py:1898: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/torch/nn/modules/module.py:1898: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/torch/nn/modules/module.py:1898: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/torch/nn/modules/module.py:1898: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+
+ 34%|███▎      | 155/462 [18:08<51:59, 10.16s/it]
+ 34%|███▍      | 156/462 [18:15<46:50,  9.18s/it]
+ 34%|███▍      | 157/462 [18:21<43:08,  8.49s/it]
+ 34%|███▍      | 158/462 [18:28<40:34,  8.01s/it]
+ 34%|███▍      | 159/462 [18:35<38:46,  7.68s/it]
+ 35%|███▍      | 160/462 [18:42<37:21,  7.42s/it]
+                                                 
+{'loss': 0.5843, 'grad_norm': 15.123992919921875, 'learning_rate': 8.279501568393994e-07, 'rewards/chosen': -0.17775940895080566, 'rewards/rejected': -0.6006304025650024, 'rewards/accuracies': 0.7085937261581421, 'rewards/margins': 0.422870934009552, 'logps/rejected': -1092.5562744140625, 'logps/chosen': -1155.2359619140625, 'logits/rejected': -1.4509708881378174, 'logits/chosen': -1.4486486911773682, 'epoch': 1.03}
+
+ 35%|███▍      | 160/462 [18:42<37:21,  7.42s/it]
+ 35%|███▍      | 161/462 [18:49<36:25,  7.26s/it]
+ 35%|███▌      | 162/462 [18:56<35:40,  7.14s/it]
+ 35%|███▌      | 163/462 [19:03<35:04,  7.04s/it]
+ 35%|███▌      | 164/462 [19:10<35:16,  7.10s/it]
+ 36%|███▌      | 165/462 [19:17<35:03,  7.08s/it]
+ 36%|███▌      | 166/462 [19:24<34:41,  7.03s/it]
+ 36%|███▌      | 167/462 [19:31<34:21,  6.99s/it]
+ 36%|███▋      | 168/462 [19:38<34:05,  6.96s/it]
+ 37%|███▋      | 169/462 [19:44<33:50,  6.93s/it]
+ 37%|███▋      | 170/462 [19:51<33:42,  6.93s/it]
+ 37%|███▋      | 171/462 [19:58<33:30,  6.91s/it]
+ 37%|███▋      | 172/462 [20:05<33:12,  6.87s/it]
+ 37%|███▋      | 173/462 [20:12<33:04,  6.87s/it]
+ 38%|███▊      | 174/462 [20:19<33:00,  6.88s/it]
+ 38%|███▊      | 175/462 [20:26<32:51,  6.87s/it]
+ 38%|███▊      | 176/462 [20:33<32:47,  6.88s/it]
+ 38%|███▊      | 177/462 [20:39<32:33,  6.85s/it]
+ 39%|███▊      | 178/462 [20:46<32:33,  6.88s/it]
+ 39%|███▊      | 179/462 [20:53<32:23,  6.87s/it]
+ 39%|███▉      | 180/462 [21:00<32:09,  6.84s/it]
+                                                 
+{'loss': 0.5019, 'grad_norm': 14.271465301513672, 'learning_rate': 7.672739257528134e-07, 'rewards/chosen': -0.205995112657547, 'rewards/rejected': -0.8512773513793945, 'rewards/accuracies': 0.8046875, 'rewards/margins': 0.6452822685241699, 'logps/rejected': -1075.975830078125, 'logps/chosen': -1142.7362060546875, 'logits/rejected': -1.4566997289657593, 'logits/chosen': -1.456149697303772, 'epoch': 1.16}
+
+ 39%|███▉      | 180/462 [21:00<32:09,  6.84s/it]
+ 39%|███▉      | 181/462 [21:07<32:04,  6.85s/it]
+ 39%|███▉      | 182/462 [21:14<32:08,  6.89s/it]
+ 40%|███▉      | 183/462 [21:21<31:57,  6.87s/it]
+ 40%|███▉      | 184/462 [21:27<31:49,  6.87s/it]
+ 40%|████      | 185/462 [21:34<31:48,  6.89s/it]
+ 40%|████      | 186/462 [21:41<31:43,  6.90s/it]
+ 40%|████      | 187/462 [21:48<31:35,  6.89s/it]
+ 41%|████      | 188/462 [21:55<31:27,  6.89s/it]
+ 41%|████      | 189/462 [22:02<31:15,  6.87s/it]
+ 41%|████      | 190/462 [22:09<31:09,  6.87s/it]
+ 41%|████▏     | 191/462 [22:16<31:05,  6.88s/it]
+ 42%|████▏     | 192/462 [22:23<30:54,  6.87s/it]
+ 42%|████▏     | 193/462 [22:29<30:57,  6.91s/it]
+ 42%|████▏     | 194/462 [22:36<30:43,  6.88s/it]
+ 42%|████▏     | 195/462 [22:43<30:34,  6.87s/it]
+ 42%|████▏     | 196/462 [22:50<30:27,  6.87s/it]
+ 43%|████▎     | 197/462 [22:57<30:19,  6.86s/it]
+ 43%|████▎     | 198/462 [23:04<30:10,  6.86s/it]
+ 43%|████▎     | 199/462 [23:11<30:03,  6.86s/it]
+ 43%|████▎     | 200/462 [23:17<29:57,  6.86s/it]
+                                                 
+{'loss': 0.4855, 'grad_norm': 15.392656326293945, 'learning_rate': 7.004827802718889e-07, 'rewards/chosen': -0.1929880529642105, 'rewards/rejected': -0.8550745248794556, 'rewards/accuracies': 0.803906261920929, 'rewards/margins': 0.6620863676071167, 'logps/rejected': -1101.056884765625, 'logps/chosen': -1161.5621337890625, 'logits/rejected': -1.456028938293457, 'logits/chosen': -1.4518632888793945, 'epoch': 1.29}
+
+ 43%|████▎     | 200/462 [23:17<29:57,  6.86s/it]
+ 44%|████▎     | 201/462 [23:24<29:53,  6.87s/it]
+ 44%|████▎     | 202/462 [23:31<29:47,  6.88s/it]
+ 44%|████▍     | 203/462 [23:38<29:43,  6.88s/it]
+ 44%|████▍     | 204/462 [23:45<29:40,  6.90s/it]
+ 44%|████▍     | 205/462 [23:52<29:26,  6.87s/it]
+ 45%|████▍     | 206/462 [23:59<29:22,  6.88s/it]
+ 45%|████▍     | 207/462 [24:06<29:21,  6.91s/it]
+ 45%|████▌     | 208/462 [24:13<29:13,  6.90s/it]
+ 45%|████▌     | 209/462 [24:20<29:09,  6.91s/it]
+ 45%|████▌     | 210/462 [24:26<29:00,  6.91s/it]
+ 46%|████▌     | 211/462 [24:33<28:46,  6.88s/it]
+ 46%|████▌     | 212/462 [24:40<28:37,  6.87s/it]
+ 46%|████▌     | 213/462 [24:47<28:26,  6.85s/it]
+ 46%|████▋     | 214/462 [24:54<28:19,  6.85s/it]
+ 47%|████▋     | 215/462 [25:01<28:18,  6.88s/it]
+ 47%|████▋     | 216/462 [25:08<28:15,  6.89s/it]
+ 47%|████▋     | 217/462 [25:15<28:04,  6.88s/it]
+ 47%|████▋     | 218/462 [25:21<27:59,  6.88s/it]
+ 47%|████▋     | 219/462 [25:28<27:50,  6.87s/it]
+ 48%|████▊     | 220/462 [25:35<27:41,  6.87s/it]
+                                                 
+{'loss': 0.4792, 'grad_norm': 14.625811576843262, 'learning_rate': 6.291048235805233e-07, 'rewards/chosen': -0.19975252449512482, 'rewards/rejected': -0.9554945230484009, 'rewards/accuracies': 0.807812511920929, 'rewards/margins': 0.7557419538497925, 'logps/rejected': -1095.577880859375, 'logps/chosen': -1171.46533203125, 'logits/rejected': -1.4475834369659424, 'logits/chosen': -1.4462387561798096, 'epoch': 1.42}
+
+ 48%|████▊     | 220/462 [25:35<27:41,  6.87s/it]
+ 48%|████▊     | 221/462 [25:42<27:35,  6.87s/it]
+ 48%|████▊     | 222/462 [25:49<27:54,  6.98s/it]
+ 48%|████▊     | 223/462 [25:56<27:53,  7.00s/it]
+ 48%|████▊     | 224/462 [26:03<27:30,  6.93s/it]
+ 49%|████▊     | 225/462 [26:10<27:15,  6.90s/it]
+ 49%|████▉     | 226/462 [26:17<27:06,  6.89s/it]
+ 49%|████▉     | 227/462 [26:24<26:52,  6.86s/it]
+ 49%|████▉     | 228/462 [26:30<26:48,  6.87s/it]
+ 50%|████▉     | 229/462 [26:37<26:38,  6.86s/it]
+ 50%|████▉     | 230/462 [26:44<26:36,  6.88s/it]
+ 50%|█████     | 231/462 [26:51<26:30,  6.89s/it]
+ 50%|█████     | 232/462 [26:58<26:20,  6.87s/it]
+ 50%|█████     | 233/462 [27:05<26:13,  6.87s/it]
+ 51%|█████     | 234/462 [27:12<26:07,  6.88s/it]
+ 51%|█████     | 235/462 [27:19<26:00,  6.88s/it]
+ 51%|█████     | 236/462 [27:25<25:56,  6.89s/it]
+ 51%|█████▏    | 237/462 [27:32<25:48,  6.88s/it]
+ 52%|█████▏    | 238/462 [27:39<25:39,  6.87s/it]
+ 52%|█████▏    | 239/462 [27:46<25:25,  6.84s/it]
+ 52%|█████▏    | 240/462 [27:53<25:16,  6.83s/it]
+                                                 
+{'loss': 0.4725, 'grad_norm': 14.204561233520508, 'learning_rate': 5.547730997311105e-07, 'rewards/chosen': -0.22833745181560516, 'rewards/rejected': -0.9331719279289246, 'rewards/accuracies': 0.797656238079071, 'rewards/margins': 0.7048344612121582, 'logps/rejected': -1063.223876953125, 'logps/chosen': -1124.4005126953125, 'logits/rejected': -1.4540568590164185, 'logits/chosen': -1.4512200355529785, 'epoch': 1.55}
+
+ 52%|█████▏    | 240/462 [27:53<25:16,  6.83s/it]
+ 52%|█████▏    | 241/462 [28:00<25:13,  6.85s/it]
+ 52%|█████▏    | 242/462 [28:07<25:06,  6.85s/it]
+ 53%|█████▎    | 243/462 [28:13<24:59,  6.85s/it]
+ 53%|█████▎    | 244/462 [28:20<24:57,  6.87s/it]
+ 53%|█████▎    | 245/462 [28:27<24:45,  6.84s/it]
+ 53%|█████▎    | 246/462 [28:34<24:42,  6.86s/it]
+ 53%|█████▎    | 247/462 [28:41<24:39,  6.88s/it]
+ 54%|█████▎    | 248/462 [28:48<24:34,  6.89s/it]
+ 54%|█████▍    | 249/462 [28:55<24:23,  6.87s/it]
+ 54%|█████▍    | 250/462 [29:01<24:13,  6.86s/it]
+ 54%|█████▍    | 251/462 [29:08<24:10,  6.88s/it]
+ 55%|█████▍    | 252/462 [29:15<23:59,  6.85s/it]
+ 55%|█████▍    | 253/462 [29:22<24:04,  6.91s/it]
+ 55%|█████▍    | 254/462 [29:29<24:00,  6.93s/it]
+ 55%|█████▌    | 255/462 [29:36<23:47,  6.90s/it]
+ 55%|█████▌    | 256/462 [29:43<23:43,  6.91s/it]
+ 56%|█████▌    | 257/462 [29:50<23:30,  6.88s/it]
+ 56%|█████▌    | 258/462 [29:57<23:23,  6.88s/it]
+ 56%|█████▌    | 259/462 [30:03<23:15,  6.88s/it]
+ 56%|█████▋    | 260/462 [30:10<23:10,  6.88s/it]
+                                                 
+{'loss': 0.4718, 'grad_norm': 14.890440940856934, 'learning_rate': 4.791882315092155e-07, 'rewards/chosen': -0.2039923220872879, 'rewards/rejected': -0.9756115078926086, 'rewards/accuracies': 0.819531261920929, 'rewards/margins': 0.7716191411018372, 'logps/rejected': -1084.6973876953125, 'logps/chosen': -1144.2291259765625, 'logits/rejected': -1.4455068111419678, 'logits/chosen': -1.4439265727996826, 'epoch': 1.68}
+
+ 56%|█████▋    | 260/462 [30:10<23:10,  6.88s/it]
+ 56%|█████▋    | 261/462 [30:17<23:01,  6.87s/it]
+ 57%|█████▋    | 262/462 [30:24<22:55,  6.88s/it]
+ 57%|█████▋    | 263/462 [30:31<22:50,  6.89s/it]
+ 57%|█████▋    | 264/462 [30:38<22:39,  6.87s/it]
+ 57%|█████▋    | 265/462 [30:45<22:34,  6.88s/it]
+ 58%|█████▊    | 266/462 [30:52<22:25,  6.87s/it]
+ 58%|█████▊    | 267/462 [30:58<22:18,  6.86s/it]
+ 58%|█████▊    | 268/462 [31:05<22:12,  6.87s/it]
+ 58%|█████▊    | 269/462 [31:12<22:05,  6.87s/it]
+ 58%|█████▊    | 270/462 [31:19<21:52,  6.83s/it]
+ 59%|█████▊    | 271/462 [31:26<21:39,  6.81s/it]
+ 59%|█████▉    | 272/462 [31:33<21:37,  6.83s/it]
+ 59%|█████▉    | 273/462 [31:39<21:29,  6.82s/it]
+ 59%|█████▉    | 274/462 [31:46<21:23,  6.82s/it]
+ 60%|█████▉    | 275/462 [31:53<21:19,  6.84s/it]
+ 60%|█████▉    | 276/462 [32:00<21:10,  6.83s/it]
+ 60%|█████▉    | 277/462 [32:07<21:08,  6.86s/it]
+ 60%|██████    | 278/462 [32:14<21:00,  6.85s/it]
+ 60%|██████    | 279/462 [32:21<20:58,  6.88s/it]
+ 61%|██████    | 280/462 [32:28<21:19,  7.03s/it]
+                                                 
+{'loss': 0.47, 'grad_norm': 14.530881881713867, 'learning_rate': 4.04079512175984e-07, 'rewards/chosen': -0.21561777591705322, 'rewards/rejected': -1.011256456375122, 'rewards/accuracies': 0.8187500238418579, 'rewards/margins': 0.7956386804580688, 'logps/rejected': -1069.476806640625, 'logps/chosen': -1126.4638671875, 'logits/rejected': -1.4641317129135132, 'logits/chosen': -1.4626919031143188, 'epoch': 1.81}
+
+ 61%|██████    | 280/462 [32:28<21:19,  7.03s/it]
+ 61%|██████    | 281/462 [32:35<21:03,  6.98s/it]
+ 61%|██████    | 282/462 [32:42<20:50,  6.95s/it]
+ 61%|██████▏   | 283/462 [32:49<20:41,  6.93s/it]
+ 61%|██████▏   | 284/462 [32:55<20:27,  6.89s/it]
+ 62%|██████▏   | 285/462 [33:02<20:12,  6.85s/it]
+ 62%|██████▏   | 286/462 [33:09<20:07,  6.86s/it]
+ 62%|██████▏   | 287/462 [33:16<20:04,  6.88s/it]
+ 62%|██████▏   | 288/462 [33:23<19:56,  6.87s/it]
+ 63%|██████▎   | 289/462 [33:30<19:46,  6.86s/it]
+ 63%|██████▎   | 290/462 [33:37<19:38,  6.85s/it]
+ 63%|██████▎   | 291/462 [33:43<19:28,  6.83s/it]
+ 63%|██████▎   | 292/462 [33:50<19:19,  6.82s/it]
+ 63%|██████▎   | 293/462 [33:57<19:16,  6.84s/it]
+ 64%|██████▎   | 294/462 [34:04<19:05,  6.82s/it]
+ 64%|██████▍   | 295/462 [34:11<18:57,  6.81s/it]
+ 64%|██████▍   | 296/462 [34:17<18:56,  6.84s/it]
+ 64%|██████▍   | 297/462 [34:24<18:48,  6.84s/it]
+ 65%|██████▍   | 298/462 [34:31<18:45,  6.86s/it]
+ 65%|██████▍   | 299/462 [34:38<18:38,  6.86s/it]
+ 65%|██████▍   | 300/462 [34:45<18:35,  6.89s/it]
+                                                 
+{'loss': 0.4581, 'grad_norm': 14.583154678344727, 'learning_rate': 3.311653412636468e-07, 'rewards/chosen': -0.24009747803211212, 'rewards/rejected': -1.0500528812408447, 'rewards/accuracies': 0.8304687738418579, 'rewards/margins': 0.8099554181098938, 'logps/rejected': -1084.965087890625, 'logps/chosen': -1135.17236328125, 'logits/rejected': -1.4391907453536987, 'logits/chosen': -1.4395416975021362, 'epoch': 1.94}
+
+ 65%|██████▍   | 300/462 [34:45<18:35,  6.89s/it]
+ 65%|██████▌   | 301/462 [34:52<18:28,  6.88s/it]
+ 65%|██████▌   | 302/462 [34:59<18:16,  6.85s/it]
+ 66%|██████▌   | 303/462 [35:06<18:09,  6.85s/it]
+ 66%|██████▌   | 304/462 [35:12<18:02,  6.85s/it]
+ 66%|██████▌   | 305/462 [35:19<17:55,  6.85s/it]
+ 66%|██████▌   | 306/462 [35:26<17:51,  6.87s/it]
+ 66%|██████▋   | 307/462 [35:33<17:47,  6.89s/it]
+ 67%|██████▋   | 308/462 [35:40<17:38,  6.87s/it]
+ 67%|██████▋   | 309/462 [35:47<17:28,  6.85s/it]/usr/local/python/lib/python3.8/site-packages/torch/nn/modules/module.py:1898: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+
+ 67%|██████▋   | 310/462 [36:04<25:16,  9.97s/it]
+ 67%|██████▋   | 311/462 [36:11<22:49,  9.07s/it]
+ 68%|██████▊   | 312/462 [36:18<21:05,  8.44s/it]
+ 68%|██████▊   | 313/462 [36:25<19:48,  7.98s/it]
+ 68%|██████▊   | 314/462 [36:32<18:54,  7.67s/it]
+ 68%|██████▊   | 315/462 [36:39<18:11,  7.42s/it]
+ 68%|██████▊   | 316/462 [36:46<17:41,  7.27s/it]
+ 69%|██████▊   | 317/462 [36:52<17:13,  7.13s/it]
+ 69%|██████▉   | 318/462 [36:59<16:58,  7.07s/it]
+ 69%|██████▉   | 319/462 [37:06<16:44,  7.03s/it]
+ 69%|██████▉   | 320/462 [37:13<16:30,  6.98s/it]
+                                                 
+{'loss': 0.4209, 'grad_norm': 12.154903411865234, 'learning_rate': 2.6211390960678407e-07, 'rewards/chosen': -0.188990980386734, 'rewards/rejected': -1.1430635452270508, 'rewards/accuracies': 0.862500011920929, 'rewards/margins': 0.9540725946426392, 'logps/rejected': -1092.027587890625, 'logps/chosen': -1156.3170166015625, 'logits/rejected': -1.4480873346328735, 'logits/chosen': -1.448610544204712, 'epoch': 2.07}
+
+ 69%|██████▉   | 320/462 [37:13<16:30,  6.98s/it]
+ 69%|██████▉   | 321/462 [37:20<16:23,  6.98s/it]
+ 70%|██████▉   | 322/462 [37:27<16:12,  6.95s/it]
+ 70%|██████▉   | 323/462 [37:34<16:01,  6.92s/it]
+ 70%|███████   | 324/462 [37:41<15:49,  6.88s/it]
+ 70%|███████   | 325/462 [37:47<15:40,  6.86s/it]
+ 71%|███████   | 326/462 [37:54<15:32,  6.85s/it]
+ 71%|███████   | 327/462 [38:01<15:21,  6.83s/it]
+ 71%|███████   | 328/462 [38:08<15:16,  6.84s/it]
+ 71%|███████   | 329/462 [38:15<15:11,  6.85s/it]
+ 71%|███████▏  | 330/462 [38:22<15:05,  6.86s/it]
+ 72%|███████▏  | 331/462 [38:28<15:00,  6.88s/it]
+ 72%|███████▏  | 332/462 [38:35<14:54,  6.88s/it]
+ 72%|███████▏  | 333/462 [38:42<14:48,  6.89s/it]
+ 72%|███████▏  | 334/462 [38:49<14:42,  6.89s/it]
+ 73%|███████▎  | 335/462 [38:56<14:34,  6.89s/it]
+ 73%|███████▎  | 336/462 [39:03<14:26,  6.88s/it]
+ 73%|███████▎  | 337/462 [39:10<14:17,  6.86s/it]
+ 73%|███████▎  | 338/462 [39:17<14:18,  6.93s/it]
+ 73%|███████▎  | 339/462 [39:24<14:16,  6.96s/it]
+ 74%|███████▎  | 340/462 [39:31<14:05,  6.93s/it]
+                                                 
+{'loss': 0.3894, 'grad_norm': 12.47204303741455, 'learning_rate': 1.9850503308978828e-07, 'rewards/chosen': -0.13583043217658997, 'rewards/rejected': -1.1926130056381226, 'rewards/accuracies': 0.905468761920929, 'rewards/margins': 1.0567827224731445, 'logps/rejected': -1109.89697265625, 'logps/chosen': -1161.138427734375, 'logits/rejected': -1.4510606527328491, 'logits/chosen': -1.451664686203003, 'epoch': 2.2}
+
+ 74%|███████▎  | 340/462 [39:31<14:05,  6.93s/it]
+ 74%|███████▍  | 341/462 [39:38<13:55,  6.90s/it]
+ 74%|███████▍  | 342/462 [39:44<13:46,  6.89s/it]
+ 74%|███████▍  | 343/462 [39:51<13:38,  6.88s/it]
+ 74%|███████▍  | 344/462 [39:58<13:32,  6.89s/it]
+ 75%|███████▍  | 345/462 [40:05<13:25,  6.88s/it]
+ 75%|███████▍  | 346/462 [40:12<13:18,  6.88s/it]
+ 75%|███████▌  | 347/462 [40:19<13:11,  6.88s/it]
+ 75%|███████▌  | 348/462 [40:26<13:05,  6.89s/it]
+ 76%|███████▌  | 349/462 [40:33<12:59,  6.90s/it]
+ 76%|███████▌  | 350/462 [40:40<12:54,  6.92s/it]
+ 76%|███████▌  | 351/462 [40:46<12:47,  6.91s/it]
+ 76%|███████▌  | 352/462 [40:53<12:38,  6.90s/it]
+ 76%|███████▋  | 353/462 [41:00<12:27,  6.86s/it]
+ 77%|███████▋  | 354/462 [41:07<12:21,  6.86s/it]
+ 77%|███████▋  | 355/462 [41:14<12:15,  6.87s/it]
+ 77%|███████▋  | 356/462 [41:21<12:07,  6.86s/it]
+ 77%|███████▋  | 357/462 [41:28<11:57,  6.83s/it]
+ 77%|███████▋  | 358/462 [41:34<11:51,  6.85s/it]
+ 78%|███████▊  | 359/462 [41:41<11:43,  6.83s/it]
+ 78%|███████▊  | 360/462 [41:48<11:39,  6.86s/it]
+                                                 
+{'loss': 0.3802, 'grad_norm': 12.486931800842285, 'learning_rate': 1.4179400830968412e-07, 'rewards/chosen': -0.12971831858158112, 'rewards/rejected': -1.2172954082489014, 'rewards/accuracies': 0.909375011920929, 'rewards/margins': 1.0875771045684814, 'logps/rejected': -1099.6025390625, 'logps/chosen': -1155.045654296875, 'logits/rejected': -1.4547936916351318, 'logits/chosen': -1.4503588676452637, 'epoch': 2.33}
+
+ 78%|███████▊  | 360/462 [41:48<11:39,  6.86s/it]
+ 78%|███████▊  | 361/462 [41:55<11:31,  6.85s/it]
+ 78%|███████▊  | 362/462 [42:02<11:25,  6.85s/it]
+ 79%|███████▊  | 363/462 [42:09<11:19,  6.87s/it]
+ 79%|███████▉  | 364/462 [42:16<11:14,  6.88s/it]
+ 79%|███████▉  | 365/462 [42:23<11:09,  6.90s/it]
+ 79%|███████▉  | 366/462 [42:29<10:58,  6.86s/it]
+ 79%|███████▉  | 367/462 [42:36<10:52,  6.87s/it]
+ 80%|███████▉  | 368/462 [42:43<10:48,  6.90s/it]
+ 80%|███████▉  | 369/462 [42:50<10:41,  6.90s/it]
+ 80%|████████  | 370/462 [42:57<10:32,  6.88s/it]
+ 80%|████████  | 371/462 [43:04<10:25,  6.87s/it]
+ 81%|████████  | 372/462 [43:11<10:20,  6.90s/it]
+ 81%|████████  | 373/462 [43:18<10:14,  6.90s/it]
+ 81%|████████  | 374/462 [43:25<10:07,  6.90s/it]
+ 81%|████████  | 375/462 [43:31<09:57,  6.87s/it]
+ 81%|████████▏ | 376/462 [43:38<09:47,  6.84s/it]
+ 82%|████████▏ | 377/462 [43:45<09:43,  6.86s/it]
+ 82%|████████▏ | 378/462 [43:52<09:36,  6.86s/it]
+ 82%|████████▏ | 379/462 [43:59<09:28,  6.84s/it]
+ 82%|████████▏ | 380/462 [44:06<09:22,  6.85s/it]
+                                                 
+{'loss': 0.3825, 'grad_norm': 11.743959426879883, 'learning_rate': 9.327831709440792e-08, 'rewards/chosen': -0.2152518779039383, 'rewards/rejected': -1.2655636072158813, 'rewards/accuracies': 0.887499988079071, 'rewards/margins': 1.0503116846084595, 'logps/rejected': -1106.2186279296875, 'logps/chosen': -1163.8099365234375, 'logits/rejected': -1.4577949047088623, 'logits/chosen': -1.4561649560928345, 'epoch': 2.45}
+
+ 82%|████████▏ | 380/462 [44:06<09:22,  6.85s/it]
+ 82%|████████▏ | 381/462 [44:12<09:17,  6.88s/it]
+ 83%|████████▎ | 382/462 [44:20<09:16,  6.95s/it]
+ 83%|████████▎ | 383/462 [44:26<09:08,  6.94s/it]
+ 83%|████████▎ | 384/462 [44:33<09:00,  6.93s/it]
+ 83%|████████▎ | 385/462 [44:40<08:52,  6.91s/it]
+ 84%|████████▎ | 386/462 [44:47<08:43,  6.88s/it]
+ 84%|████████▍ | 387/462 [44:54<08:35,  6.88s/it]
+ 84%|████████▍ | 388/462 [45:01<08:30,  6.90s/it]
+ 84%|████████▍ | 389/462 [45:08<08:23,  6.90s/it]
+ 84%|████████▍ | 390/462 [45:15<08:16,  6.90s/it]
+ 85%|████████▍ | 391/462 [45:22<08:08,  6.88s/it]
+ 85%|████████▍ | 392/462 [45:28<08:02,  6.89s/it]
+ 85%|████████▌ | 393/462 [45:35<07:54,  6.88s/it]
+ 85%|████████▌ | 394/462 [45:42<07:47,  6.88s/it]
+ 85%|████████▌ | 395/462 [45:49<07:42,  6.90s/it]
+ 86%|████████▌ | 396/462 [45:56<07:41,  6.99s/it]
+ 86%|████████▌ | 397/462 [46:03<07:36,  7.03s/it]
+ 86%|████████▌ | 398/462 [46:10<07:27,  6.99s/it]
+ 86%|████████▋ | 399/462 [46:17<07:17,  6.94s/it]
+ 87%|████████▋ | 400/462 [46:24<07:09,  6.92s/it]
+                                                 
+{'loss': 0.386, 'grad_norm': 11.942935943603516, 'learning_rate': 5.4067941638174795e-08, 'rewards/chosen': -0.14277803897857666, 'rewards/rejected': -1.173008918762207, 'rewards/accuracies': 0.8828125, 'rewards/margins': 1.0302307605743408, 'logps/rejected': -1096.877197265625, 'logps/chosen': -1159.607666015625, 'logits/rejected': -1.4549251794815063, 'logits/chosen': -1.453998327255249, 'epoch': 2.58}
+
+ 87%|████████▋ | 400/462 [46:24<07:09,  6.92s/it]
+ 87%|████████▋ | 401/462 [46:31<07:02,  6.92s/it]
+ 87%|████████▋ | 402/462 [46:38<06:54,  6.90s/it]
+ 87%|████████▋ | 403/462 [46:45<06:46,  6.90s/it]
+ 87%|████████▋ | 404/462 [46:52<06:40,  6.91s/it]
+ 88%|████████▊ | 405/462 [46:59<06:33,  6.91s/it]
+ 88%|████████▊ | 406/462 [47:05<06:25,  6.89s/it]
+ 88%|████████▊ | 407/462 [47:12<06:18,  6.88s/it]
+ 88%|████████▊ | 408/462 [47:19<06:10,  6.86s/it]
+ 89%|████████▊ | 409/462 [47:26<06:03,  6.85s/it]
+ 89%|████████▊ | 410/462 [47:33<05:55,  6.84s/it]
+ 89%|████████▉ | 411/462 [47:40<05:48,  6.83s/it]
+ 89%|████████▉ | 412/462 [47:46<05:42,  6.84s/it]
+ 89%|████████▉ | 413/462 [47:53<05:35,  6.84s/it]
+ 90%|████████▉ | 414/462 [48:00<05:28,  6.85s/it]
+ 90%|████████▉ | 415/462 [48:07<05:22,  6.86s/it]
+ 90%|█████████ | 416/462 [48:14<05:15,  6.85s/it]
+ 90%|█████████ | 417/462 [48:21<05:07,  6.84s/it]
+ 90%|█████████ | 418/462 [48:28<05:01,  6.85s/it]
+ 91%|█████████ | 419/462 [48:34<04:55,  6.87s/it]
+ 91%|█████████ | 420/462 [48:41<04:48,  6.87s/it]
+                                                 
+{'loss': 0.385, 'grad_norm': 11.967641830444336, 'learning_rate': 2.5059969408867844e-08, 'rewards/chosen': -0.1848166137933731, 'rewards/rejected': -1.2395455837249756, 'rewards/accuracies': 0.8968750238418579, 'rewards/margins': 1.0547289848327637, 'logps/rejected': -1098.6343994140625, 'logps/chosen': -1160.446533203125, 'logits/rejected': -1.451796293258667, 'logits/chosen': -1.4490277767181396, 'epoch': 2.71}
+
+ 91%|█████████ | 420/462 [48:41<04:48,  6.87s/it]
+ 91%|█████████ | 421/462 [48:48<04:42,  6.89s/it]
+ 91%|█████████▏| 422/462 [48:55<04:35,  6.89s/it]
+ 92%|█████████▏| 423/462 [49:02<04:28,  6.88s/it]
+ 92%|█████████▏| 424/462 [49:09<04:22,  6.90s/it]
+ 92%|█████████▏| 425/462 [49:16<04:15,  6.91s/it]
+ 92%|█████████▏| 426/462 [49:23<04:09,  6.92s/it]
+ 92%|█████████▏| 427/462 [49:30<04:01,  6.91s/it]
+ 93%|█████████▎| 428/462 [49:37<03:54,  6.91s/it]
+ 93%|█████████▎| 429/462 [49:44<03:47,  6.91s/it]
+ 93%|█████████▎| 430/462 [49:50<03:40,  6.89s/it]
+ 93%|█████████▎| 431/462 [49:57<03:33,  6.90s/it]
+ 94%|█████████▎| 432/462 [50:04<03:26,  6.89s/it]
+ 94%|█████████▎| 433/462 [50:11<03:19,  6.89s/it]
+ 94%|█████████▍| 434/462 [50:18<03:12,  6.89s/it]
+ 94%|█████████▍| 435/462 [50:25<03:06,  6.90s/it]
+ 94%|█████████▍| 436/462 [50:32<02:59,  6.90s/it]
+ 95%|█████████▍| 437/462 [50:39<02:51,  6.88s/it]
+ 95%|█████████▍| 438/462 [50:45<02:44,  6.84s/it]
+ 95%|█████████▌| 439/462 [50:52<02:37,  6.86s/it]
+ 95%|█████████▌| 440/462 [50:59<02:30,  6.85s/it]
+                                                 
+{'loss': 0.3759, 'grad_norm': 12.115776062011719, 'learning_rate': 6.918068837427127e-09, 'rewards/chosen': -0.24736082553863525, 'rewards/rejected': -1.297615885734558, 'rewards/accuracies': 0.8843749761581421, 'rewards/margins': 1.0502551794052124, 'logps/rejected': -1058.9176025390625, 'logps/chosen': -1117.916259765625, 'logits/rejected': -1.4508700370788574, 'logits/chosen': -1.4516395330429077, 'epoch': 2.84}
+
+ 95%|█████████▌| 440/462 [50:59<02:30,  6.85s/it]
+ 95%|█████████▌| 441/462 [51:06<02:23,  6.83s/it]
+ 96%|█████████▌| 442/462 [51:13<02:16,  6.83s/it]
+ 96%|█████████▌| 443/462 [51:20<02:09,  6.84s/it]
+ 96%|█████████▌| 444/462 [51:26<02:03,  6.86s/it]
+ 96%|█████████▋| 445/462 [51:33<01:56,  6.82s/it]
+ 97%|█████████▋| 446/462 [51:40<01:49,  6.85s/it]
+ 97%|█████████▋| 447/462 [51:47<01:42,  6.85s/it]
+ 97%|█████████▋| 448/462 [51:54<01:35,  6.85s/it]
+ 97%|█████████▋| 449/462 [52:01<01:29,  6.86s/it]
+ 97%|█████████▋| 450/462 [52:08<01:22,  6.88s/it]
+ 98%|█████████▊| 451/462 [52:14<01:15,  6.87s/it]
+ 98%|█████████▊| 452/462 [52:21<01:08,  6.85s/it]
+ 98%|█████████▊| 453/462 [52:28<01:01,  6.87s/it]
+ 98%|█████████▊| 454/462 [52:35<00:55,  6.88s/it]
+ 98%|█████████▊| 455/462 [52:42<00:48,  6.94s/it]
+ 99%|█████████▊| 456/462 [52:49<00:41,  6.94s/it]
+ 99%|█████████▉| 457/462 [52:56<00:34,  6.92s/it]
+ 99%|█████████▉| 458/462 [53:03<00:27,  6.88s/it]
+ 99%|█████████▉| 459/462 [53:10<00:20,  6.88s/it]
+100%|█████████▉| 460/462 [53:17<00:13,  6.89s/it]
+                                                 
+{'loss': 0.3762, 'grad_norm': 11.435117721557617, 'learning_rate': 5.7305361427451014e-11, 'rewards/chosen': -0.18808947503566742, 'rewards/rejected': -1.2606257200241089, 'rewards/accuracies': 0.89453125, 'rewards/margins': 1.0725362300872803, 'logps/rejected': -1112.4180908203125, 'logps/chosen': -1170.719482421875, 'logits/rejected': -1.4356772899627686, 'logits/chosen': -1.4367763996124268, 'epoch': 2.97}
+
+100%|█████████▉| 460/462 [53:17<00:13,  6.89s/it]
+100%|█████████▉| 461/462 [53:23<00:06,  6.89s/it]
+100%|██████████| 462/462 [53:30<00:00,  6.90s/it]/usr/local/python/lib/python3.8/site-packages/torch/nn/modules/module.py:1898: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/torch/nn/modules/module.py:1898: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+
+                                                 
+{'train_runtime': 3232.4968, 'train_samples_per_second': 55.163, 'train_steps_per_second': 0.143, 'train_loss': 0.5020411476428375, 'epoch': 2.98}
+
+100%|██████████| 462/462 [53:52<00:00,  6.90s/it]
+100%|██████████| 462/462 [53:52<00:00,  7.00s/it]
+Figure saved at: results/dpo/training_loss.png
+Figure saved at: results/dpo/training_loss.png
+Figure saved at: results/dpo/training_loss.png
+Figure saved at: results/dpo/training_loss.png
+Figure saved at: results/dpo/training_loss.png
+Figure saved at: results/dpo/training_loss.png

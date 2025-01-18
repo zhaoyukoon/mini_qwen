@@ -1,0 +1,610 @@
+nohup: ignoring input
+[2025-01-17 10:00:07,146] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+W0117 10:00:08.765400 140526505097024 torch/distributed/run.py:757] 
+W0117 10:00:08.765400 140526505097024 torch/distributed/run.py:757] *****************************************
+W0117 10:00:08.765400 140526505097024 torch/distributed/run.py:757] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0117 10:00:08.765400 140526505097024 torch/distributed/run.py:757] *****************************************
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 94201 examples [00:02, 37609.51 examples/s]Generating train split: 94201 examples [00:02, 37387.39 examples/s]
+Map (num_proc=16):   0%|          | 0/94201 [00:00<?, ? examples/s]Map (num_proc=16):   0%|          | 0/94201 [00:00<?, ? examples/s]Map (num_proc=16):   0%|          | 0/94201 [00:00<?, ? examples/s]Map (num_proc=16):   0%|          | 0/94201 [00:00<?, ? examples/s]Map (num_proc=16):   0%|          | 0/94201 [00:00<?, ? examples/s]Map (num_proc=16):   0%|          | 0/94201 [00:00<?, ? examples/s]Map (num_proc=16):   5%|▌         | 5000/94201 [00:15<04:39, 319.63 examples/s]Map (num_proc=16):  11%|█         | 10000/94201 [00:16<01:52, 749.89 examples/s]Map (num_proc=16):  21%|██        | 20000/94201 [00:16<00:37, 1973.54 examples/s]Map (num_proc=16):  27%|██▋       | 25000/94201 [00:16<00:24, 2804.83 examples/s]Map (num_proc=16):  32%|███▏      | 30000/94201 [00:16<00:16, 3936.26 examples/s]Map (num_proc=16):   5%|▌         | 5000/94201 [00:16<04:52, 304.87 examples/s]Map (num_proc=16):   5%|▌         | 5000/94201 [00:16<04:56, 300.88 examples/s]Map (num_proc=16):   5%|▌         | 5000/94201 [00:18<05:25, 274.19 examples/s]Map (num_proc=16):  11%|█         | 10000/94201 [00:18<02:09, 652.33 examples/s]Map (num_proc=16):  27%|██▋       | 25000/94201 [00:18<00:30, 2253.02 examples/s]Map (num_proc=16):  11%|█         | 10000/94201 [00:18<02:15, 621.39 examples/s]Map (num_proc=16):  16%|█▌        | 15000/94201 [00:18<01:20, 979.90 examples/s]Map (num_proc=16):  37%|███▋      | 35000/94201 [00:18<00:16, 3666.30 examples/s]Map (num_proc=16):  21%|██        | 20000/94201 [00:18<00:50, 1469.10 examples/s]Map (num_proc=16):  53%|█████▎    | 50000/94201 [00:19<00:06, 6694.35 examples/s]Map (num_proc=16):   5%|▌         | 5000/94201 [00:18<05:36, 264.72 examples/s]Map (num_proc=16):  37%|███▋      | 35000/94201 [00:18<00:16, 3590.94 examples/s]Map (num_proc=16):   5%|▌         | 5000/94201 [00:18<05:38, 263.61 examples/s]Map (num_proc=16):  21%|██        | 20000/94201 [00:19<00:46, 1604.04 examples/s]Map (num_proc=16):  38%|███▊      | 35326/94201 [00:19<00:19, 2955.09 examples/s]Map (num_proc=16):  48%|████▊     | 45000/94201 [00:19<00:08, 5474.20 examples/s]Map (num_proc=16):  27%|██▋       | 25000/94201 [00:19<00:30, 2278.96 examples/s]Map (num_proc=16):  11%|█         | 10000/94201 [00:19<02:14, 624.11 examples/s]Map (num_proc=16):  21%|██        | 20000/94201 [00:19<00:54, 1356.62 examples/s]Map (num_proc=16):  60%|██████    | 56774/94201 [00:19<00:04, 8242.00 examples/s]Map (num_proc=16):  37%|███▋      | 35000/94201 [00:19<00:14, 4075.36 examples/s]Map (num_proc=16):  27%|██▋       | 25000/94201 [00:19<00:38, 1808.38 examples/s]Map (num_proc=16):  62%|██████▏   | 58551/94201 [00:21<00:07, 4963.56 examples/s]Map (num_proc=16):  41%|████      | 38551/94201 [00:22<00:19, 2841.30 examples/s]Map (num_proc=16):  69%|██████▉   | 64764/94201 [00:22<00:05, 5710.17 examples/s]Map (num_proc=16):  29%|██▉       | 27663/94201 [00:22<00:41, 1599.56 examples/s]Map (num_proc=16):  68%|██████▊   | 63876/94201 [00:22<00:06, 5018.48 examples/s]Map (num_proc=16):  43%|████▎     | 40326/94201 [00:22<00:23, 2248.24 examples/s]Map (num_proc=16):  17%|█▋        | 15887/94201 [00:22<01:25, 917.26 examples/s]Map (num_proc=16):  44%|████▍     | 41214/94201 [00:22<00:17, 3094.31 examples/s]Map (num_proc=16):  48%|████▊     | 45326/94201 [00:22<00:16, 3007.71 examples/s]Map (num_proc=16):  49%|████▉     | 46214/94201 [00:22<00:10, 4372.26 examples/s]Map (num_proc=16):  18%|█▊        | 16775/94201 [00:22<01:18, 987.30 examples/s]Map (num_proc=16):  59%|█████▊    | 55326/94201 [00:23<00:07, 5335.83 examples/s]Map (num_proc=16):  31%|███▏      | 29439/94201 [00:23<00:38, 1675.93 examples/s]Map (num_proc=16):  28%|██▊       | 26775/94201 [00:23<00:27, 2456.10 examples/s]Map (num_proc=16):  74%|███████▍  | 69764/94201 [00:23<00:04, 5461.37 examples/s]Map (num_proc=16):  64%|██████▍   | 60326/94201 [00:23<00:05, 6402.44 examples/s]Map (num_proc=16):  54%|█████▍    | 51214/94201 [00:23<00:08, 4844.81 examples/s]Map (num_proc=16):  34%|███▎      | 31775/94201 [00:23<00:20, 3083.42 examples/s]Map (num_proc=16):  69%|██████▉   | 65326/94201 [00:23<00:04, 7033.59 examples/s]Map (num_proc=16):  37%|███▋      | 34439/94201 [00:23<00:26, 2278.68 examples/s]Map (num_proc=16):  79%|███████▉  | 74764/94201 [00:23<00:03, 5756.52 examples/s]Map (num_proc=16):  47%|████▋     | 44439/94201 [00:23<00:11, 4516.97 examples/s]Map (num_proc=16):  75%|███████▍  | 70326/94201 [00:24<00:02, 8385.92 examples/s]Map (num_proc=16):  52%|█████▏    | 49439/94201 [00:24<00:07, 5618.23 examples/s]Map (num_proc=16):  85%|████████▍ | 79764/94201 [00:24<00:02, 5761.58 examples/s]Map (num_proc=16):  58%|█████▊    | 54439/94201 [00:24<00:06, 6398.00 examples/s]Map (num_proc=16):  60%|█████▉    | 56214/94201 [00:24<00:08, 4606.64 examples/s]Map (num_proc=16):  74%|███████▍  | 69764/94201 [00:25<00:06, 4040.92 examples/s]Map (num_proc=16):  63%|██████▎   | 59439/94201 [00:24<00:04, 8228.07 examples/s]Map (num_proc=16):  44%|████▍     | 41775/94201 [00:24<00:12, 4330.50 examples/s]Map (num_proc=16):  70%|███████   | 66214/94201 [00:25<00:03, 7787.19 examples/s]Map (num_proc=16):  80%|███████▉  | 75326/94201 [00:25<00:02, 6653.29 examples/s]Map (num_proc=16):  76%|███████▌  | 71214/94201 [00:25<00:02, 9087.18 examples/s]Map (num_proc=16):  82%|████████▏ | 77100/94201 [00:25<00:02, 6489.40 examples/s]Map (num_proc=16):  51%|█████     | 47663/94201 [00:25<00:09, 5019.51 examples/s]Map (num_proc=16):  82%|████████▏ | 77101/94201 [00:25<00:01, 10315.34 examples/s]Map (num_proc=16):  79%|███████▉  | 74764/94201 [00:25<00:04, 4315.28 examples/s]Map (num_proc=16):  52%|█████▏    | 49439/94201 [00:25<00:08, 5298.79 examples/s]Map (num_proc=16):  95%|█████████▌| 89764/94201 [00:25<00:00, 6617.80 examples/s]Map (num_proc=16):  87%|████████▋ | 82101/94201 [00:25<00:00, 12215.49 examples/s]Map (num_proc=16):  84%|████████▎ | 78875/94201 [00:26<00:02, 6123.41 examples/s]Map (num_proc=16):  90%|████████▉ | 84764/94201 [00:26<00:01, 6734.67 examples/s]Map (num_proc=16):  58%|█████▊    | 54439/94201 [00:26<00:05, 7074.08 examples/s]Map (num_proc=16):  79%|███████▉  | 74439/94201 [00:26<00:01, 10124.62 examples/s]Map (num_proc=16):  92%|█████████▏| 87101/94201 [00:26<00:00, 14125.65 examples/s]Map (num_proc=16):  63%|██████▎   | 59439/94201 [00:26<00:03, 9462.29 examples/s]Map (num_proc=16):  95%|█████████▌| 89764/94201 [00:26<00:00, 7864.32 examples/s]Map (num_proc=16):  79%|███████▉  | 74439/94201 [00:26<00:00, 20025.59 examples/s]Map (num_proc=16):  90%|████████▉ | 84439/94201 [00:26<00:00, 13261.15 examples/s]Map (num_proc=16):  95%|█████████▌| 89763/94201 [00:26<00:00, 9919.37 examples/s]Map (num_proc=16):  91%|█████████ | 85326/94201 [00:26<00:00, 24128.36 examples/s]Map (num_proc=16):  97%|█████████▋| 91538/94201 [00:26<00:00, 5569.65 examples/s]Map (num_proc=16):  92%|█████████▏| 87103/94201 [00:26<00:00, 11617.94 examples/s]Map (num_proc=16):  97%|█████████▋| 91537/94201 [00:27<00:00, 6429.73 examples/s]Map (num_proc=16):  99%|█████████▉| 93313/94201 [00:27<00:00, 4605.61 examples/s]Map (num_proc=16):  95%|█████████▌| 89763/94201 [00:27<00:00, 5878.86 examples/s] Map (num_proc=16):  95%|█████████▌| 89765/94201 [00:27<00:00, 7894.48 examples/s] Map (num_proc=16):  97%|█████████▋| 91540/94201 [00:28<00:00, 8274.63 examples/s]Map (num_proc=16):  97%|█████████▋| 91538/94201 [00:28<00:00, 5779.07 examples/s]Map (num_proc=16):  99%|█████████▉| 93314/94201 [00:28<00:00, 5299.22 examples/s]Map (num_proc=16): 100%|██████████| 94201/94201 [00:28<00:00, 3436.93 examples/s]Map (num_proc=16): 100%|██████████| 94201/94201 [00:28<00:00, 3267.36 examples/s]
+Map (num_proc=16):  99%|█████████▉| 93313/94201 [00:28<00:00, 4213.62 examples/s]Map (num_proc=16):  99%|█████████▉| 93313/94201 [00:29<00:00, 3999.72 examples/s]Map (num_proc=16): 100%|██████████| 94201/94201 [00:29<00:00, 3220.00 examples/s]
+Map (num_proc=16):  97%|█████████▋| 91539/94201 [00:29<00:00, 7626.77 examples/s] Map (num_proc=16):  99%|█████████▉| 93314/94201 [00:29<00:00, 4911.53 examples/s]Map (num_proc=16): 100%|██████████| 94201/94201 [00:29<00:00, 3197.54 examples/s]
+Map (num_proc=16): 100%|██████████| 94201/94201 [00:29<00:00, 3395.51 examples/s]Map (num_proc=16): 100%|██████████| 94201/94201 [00:29<00:00, 3150.88 examples/s]
+Map (num_proc=16): 100%|██████████| 94201/94201 [00:29<00:00, 3168.42 examples/s]
+Map (num_proc=16): 100%|██████████| 94201/94201 [00:29<00:00, 3164.31 examples/s]
+[2025-01-17 10:01:27,099] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-01-17 10:01:27,431] [INFO] [comm.py:637:init_distributed] cdb=None
+[2025-01-17 10:01:27,431] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[2025-01-17 10:01:27,496] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Detected kernel version 5.4.203, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+[2025-01-17 10:01:27,701] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-01-17 10:01:27,800] [INFO] [comm.py:637:init_distributed] cdb=None
+[2025-01-17 10:01:27,998] [INFO] [comm.py:637:init_distributed] cdb=None
+[2025-01-17 10:01:28,224] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-01-17 10:01:28,235] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-01-17 10:01:28,257] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-01-17 10:01:28,561] [INFO] [comm.py:637:init_distributed] cdb=None
+[2025-01-17 10:01:28,572] [INFO] [comm.py:637:init_distributed] cdb=None
+[2025-01-17 10:01:28,618] [INFO] [comm.py:637:init_distributed] cdb=None
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:432500 [0] NCCL INFO Bootstrap : Using eth1:11.234.49.10<0>
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:432500 [0] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:432500 [0] NCCL INFO cudaDriverVersion 12000
+NCCL version 2.20.5+cuda11.0
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:432505 [5] NCCL INFO cudaDriverVersion 12000
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:432505 [5] NCCL INFO Bootstrap : Using eth1:11.234.49.10<0>
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:432505 [5] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO NET/IB : No device found.
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO NET/Socket : Using [0]eth1:11.234.49.10<0>
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Using non-device net plugin version 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Using network Socket
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:432504 [4] NCCL INFO cudaDriverVersion 12000
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:432504 [4] NCCL INFO Bootstrap : Using eth1:11.234.49.10<0>
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:432504 [4] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO NET/IB : No device found.
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO NET/Socket : Using [0]eth1:11.234.49.10<0>
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Using non-device net plugin version 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Using network Socket
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO NET/IB : No device found.
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO NET/Socket : Using [0]eth1:11.234.49.10<0>
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Using non-device net plugin version 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Using network Socket
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:432502 [2] NCCL INFO cudaDriverVersion 12000
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:432502 [2] NCCL INFO Bootstrap : Using eth1:11.234.49.10<0>
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:432502 [2] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:432503 [3] NCCL INFO cudaDriverVersion 12000
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:432503 [3] NCCL INFO Bootstrap : Using eth1:11.234.49.10<0>
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:432503 [3] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:432501 [1] NCCL INFO cudaDriverVersion 12000
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:432501 [1] NCCL INFO Bootstrap : Using eth1:11.234.49.10<0>
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:432501 [1] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO NET/IB : No device found.
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO NET/Socket : Using [0]eth1:11.234.49.10<0>
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Using non-device net plugin version 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Using network Socket
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO NET/IB : No device found.
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO NET/Socket : Using [0]eth1:11.234.49.10<0>
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Using non-device net plugin version 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Using network Socket
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO NET/IB : No device found.
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO NET/Socket : Using [0]eth1:11.234.49.10<0>
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Using non-device net plugin version 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Using network Socket
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO comm 0xe5712c0 rank 1 nranks 6 cudaDev 1 nvmlDev 1 busId 62000 commId 0xe112db9b400dd2d6 - Init START
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO comm 0x96c5f00 rank 4 nranks 6 cudaDev 4 nvmlDev 4 busId d0000 commId 0xe112db9b400dd2d6 - Init START
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO comm 0xf58cd20 rank 2 nranks 6 cudaDev 2 nvmlDev 2 busId 85000 commId 0xe112db9b400dd2d6 - Init START
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO comm 0x104b17c0 rank 0 nranks 6 cudaDev 0 nvmlDev 0 busId 56000 commId 0xe112db9b400dd2d6 - Init START
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO comm 0xd7dc300 rank 3 nranks 6 cudaDev 3 nvmlDev 3 busId c4000 commId 0xe112db9b400dd2d6 - Init START
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO comm 0xe2eeac0 rank 5 nranks 6 cudaDev 5 nvmlDev 5 busId dd000 commId 0xe112db9b400dd2d6 - Init START
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Setting affinity for GPU 5 to ffffffff,ffff0000,00000000,ffffffff,ffff0000,00000000
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Setting affinity for GPU 1 to 03ffffe0,00000000,00000000,03ffffe0
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Setting affinity for GPU 2 to ffffffff,ffff0000,00000000,ffffffff,ffff0000,00000000
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Setting affinity for GPU 4 to ffffffff,ffff0000,00000000,ffffffff,ffff0000,00000000
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Setting affinity for GPU 3 to ffffffff,ffff0000,00000000,ffffffff,ffff0000,00000000
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Setting affinity for GPU 0 to 03ffffe0,00000000,00000000,03ffffe0
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO comm 0xe2eeac0 rank 5 nRanks 6 nNodes 1 localRanks 6 localRank 5 MNNVL 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO comm 0x96c5f00 rank 4 nRanks 6 nNodes 1 localRanks 6 localRank 4 MNNVL 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO comm 0x104b17c0 rank 0 nRanks 6 nNodes 1 localRanks 6 localRank 0 MNNVL 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO comm 0xd7dc300 rank 3 nRanks 6 nNodes 1 localRanks 6 localRank 3 MNNVL 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO comm 0xf58cd20 rank 2 nRanks 6 nNodes 1 localRanks 6 localRank 2 MNNVL 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO comm 0xe5712c0 rank 1 nRanks 6 nNodes 1 localRanks 6 localRank 1 MNNVL 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Trees [0] -1/-1/-1->5->4 [1] -1/-1/-1->5->4 [2] -1/-1/-1->5->4 [3] -1/-1/-1->5->4 [4] -1/-1/-1->5->4 [5] -1/-1/-1->5->4 [6] -1/-1/-1->5->4 [7] -1/-1/-1->5->4 [8] -1/-1/-1->5->4 [9] -1/-1/-1->5->4 [10] -1/-1/-1->5->4 [11] -1/-1/-1->5->4 [12] -1/-1/-1->5->4 [13] -1/-1/-1->5->4 [14] -1/-1/-1->5->4 [15] -1/-1/-1->5->4
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Trees [0] 5/-1/-1->4->3 [1] 5/-1/-1->4->3 [2] 5/-1/-1->4->3 [3] 5/-1/-1->4->3 [4] 5/-1/-1->4->3 [5] 5/-1/-1->4->3 [6] 5/-1/-1->4->3 [7] 5/-1/-1->4->3 [8] 5/-1/-1->4->3 [9] 5/-1/-1->4->3 [10] 5/-1/-1->4->3 [11] 5/-1/-1->4->3 [12] 5/-1/-1->4->3 [13] 5/-1/-1->4->3 [14] 5/-1/-1->4->3 [15] 5/-1/-1->4->3
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO P2P Chunksize set to 524288
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Channel 00/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Trees [0] 4/-1/-1->3->2 [1] 4/-1/-1->3->2 [2] 4/-1/-1->3->2 [3] 4/-1/-1->3->2 [4] 4/-1/-1->3->2 [5] 4/-1/-1->3->2 [6] 4/-1/-1->3->2 [7] 4/-1/-1->3->2 [8] 4/-1/-1->3->2 [9] 4/-1/-1->3->2 [10] 4/-1/-1->3->2 [11] 4/-1/-1->3->2 [12] 4/-1/-1->3->2 [13] 4/-1/-1->3->2 [14] 4/-1/-1->3->2 [15] 4/-1/-1->3->2
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Trees [0] 3/-1/-1->2->1 [1] 3/-1/-1->2->1 [2] 3/-1/-1->2->1 [3] 3/-1/-1->2->1 [4] 3/-1/-1->2->1 [5] 3/-1/-1->2->1 [6] 3/-1/-1->2->1 [7] 3/-1/-1->2->1 [8] 3/-1/-1->2->1 [9] 3/-1/-1->2->1 [10] 3/-1/-1->2->1 [11] 3/-1/-1->2->1 [12] 3/-1/-1->2->1 [13] 3/-1/-1->2->1 [14] 3/-1/-1->2->1 [15] 3/-1/-1->2->1
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO P2P Chunksize set to 524288
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Trees [0] 2/-1/-1->1->0 [1] 2/-1/-1->1->0 [2] 2/-1/-1->1->0 [3] 2/-1/-1->1->0 [4] 2/-1/-1->1->0 [5] 2/-1/-1->1->0 [6] 2/-1/-1->1->0 [7] 2/-1/-1->1->0 [8] 2/-1/-1->1->0 [9] 2/-1/-1->1->0 [10] 2/-1/-1->1->0 [11] 2/-1/-1->1->0 [12] 2/-1/-1->1->0 [13] 2/-1/-1->1->0 [14] 2/-1/-1->1->0 [15] 2/-1/-1->1->0
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO P2P Chunksize set to 524288
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO P2P Chunksize set to 524288
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Channel 01/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Channel 02/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO P2P Chunksize set to 524288
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Channel 03/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Channel 04/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Channel 05/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Channel 06/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Channel 07/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Channel 08/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Channel 09/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Channel 10/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Channel 11/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Channel 12/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Channel 13/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Channel 14/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Channel 15/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Trees [0] 1/-1/-1->0->-1 [1] 1/-1/-1->0->-1 [2] 1/-1/-1->0->-1 [3] 1/-1/-1->0->-1 [4] 1/-1/-1->0->-1 [5] 1/-1/-1->0->-1 [6] 1/-1/-1->0->-1 [7] 1/-1/-1->0->-1 [8] 1/-1/-1->0->-1 [9] 1/-1/-1->0->-1 [10] 1/-1/-1->0->-1 [11] 1/-1/-1->0->-1 [12] 1/-1/-1->0->-1 [13] 1/-1/-1->0->-1 [14] 1/-1/-1->0->-1 [15] 1/-1/-1->0->-1
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO P2P Chunksize set to 524288
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Channel 00/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Channel 00/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Channel 01/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Channel 00/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Channel 01/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Channel 00/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Channel 00/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Channel 02/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Channel 01/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Channel 02/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Channel 01/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Channel 00/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Channel 01/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Channel 03/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Channel 03/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Channel 02/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Channel 02/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Channel 01/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Channel 02/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Channel 04/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Channel 04/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Channel 03/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Channel 03/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Channel 02/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Channel 03/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Channel 05/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Channel 05/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Channel 04/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Channel 04/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Channel 03/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Channel 04/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Channel 06/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Channel 06/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Channel 05/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Channel 05/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Channel 04/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Channel 05/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Channel 07/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Channel 07/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Channel 06/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Channel 06/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Channel 05/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Channel 06/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Channel 08/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Channel 08/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Channel 07/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Channel 07/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Channel 06/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Channel 09/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Channel 09/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Channel 07/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Channel 08/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Channel 08/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Channel 07/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Channel 10/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Channel 10/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Channel 09/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Channel 08/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Channel 09/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Channel 08/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Channel 11/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Channel 11/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Channel 10/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Channel 10/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Channel 09/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Channel 09/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Channel 12/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Channel 12/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Channel 11/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Channel 11/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Channel 10/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Channel 10/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Channel 13/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Channel 13/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Channel 12/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Channel 11/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Channel 12/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Channel 11/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Channel 14/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Channel 14/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Channel 13/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Channel 12/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Channel 13/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Channel 12/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Channel 15/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Channel 15/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Channel 14/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Channel 13/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Channel 14/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Channel 13/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Channel 15/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Channel 14/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Channel 15/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Channel 14/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Channel 15/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Channel 15/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Connected all rings
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Connected all rings
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Connected all rings
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Connected all rings
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Connected all rings
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Connected all rings
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Channel 00/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Channel 01/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Channel 02/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Channel 03/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Channel 04/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Channel 05/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Channel 06/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Channel 07/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Channel 08/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Channel 09/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Channel 10/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Channel 11/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Channel 00/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Channel 00/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Channel 00/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Channel 12/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Channel 01/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Channel 01/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Channel 01/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Channel 13/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Channel 02/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Channel 02/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Channel 02/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Channel 00/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Channel 14/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Channel 03/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Channel 03/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Channel 03/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Channel 01/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Channel 15/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Channel 04/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Channel 04/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Channel 04/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Channel 02/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Channel 05/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Channel 05/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Channel 05/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Channel 03/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Channel 06/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Channel 06/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Channel 06/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Channel 04/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Channel 07/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Channel 07/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Channel 07/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Channel 05/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Channel 08/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Channel 08/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Channel 08/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Channel 06/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Channel 09/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Channel 09/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Channel 09/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Channel 07/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Channel 10/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Channel 10/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Channel 10/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Channel 08/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Channel 11/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Channel 11/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Channel 11/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Channel 12/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Channel 09/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Channel 12/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Channel 12/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Channel 13/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Channel 10/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Channel 13/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Channel 13/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Channel 14/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Channel 11/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Channel 14/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Channel 14/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Channel 15/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Channel 12/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Channel 15/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Channel 15/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Channel 13/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Channel 14/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Channel 15/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO Connected all trees
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO threadThresholds 8/8/64 | 48/8/64 | 512 | 512
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO 16 coll channels, 0 collnet channels, 0 nvls channels, 16 p2p channels, 16 p2p channels per peer
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO Connected all trees
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO threadThresholds 8/8/64 | 48/8/64 | 512 | 512
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO 16 coll channels, 0 collnet channels, 0 nvls channels, 16 p2p channels, 16 p2p channels per peer
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO Connected all trees
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO threadThresholds 8/8/64 | 48/8/64 | 512 | 512
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO 16 coll channels, 0 collnet channels, 0 nvls channels, 16 p2p channels, 16 p2p channels per peer
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO Connected all trees
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO Connected all trees
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO threadThresholds 8/8/64 | 48/8/64 | 512 | 512
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO Connected all trees
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO threadThresholds 8/8/64 | 48/8/64 | 512 | 512
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO 16 coll channels, 0 collnet channels, 0 nvls channels, 16 p2p channels, 16 p2p channels per peer
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO 16 coll channels, 0 collnet channels, 0 nvls channels, 16 p2p channels, 16 p2p channels per peer
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO threadThresholds 8/8/64 | 48/8/64 | 512 | 512
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO 16 coll channels, 0 collnet channels, 0 nvls channels, 16 p2p channels, 16 p2p channels per peer
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433041 [3] NCCL INFO comm 0xd7dc300 rank 3 nranks 6 cudaDev 3 nvmlDev 3 busId c4000 commId 0xe112db9b400dd2d6 - Init COMPLETE
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433040 [2] NCCL INFO comm 0xf58cd20 rank 2 nranks 6 cudaDev 2 nvmlDev 2 busId 85000 commId 0xe112db9b400dd2d6 - Init COMPLETE
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433030 [5] NCCL INFO comm 0xe2eeac0 rank 5 nranks 6 cudaDev 5 nvmlDev 5 busId dd000 commId 0xe112db9b400dd2d6 - Init COMPLETE
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433033 [4] NCCL INFO comm 0x96c5f00 rank 4 nranks 6 cudaDev 4 nvmlDev 4 busId d0000 commId 0xe112db9b400dd2d6 - Init COMPLETE
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433042 [1] NCCL INFO comm 0xe5712c0 rank 1 nranks 6 cudaDev 1 nvmlDev 1 busId 62000 commId 0xe112db9b400dd2d6 - Init COMPLETE
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433027 [0] NCCL INFO comm 0x104b17c0 rank 0 nranks 6 cudaDev 0 nvmlDev 0 busId 56000 commId 0xe112db9b400dd2d6 - Init COMPLETE
+  0%|          | 0/81 [00:00<?, ?it/s]  1%|          | 1/81 [00:10<13:57, 10.47s/it]  2%|▏         | 2/81 [00:17<11:04,  8.41s/it]  4%|▎         | 3/81 [00:24<10:06,  7.77s/it]  5%|▍         | 4/81 [00:31<09:34,  7.46s/it]  6%|▌         | 5/81 [00:38<09:14,  7.29s/it]  7%|▋         | 6/81 [00:45<08:58,  7.19s/it]  9%|▊         | 7/81 [00:52<08:46,  7.11s/it] 10%|▉         | 8/81 [00:59<08:36,  7.07s/it] 11%|█         | 9/81 [01:06<08:26,  7.04s/it] 12%|█▏        | 10/81 [01:13<08:18,  7.02s/it] 14%|█▎        | 11/81 [01:20<08:10,  7.01s/it] 15%|█▍        | 12/81 [01:27<08:03,  7.00s/it] 16%|█▌        | 13/81 [01:34<07:55,  6.99s/it] 17%|█▋        | 14/81 [01:41<07:48,  7.00s/it] 19%|█▊        | 15/81 [01:48<07:41,  6.99s/it] 20%|█▉        | 16/81 [01:55<07:33,  6.98s/it] 21%|██        | 17/81 [02:02<07:26,  6.98s/it] 22%|██▏       | 18/81 [02:09<07:19,  6.98s/it] 23%|██▎       | 19/81 [02:16<07:12,  6.98s/it] 25%|██▍       | 20/81 [02:23<07:05,  6.98s/it]ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Using non-device net plugin version 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Using non-device net plugin version 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Using network Socket
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Using non-device net plugin version 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Using network Socket
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Using non-device net plugin version 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Using network Socket
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Using non-device net plugin version 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Using non-device net plugin version 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Using network Socket
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Using network Socket
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Using network Socket
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO comm 0xea1f8c80 rank 0 nranks 6 cudaDev 0 nvmlDev 0 busId 56000 commId 0x40fe2bf61b2c1bfa - Init START
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO comm 0xef96e0f0 rank 5 nranks 6 cudaDev 5 nvmlDev 5 busId dd000 commId 0x40fe2bf61b2c1bfa - Init START
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO comm 0xef610a40 rank 4 nranks 6 cudaDev 4 nvmlDev 4 busId d0000 commId 0x40fe2bf61b2c1bfa - Init START
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO comm 0xef570d20 rank 3 nranks 6 cudaDev 3 nvmlDev 3 busId c4000 commId 0x40fe2bf61b2c1bfa - Init START
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO comm 0xebc2f840 rank 2 nranks 6 cudaDev 2 nvmlDev 2 busId 85000 commId 0x40fe2bf61b2c1bfa - Init START
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO comm 0xf0894930 rank 1 nranks 6 cudaDev 1 nvmlDev 1 busId 62000 commId 0x40fe2bf61b2c1bfa - Init START
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Setting affinity for GPU 1 to 03ffffe0,00000000,00000000,03ffffe0
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Setting affinity for GPU 4 to ffffffff,ffff0000,00000000,ffffffff,ffff0000,00000000
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Setting affinity for GPU 5 to ffffffff,ffff0000,00000000,ffffffff,ffff0000,00000000
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Setting affinity for GPU 0 to 03ffffe0,00000000,00000000,03ffffe0
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Setting affinity for GPU 3 to ffffffff,ffff0000,00000000,ffffffff,ffff0000,00000000
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Setting affinity for GPU 2 to ffffffff,ffff0000,00000000,ffffffff,ffff0000,00000000
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO comm 0xebc2f840 rank 2 nRanks 6 nNodes 1 localRanks 6 localRank 2 MNNVL 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO comm 0xef610a40 rank 4 nRanks 6 nNodes 1 localRanks 6 localRank 4 MNNVL 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO comm 0xef570d20 rank 3 nRanks 6 nNodes 1 localRanks 6 localRank 3 MNNVL 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO comm 0xf0894930 rank 1 nRanks 6 nNodes 1 localRanks 6 localRank 1 MNNVL 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO comm 0xef96e0f0 rank 5 nRanks 6 nNodes 1 localRanks 6 localRank 5 MNNVL 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO comm 0xea1f8c80 rank 0 nRanks 6 nNodes 1 localRanks 6 localRank 0 MNNVL 0
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Trees [0] 3/-1/-1->2->1 [1] 3/-1/-1->2->1 [2] 3/-1/-1->2->1 [3] 3/-1/-1->2->1 [4] 3/-1/-1->2->1 [5] 3/-1/-1->2->1 [6] 3/-1/-1->2->1 [7] 3/-1/-1->2->1 [8] 3/-1/-1->2->1 [9] 3/-1/-1->2->1 [10] 3/-1/-1->2->1 [11] 3/-1/-1->2->1 [12] 3/-1/-1->2->1 [13] 3/-1/-1->2->1 [14] 3/-1/-1->2->1 [15] 3/-1/-1->2->1
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Trees [0] 5/-1/-1->4->3 [1] 5/-1/-1->4->3 [2] 5/-1/-1->4->3 [3] 5/-1/-1->4->3 [4] 5/-1/-1->4->3 [5] 5/-1/-1->4->3 [6] 5/-1/-1->4->3 [7] 5/-1/-1->4->3 [8] 5/-1/-1->4->3 [9] 5/-1/-1->4->3 [10] 5/-1/-1->4->3 [11] 5/-1/-1->4->3 [12] 5/-1/-1->4->3 [13] 5/-1/-1->4->3 [14] 5/-1/-1->4->3 [15] 5/-1/-1->4->3
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Trees [0] 4/-1/-1->3->2 [1] 4/-1/-1->3->2 [2] 4/-1/-1->3->2 [3] 4/-1/-1->3->2 [4] 4/-1/-1->3->2 [5] 4/-1/-1->3->2 [6] 4/-1/-1->3->2 [7] 4/-1/-1->3->2 [8] 4/-1/-1->3->2 [9] 4/-1/-1->3->2 [10] 4/-1/-1->3->2 [11] 4/-1/-1->3->2 [12] 4/-1/-1->3->2 [13] 4/-1/-1->3->2 [14] 4/-1/-1->3->2 [15] 4/-1/-1->3->2
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO P2P Chunksize set to 524288
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Trees [0] 2/-1/-1->1->0 [1] 2/-1/-1->1->0 [2] 2/-1/-1->1->0 [3] 2/-1/-1->1->0 [4] 2/-1/-1->1->0 [5] 2/-1/-1->1->0 [6] 2/-1/-1->1->0 [7] 2/-1/-1->1->0 [8] 2/-1/-1->1->0 [9] 2/-1/-1->1->0 [10] 2/-1/-1->1->0 [11] 2/-1/-1->1->0 [12] 2/-1/-1->1->0 [13] 2/-1/-1->1->0 [14] 2/-1/-1->1->0 [15] 2/-1/-1->1->0
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO P2P Chunksize set to 524288
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Trees [0] -1/-1/-1->5->4 [1] -1/-1/-1->5->4 [2] -1/-1/-1->5->4 [3] -1/-1/-1->5->4 [4] -1/-1/-1->5->4 [5] -1/-1/-1->5->4 [6] -1/-1/-1->5->4 [7] -1/-1/-1->5->4 [8] -1/-1/-1->5->4 [9] -1/-1/-1->5->4 [10] -1/-1/-1->5->4 [11] -1/-1/-1->5->4 [12] -1/-1/-1->5->4 [13] -1/-1/-1->5->4 [14] -1/-1/-1->5->4 [15] -1/-1/-1->5->4
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO P2P Chunksize set to 524288
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Channel 00/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO P2P Chunksize set to 524288
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO P2P Chunksize set to 524288
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Channel 01/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Channel 02/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Channel 03/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Channel 04/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Channel 05/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Channel 06/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Channel 07/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Channel 08/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Channel 09/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Channel 10/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Channel 11/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Channel 12/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Channel 13/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Channel 14/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Channel 15/16 :    0   1   2   3   4   5
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Trees [0] 1/-1/-1->0->-1 [1] 1/-1/-1->0->-1 [2] 1/-1/-1->0->-1 [3] 1/-1/-1->0->-1 [4] 1/-1/-1->0->-1 [5] 1/-1/-1->0->-1 [6] 1/-1/-1->0->-1 [7] 1/-1/-1->0->-1 [8] 1/-1/-1->0->-1 [9] 1/-1/-1->0->-1 [10] 1/-1/-1->0->-1 [11] 1/-1/-1->0->-1 [12] 1/-1/-1->0->-1 [13] 1/-1/-1->0->-1 [14] 1/-1/-1->0->-1 [15] 1/-1/-1->0->-1
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO P2P Chunksize set to 524288
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Channel 00/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Channel 01/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Channel 02/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Channel 00/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Channel 03/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Channel 00/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Channel 00/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Channel 01/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Channel 04/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Channel 00/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Channel 01/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Channel 01/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Channel 02/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Channel 05/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Channel 01/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Channel 03/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Channel 06/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Channel 02/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Channel 02/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Channel 04/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Channel 03/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Channel 03/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Channel 02/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Channel 07/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Channel 05/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Channel 04/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Channel 04/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Channel 03/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Channel 08/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Channel 09/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Channel 00/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Channel 05/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Channel 04/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Channel 06/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Channel 05/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Channel 10/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Channel 01/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Channel 06/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Channel 05/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Channel 07/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Channel 11/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Channel 08/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Channel 06/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Channel 02/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Channel 12/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Channel 09/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Channel 07/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Channel 13/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Channel 07/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Channel 03/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Channel 08/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Channel 06/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Channel 10/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Channel 14/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Channel 09/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Channel 08/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Channel 04/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Channel 07/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Channel 10/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Channel 11/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Channel 09/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Channel 11/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Channel 10/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Channel 08/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Channel 15/0 : 0[0] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Channel 11/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Channel 05/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Channel 12/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Channel 12/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Channel 13/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Channel 12/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Channel 09/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Channel 06/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Channel 13/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Channel 10/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Channel 07/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Channel 14/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Channel 13/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Channel 08/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Channel 15/0 : 3[3] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Channel 09/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Channel 14/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Channel 11/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Channel 10/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Channel 14/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Channel 15/0 : 4[4] -> 5[5] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Channel 12/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Channel 11/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Channel 15/0 : 2[2] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Channel 13/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Channel 12/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Channel 14/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Channel 13/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Channel 15/0 : 5[5] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Channel 14/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Channel 15/0 : 1[1] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Connected all rings
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Connected all rings
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Channel 00/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Connected all rings
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Channel 01/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Channel 02/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Connected all rings
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Connected all rings
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Connected all rings
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Channel 03/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Channel 04/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Channel 05/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Channel 06/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Channel 07/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Channel 08/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Channel 09/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Channel 10/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Channel 11/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Channel 12/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Channel 00/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Channel 13/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Channel 01/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Channel 14/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Channel 02/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Channel 15/0 : 5[5] -> 4[4] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Channel 03/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Channel 04/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Channel 00/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Channel 01/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Channel 05/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Channel 00/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Channel 00/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Channel 02/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Channel 01/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Channel 01/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Channel 06/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Channel 03/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Channel 02/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Channel 07/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Channel 02/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Channel 04/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Channel 03/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Channel 08/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Channel 03/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Channel 04/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Channel 09/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Channel 05/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Channel 05/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Channel 10/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Channel 04/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Channel 06/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Channel 06/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Channel 11/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Channel 05/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Channel 07/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Channel 07/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Channel 12/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Channel 06/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Channel 08/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Channel 08/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Channel 13/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Channel 07/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Channel 09/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Channel 08/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Channel 09/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Channel 14/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Channel 10/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Channel 09/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Channel 10/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Channel 15/0 : 4[4] -> 3[3] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Channel 11/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Channel 10/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Channel 11/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Channel 12/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Channel 11/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Channel 12/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Channel 13/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Channel 12/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Channel 13/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Channel 14/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Channel 13/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Channel 14/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Channel 15/0 : 2[2] -> 1[1] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Channel 14/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Channel 15/0 : 1[1] -> 0[0] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Channel 15/0 : 3[3] -> 2[2] via P2P/IPC
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO Connected all trees
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO threadThresholds 8/8/64 | 48/8/64 | 512 | 512
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO 16 coll channels, 0 collnet channels, 0 nvls channels, 16 p2p channels, 16 p2p channels per peer
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO Connected all trees
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO threadThresholds 8/8/64 | 48/8/64 | 512 | 512
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO 16 coll channels, 0 collnet channels, 0 nvls channels, 16 p2p channels, 16 p2p channels per peer
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO Connected all trees
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO threadThresholds 8/8/64 | 48/8/64 | 512 | 512
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO 16 coll channels, 0 collnet channels, 0 nvls channels, 16 p2p channels, 16 p2p channels per peer
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO Connected all trees
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO threadThresholds 8/8/64 | 48/8/64 | 512 | 512
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO Connected all trees
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO Connected all trees
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO 16 coll channels, 0 collnet channels, 0 nvls channels, 16 p2p channels, 16 p2p channels per peer
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO threadThresholds 8/8/64 | 48/8/64 | 512 | 512
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO threadThresholds 8/8/64 | 48/8/64 | 512 | 512
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO 16 coll channels, 0 collnet channels, 0 nvls channels, 16 p2p channels, 16 p2p channels per peer
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO 16 coll channels, 0 collnet channels, 0 nvls channels, 16 p2p channels, 16 p2p channels per peer
+ts-8b1d8071943f9ab001945de267e23083-launcher:432504:433280 [4] NCCL INFO comm 0xef610a40 rank 4 nranks 6 cudaDev 4 nvmlDev 4 busId d0000 commId 0x40fe2bf61b2c1bfa - Init COMPLETE
+ts-8b1d8071943f9ab001945de267e23083-launcher:432503:433282 [3] NCCL INFO comm 0xef570d20 rank 3 nranks 6 cudaDev 3 nvmlDev 3 busId c4000 commId 0x40fe2bf61b2c1bfa - Init COMPLETE
+ts-8b1d8071943f9ab001945de267e23083-launcher:432502:433279 [2] NCCL INFO comm 0xebc2f840 rank 2 nranks 6 cudaDev 2 nvmlDev 2 busId 85000 commId 0x40fe2bf61b2c1bfa - Init COMPLETE
+ts-8b1d8071943f9ab001945de267e23083-launcher:432500:433278 [0] NCCL INFO comm 0xea1f8c80 rank 0 nranks 6 cudaDev 0 nvmlDev 0 busId 56000 commId 0x40fe2bf61b2c1bfa - Init COMPLETE
+ts-8b1d8071943f9ab001945de267e23083-launcher:432505:433281 [5] NCCL INFO comm 0xef96e0f0 rank 5 nranks 6 cudaDev 5 nvmlDev 5 busId dd000 commId 0x40fe2bf61b2c1bfa - Init COMPLETE
+ts-8b1d8071943f9ab001945de267e23083-launcher:432501:433283 [1] NCCL INFO comm 0xf0894930 rank 1 nranks 6 cudaDev 1 nvmlDev 1 busId 62000 commId 0x40fe2bf61b2c1bfa - Init COMPLETE
+                                               {'loss': 10.5551, 'grad_norm': 1.040741205215454, 'learning_rate': 9.435054165891109e-05, 'epoch': 0.24}
+ 25%|██▍       | 20/81 [02:26<07:05,  6.98s/it] 26%|██▌       | 21/81 [02:33<08:00,  8.00s/it] 27%|██▋       | 22/81 [02:40<07:34,  7.71s/it] 28%|██▊       | 23/81 [02:47<07:14,  7.50s/it] 30%|██▉       | 24/81 [02:54<06:58,  7.35s/it] 31%|███       | 25/81 [03:01<06:45,  7.25s/it] 32%|███▏      | 26/81 [03:08<06:38,  7.24s/it] 33%|███▎      | 27/81 [03:15<06:27,  7.18s/it] 35%|███▍      | 28/81 [03:22<06:17,  7.13s/it] 36%|███▌      | 29/81 [03:29<06:10,  7.13s/it] 37%|███▋      | 30/81 [03:37<06:03,  7.12s/it] 38%|███▊      | 31/81 [03:44<05:54,  7.09s/it] 40%|███▉      | 32/81 [03:51<05:46,  7.06s/it] 41%|████      | 33/81 [03:58<05:38,  7.05s/it] 42%|████▏     | 34/81 [04:05<05:30,  7.04s/it] 43%|████▎     | 35/81 [04:12<05:23,  7.03s/it] 44%|████▍     | 36/81 [04:19<05:15,  7.02s/it] 46%|████▌     | 37/81 [04:26<05:08,  7.02s/it] 47%|████▋     | 38/81 [04:33<05:01,  7.02s/it] 48%|████▊     | 39/81 [04:40<04:54,  7.01s/it] 49%|████▉     | 40/81 [04:47<04:47,  7.01s/it]                                               {'loss': 8.4119, 'grad_norm': 0.43350982666015625, 'learning_rate': 6.0821980696905146e-05, 'epoch': 0.49}
+ 49%|████▉     | 40/81 [04:47<04:47,  7.01s/it] 51%|█████     | 41/81 [04:54<04:40,  7.01s/it] 52%|█████▏    | 42/81 [05:01<04:33,  7.01s/it] 53%|█████▎    | 43/81 [05:08<04:26,  7.01s/it] 54%|█████▍    | 44/81 [05:15<04:19,  7.01s/it] 56%|█████▌    | 45/81 [05:22<04:12,  7.01s/it] 57%|█████▋    | 46/81 [05:29<04:05,  7.01s/it] 58%|█████▊    | 47/81 [05:36<03:58,  7.01s/it] 59%|█████▉    | 48/81 [05:43<03:51,  7.00s/it] 60%|██████    | 49/81 [05:50<03:44,  7.01s/it] 62%|██████▏   | 50/81 [05:57<03:37,  7.00s/it] 63%|██████▎   | 51/81 [06:04<03:30,  7.00s/it] 64%|██████▍   | 52/81 [06:11<03:23,  7.01s/it] 65%|██████▌   | 53/81 [06:18<03:17,  7.04s/it] 67%|██████▋   | 54/81 [06:25<03:10,  7.05s/it] 68%|██████▊   | 55/81 [06:32<03:03,  7.04s/it] 69%|██████▉   | 56/81 [06:39<02:55,  7.03s/it] 70%|███████   | 57/81 [06:46<02:48,  7.02s/it] 72%|███████▏  | 58/81 [06:53<02:42,  7.06s/it] 73%|███████▎  | 59/81 [07:00<02:34,  7.04s/it] 74%|███████▍  | 60/81 [07:07<02:27,  7.03s/it]                                               {'loss': 7.8467, 'grad_norm': 0.21506506204605103, 'learning_rate': 1.9561928549563968e-05, 'epoch': 0.73}
+ 74%|███████▍  | 60/81 [07:07<02:27,  7.03s/it] 75%|███████▌  | 61/81 [07:14<02:21,  7.06s/it] 77%|███████▋  | 62/81 [07:21<02:13,  7.04s/it] 78%|███████▊  | 63/81 [07:28<02:06,  7.03s/it] 79%|███████▉  | 64/81 [07:35<02:00,  7.07s/it] 80%|████████  | 65/81 [07:42<01:52,  7.05s/it] 81%|████████▏ | 66/81 [07:49<01:45,  7.04s/it] 83%|████████▎ | 67/81 [07:56<01:38,  7.03s/it] 84%|████████▍ | 68/81 [08:03<01:31,  7.02s/it] 85%|████████▌ | 69/81 [08:10<01:24,  7.02s/it] 86%|████████▋ | 70/81 [08:17<01:17,  7.02s/it] 88%|████████▊ | 71/81 [08:24<01:10,  7.02s/it] 89%|████████▉ | 72/81 [08:31<01:03,  7.01s/it] 90%|█████████ | 73/81 [08:38<00:56,  7.01s/it] 91%|█████████▏| 74/81 [08:45<00:49,  7.01s/it] 93%|█████████▎| 75/81 [08:52<00:42,  7.02s/it] 94%|█████████▍| 76/81 [08:59<00:35,  7.01s/it] 95%|█████████▌| 77/81 [09:06<00:28,  7.01s/it] 96%|█████████▋| 78/81 [09:13<00:21,  7.01s/it] 98%|█████████▊| 79/81 [09:20<00:14,  7.01s/it] 99%|█████████▉| 80/81 [09:27<00:07,  7.01s/it]                                               {'loss': 7.7607, 'grad_norm': 0.206473708152771, 'learning_rate': 4.7588920907110094e-08, 'epoch': 0.98}
+ 99%|█████████▉| 80/81 [09:27<00:07,  7.01s/it]100%|██████████| 81/81 [09:34<00:00,  7.01s/it]/usr/local/python/lib/python3.8/site-packages/torch/nn/modules/module.py:1898: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/torch/nn/modules/module.py:1898: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/torch/nn/modules/module.py:1898: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/torch/nn/modules/module.py:1898: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/torch/nn/modules/module.py:1898: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/usr/local/python/lib/python3.8/site-packages/torch/nn/modules/module.py:1898: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+                                               {'train_runtime': 586.2703, 'train_samples_per_second': 160.678, 'train_steps_per_second': 0.138, 'train_loss': 8.633047409999518, 'epoch': 0.99}
+100%|██████████| 81/81 [09:46<00:00,  7.01s/it]100%|██████████| 81/81 [09:46<00:00,  7.24s/it]
+Figure saved at: results/pt1/training_loss.png
+Figure saved at: results/pt1/training_loss.png
+Figure saved at: results/pt1/training_loss.png
+Figure saved at: results/pt1/training_loss.png
+Figure saved at: results/pt1/training_loss.png
+Figure saved at: results/pt1/training_loss.png
