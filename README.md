@@ -26,7 +26,7 @@ mini_qwen是以Qwen2.5-0.5B-Instruct模型为基础，通过扩充模型隐藏�
 - https://github.com/huggingface/trl/issues [TRL使用过程中各种问题]
 
 ## 快速开始
-本项目构建了mini_data(通过save_mini_data.py)，也下载了模型配置文件，如果只是体验模型训练流程，不需要额外下载数据集和模型，仅需要下载本项目到本地，然后运行预训练(pt)、微调(sft)和直接偏好优化(dpo)的demo_xx.py代码即可。
+本项目构建了mini_data(通过utils/save_mini_data.py)，也下载了模型配置文件，如果只是体验模型训练流程，不需要额外下载数据集和模型，仅需要下载本项目到本地，然后运行预训练(pt)、微调(sft)和直接偏好优化(dpo)的demo_xx.py代码即可。
 **注意：请确保安装以下python包：**
 **pip install flash-attn**
 **pip install trl==0.11.4**  
@@ -95,7 +95,7 @@ python demo_dpo.py
 | **总计**                                               | **141G** | **40G** |
 
 ```
-# 参考demo_view_data.py，取出数据查看
+# 参考utils/demo_view_data.py，取出数据查看
 
 {
   "text": "马亮:如何破解外卖骑手的\"生死劫\"\n在消费至上的今天,企业不应道德绑架消费者,让消费者为企业的伪善埋单。。。。。。",
@@ -125,7 +125,7 @@ python demo_dpo.py
 | 聊天数据集   | InfInstruct-Gen (0729) | 1,456,927 | 2.7G      | 2025.1   |
 
 ```
-# 参考demo_view_data.py，取出数据查看
+# 参考utils/demo_view_data.py，取出数据查看
 
 {
   "id": 9,
@@ -160,7 +160,7 @@ python demo_dpo.py
 | test                   | 100      | 350K     |
 
 ```
-# 参考demo_view_data.py，取出数据查看
+# 参考utils/demo_view_data.py，取出数据查看
 
 {
    'task_category': 'culinary_knowledge', 
@@ -213,7 +213,7 @@ python mini_qwen_pt.py
 # 多卡在命令行运行
 accelerate launch --config_file accelerate_config.yaml mini_qwen_pt.py
 # 多卡在后台运行
-nohup accelerate launch --config_file accelerate_config.yaml mini_qwen_pt.py > output_pt.log 2>&1 &
+nohup accelerate launch --config_file accelerate_config.yaml mini_qwen_pt.py > logs/output_pt.log 2>&1 &
 ```
 在mini_qwen_pt.py文件中，需要注意以下参数的设置：
 ```
@@ -282,7 +282,7 @@ python mini_qwen_sft.py
 # 多卡在命令行运行
 accelerate launch --config_file accelerate_config.yaml mini_qwen_sft.py
 # 多卡在后台运行
-nohup accelerate launch --config_file accelerate_config.yaml mini_qwen_sft.py > output_sft.log 2>&1 &
+nohup accelerate launch --config_file accelerate_config.yaml mini_qwen_sft.py > logs/output_sft.log 2>&1 &
 ```
 在mini_qwen_sft.py文件中，需要注意以下参数的设置：
 ```
@@ -341,7 +341,7 @@ python mini_qwen_dpo.py
 # 多卡在命令行运行
 accelerate launch --config_file accelerate_config.yaml mini_qwen_dpo.py
 # 多卡在后台运行
-nohup accelerate launch --config_file accelerate_config.yaml mini_qwen_dpo.py > output_dpo.log 2>&1 &
+nohup accelerate launch --config_file accelerate_config.yaml mini_qwen_dpo.py > logs/output_dpo.log 2>&1 &
 ```
 在mini_qwen_dpo.py文件中，需要注意以下参数的设置：
 ```
@@ -394,7 +394,7 @@ python mini_qwen_eval.py
 ## 结果分析与模型评估
 ### 预训练(pt)
 #### 结果分析
-预训练使用大约16B token的高质量中英文数据，训练了1epoch，总batch_size为1152，学习率为1e-4，使用6张H800，deepspeed采用zero-2，耗时约25h。具体训练日志见output_pt.log。
+预训练使用大约16B token的高质量中英文数据，训练了1epoch，总batch_size为1152，学习率为1e-4，使用6张H800，deepspeed采用zero-2，耗时约25h。具体训练日志见logs/output_pt.log。
 
 | 参数名称                      | 值  |
 |------------------------------|-----|
@@ -423,8 +423,8 @@ loss曲线先迅速下降，后缓慢降低，非常符合预期。
 用户：tell me a story
 助手：  about the 1960s, but I was interested in the story of the 1960s, and I was interested in the story of the 1960s,。。。。。。 and I was interested in the story of the 1960s, 
 ```
-- 复读机现象猜测是由于序列打包导致的，为了验证猜想，本项目使用accommodation_catering_hotel/chinese/high数据，分别使用常规方法和序列打包方法，分别进行了预训练。具体训练日志见output_pt1.log(常规)和output_pt2.log(序列打包)。
-- 本项目想要探究中英文数据混合预训练时，模型是否可以理解不同语言的相关性，即通过增加英文数据，模型是否可以更好地理解中文问题，因此使用accommodation_catering_hotel/chinese/high和data/pt/accommodation_catering_hotel/english/high数据，使用常规方法进行了预训练。具体训练日志见output_pt3.log(常规 中英文数据)。
+- 复读机现象猜测是由于序列打包导致的，为了验证猜想，本项目使用accommodation_catering_hotel/chinese/high数据，分别使用常规方法和序列打包方法，分别进行了预训练。具体训练日志见logs/output_pt1.log(常规)和logs/output_pt2.log(序列打包)。
+- 本项目想要探究中英文数据混合预训练时，模型是否可以理解不同语言的相关性，即通过增加英文数据，模型是否可以更好地理解中文问题，因此使用accommodation_catering_hotel/chinese/high和data/pt/accommodation_catering_hotel/english/high数据，使用常规方法进行了预训练。具体训练日志见logs/output_pt3.log(常规 中英文数据)。
 - 本项目还想要探究尺度定律(scaling law)，通过上述3个实验与本项目的预训练实验的loss曲线，可以验证尺度定律的有效性。loss曲线的横坐标为step(训练步数)，4个实验的超参数相同，每个step的数据量均为1152(总batch_size)。可以看出，4个实验的数据规模逐渐增加，loss曲线也越来越陡，loss的初始值越来越大，loss稳定时的值越来越小。
 <table>
   <tr>
@@ -491,7 +491,7 @@ Once upon a time, in a small village nestled between rolling hills and whisperin
 
 ### 微调(sft)
 #### 结果分析
-微调基于pt 1epoch模型，使用大约9M条高质量中英文数据，训练了3epoch，总batch_size为1152，学习率为1e-5，使用6张H800，deepspeed采用zero-2，耗时约43h。具体训练日志见output_sft.log。
+微调基于pt 1epoch模型，使用大约9M条高质量中英文数据，训练了3epoch，总batch_size为1152，学习率为1e-5，使用6张H800，deepspeed采用zero-2，耗时约43h。具体训练日志见logs/output_sft.log。
 
 | 参数名称                      | 值  |
 |------------------------------|-----|
@@ -545,7 +545,7 @@ loss曲线先迅速下降，后缓慢降低，非常符合预期。
 
 ### 直接偏好优化(dpo)
 #### 结果分析
-直接偏好优化基于sft 2epoch模型，使用大约60K条高质量中英文数据，训练了3epoch，总batch_size为384，学习率为5e-7，为使用6张H800，deepspeed采用zero-2，耗时约1h。具体训练日志见output_dpo.log。
+直接偏好优化基于sft 2epoch模型，使用大约60K条高质量中英文数据，训练了3epoch，总batch_size为384，学习率为5e-7，为使用6张H800，deepspeed采用zero-2，耗时约1h。具体训练日志见logs/output_dpo.log。
 
 | 参数名称                      | 值  |
 |------------------------------|-----|
@@ -559,9 +559,9 @@ loss曲线隐约呈现阶梯状，说明模型稍微过拟合了。
 ![这是图片](images/training_loss_dpo.png)
 
 在上述dpo训练之前，本项目也有一些失败的尝试，在这里也将详细说明。  
-- 1.学习率初始设置为1e-6，选择sft 3epoch模型，进行训练，耗时约1h。具体训练日志见output_dpo1.log。loss曲线呈现阶梯状下降，说明模型已经过拟合。
-- 2.调整学习率为5e-7，选择sft 3epoch模型，再次进行训练，耗时约1h。具体训练日志见output_dpo2.log。loss曲线还是呈现阶梯状下降，说明模型还是有点过拟合。
-- 3.调整学习率为1e-7，选择sft 2epoch模型，再次进行训练，耗时约1h。具体训练日志见output_dpo3.log。观察loss曲线，模型并未过拟合，但是loss下降幅度太低，仅下降0.03，说明学习率设置太低。
+- 1.学习率初始设置为1e-6，选择sft 3epoch模型，进行训练，耗时约1h。具体训练日志见logs/output_dpo1.log。loss曲线呈现阶梯状下降，说明模型已经过拟合。
+- 2.调整学习率为5e-7，选择sft 3epoch模型，再次进行训练，耗时约1h。具体训练日志见logs/output_dpo2.log。loss曲线还是呈现阶梯状下降，说明模型还是有点过拟合。
+- 3.调整学习率为1e-7，选择sft 2epoch模型，再次进行训练，耗时约1h。具体训练日志见logs/output_dpo3.log。观察loss曲线，模型并未过拟合，但是loss下降幅度太低，仅下降0.03，说明学习率设置太低。
 <table>
   <tr>
     <td><img src="images/training_loss_dpo1.png" alt="Image 1" width="300"/></td>
