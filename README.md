@@ -502,7 +502,7 @@ Once upon a time, in a small village nestled between rolling hills and whisperin
 
 loss曲线先迅速下降，后缓慢降低，非常符合预期。
 
-![training_loss_sft](images/training_loss_sft.png)
+![这是图片](images/training_loss_sft.png)
 
 #### 模型评估
 - 1epoch时，模型比预训练的回答更好，但还会出现复读机现象(过长的重复内容使用。。。。。。省略)。
