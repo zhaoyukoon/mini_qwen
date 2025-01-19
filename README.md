@@ -422,7 +422,7 @@ loss曲线先迅速下降，后缓慢降低，非常符合预期。
 用户：tell me a story
 助手：  about the 1960s, but I was interested in the story of the 1960s, and I was interested in the story of the 1960s,。。。。。。 and I was interested in the story of the 1960s, 
 ```
-- 复读机现象猜测是由于序列打包导致的，为了验证猜想，本项目使用accommodation_catering_hotel/chinese/high数据，分别使用常规方法和序列打包方法，分别进行了预训练。具体训练日志见logs/output_pt1.log(常规)和logs/output_pt2.log(序列打包)。
+- 复读机现象猜测是由于序列打包导致的，为了验证猜想，本项目使用accommodation_catering_hotel/chinese/high数据，分别使用常规方法和序列打包方法进行了预训练。具体训练日志见logs/output_pt1.log(常规)和logs/output_pt2.log(序列打包)。
 - 本项目想要探究中英文数据混合预训练时，模型是否可以理解不同语言的相关性，即通过增加英文数据，模型是否可以更好地理解中文问题，因此使用accommodation_catering_hotel/chinese/high和data/pt/accommodation_catering_hotel/english/high数据，使用常规方法进行了预训练。具体训练日志见logs/output_pt3.log(常规 中英文数据)。
 - 本项目还想要探究尺度定律(scaling law)，通过上述3个实验与本项目的预训练实验的loss曲线，可以验证尺度定律的有效性。loss曲线的横坐标为step(训练步数)，4个实验的超参数相同，每个step的数据量均为1152(总batch_size)。可以看出，4个实验的数据规模逐渐增加，loss曲线也越来越陡，loss的初始值越来越大，loss稳定时的值越来越小。
 <table>
