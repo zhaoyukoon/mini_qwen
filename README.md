@@ -38,7 +38,7 @@ cd mini_qwen
 
 # demo_xx.py和mini_qwen_xx.py基本一致，为了减少显存占用，进行了以下修改：
 # 在demo/demo_xx.py中， 将data/替换为mini_data/
-# 在demo/demo_xx.py中， 设置per_device_train_batch_size=1
+# 在demo/demo_xx.py中， 设置per_device_train_batch_size=1 gradient_accumulation_steps=1 logging_steps=1
 # 在demo/demo_pt.py中， 设置block_size = 128
 # 在demo/demo_sft.py中，设置max_seq_length=128
 # 在demo/demo_dpo.py中，设置max_length=128 max_prompt_length=64
