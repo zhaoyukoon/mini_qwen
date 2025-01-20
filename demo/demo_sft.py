@@ -64,12 +64,12 @@ training_args = SFTConfig(
     lr_scheduler_type="cosine",
     num_train_epochs=3,
     per_device_train_batch_size=1,
-    gradient_accumulation_steps=16,
+    gradient_accumulation_steps=1,
     save_strategy="epoch",  # 保存中间模型
     save_total_limit=3,
     bf16=True,
     save_only_model=True,
-    logging_steps=20,
+    logging_steps=1,
 )
 
 # 初始化Trainer
