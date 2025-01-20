@@ -54,17 +54,17 @@ train_dataset = dataset.map(
 training_args = DPOConfig(
     output_dir=output_path,
     overwrite_output_dir=True,
-    learning_rate=1e-7,
+    learning_rate=5e-7,
     warmup_ratio=0.1,
     lr_scheduler_type="cosine",
     num_train_epochs=3,
     per_device_train_batch_size=1,
-    gradient_accumulation_steps=16,
+    gradient_accumulation_steps=1,
     save_strategy="epoch",  # 保存中间模型
     save_total_limit=3,
     bf16=True,
     save_only_model=True,
-    logging_steps=20,
+    logging_steps=1,
 )
 
 # 初始化Trainer
