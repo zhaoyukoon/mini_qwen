@@ -1,5 +1,6 @@
 import os
 import torch
+from loguru import logger
 import matplotlib.pyplot as plt
 from itertools import chain
 from datasets import load_dataset
@@ -25,23 +26,35 @@ config.num_key_value_heads = 4
 config.hidden_size = 1024
 config.num_hidden_layers = 48
 # print(config)
+logger.info(f'load model from {config}')
 model = AutoModelForCausalLM.from_config(config, torch_dtype=torch.bfloat16, attn_implementation="flash_attention_2")
+logger.info('load tokenizer: {model_path}')
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 
+logger.info('load tokenizer: {model_path} done')
 # # 计算参数量
 # num_params = sum(p.numel() for p in model.parameters())
 # print(f"模型参数量: {num_params}")
 
 
-def find_files(dirs):
+def find_files(dirs, max_size_in_MB=1000):
     files = []
     for dir in dirs:
+        dir_size_MB = 0
         base_path = os.path.join("data/pt", dir)
         for dirpath, _, filenames in os.walk(base_path):
             for filename in filenames:
                 if filename.endswith(".parquet"):
                     full_path = os.path.join(dirpath, filename)
-                    files.append(full_path)
+                    file_size_bytes = os.path.getsize(full_path)
+                    file_size_kb = int(file_size_bytes / 1024)
+                    file_size_mb = int(file_size_kb / 1024)
+                    if dir_size_MB < max_size_in_MB:
+                        dir_size_MB += file_size_mb
+                        files.append(full_path)
+                    else:
+                        logger.info(f'discard {filename} due to exceed size')
+        logger.info(f'file {dir}:\t{dir_size_MB} MB')
     return files
 
 
@@ -59,7 +72,9 @@ directories = [
     "mathematics_statistics",
 ]
 data_files = find_files(directories)
-dataset = load_dataset("parquet", data_files=data_files, split="train")
+columns_to_load = ['text', 'alnum_ratio', 'avg_line_length', 'char_rep_ratio', 'max_line_length', 'num_words', 'quality_score', 'special_char_ratio', 'industry_type']
+dataset = load_dataset("parquet", data_files=data_files, split="train",columns=columns_to_load)
+#dataset = load_dataset("parquet", data_files=data_files, split="train")
 dataset = dataset.shuffle(seed=42)
 # dataset = dataset.shuffle(seed=42).select(range(20))
 # print(dataset[:3]);input()
