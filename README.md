@@ -93,9 +93,8 @@ python demo/demo_dpo.py
 | mathematics_statistics/english/high                   | 42G      | 1.4G     |
 | **总计**                                               | **141G** | **40G** |
 
+参考utils/demo_view_data.py，取出数据查看
 ```json
-# 参考utils/demo_view_data.py，取出数据查看
-
 {
   "text": "马亮:如何破解外卖骑手的\"生死劫\"\n在消费至上的今天,企业不应道德绑架消费者,让消费者为企业的伪善埋单。。。。。。",
   "alnum_ratio": 0.9146919431,
