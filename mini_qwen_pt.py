@@ -37,7 +37,7 @@ logger.info('load tokenizer: {model_path} done')
 # print(f"模型参数量: {num_params}")
 
 
-def find_files(dirs, max_size_in_MB=1000):
+def find_files(dirs, max_size_in_MB=600):
     files = []
     for dir in dirs:
         dir_size_MB = 0
@@ -107,7 +107,7 @@ train_dataset = dataset.map(
     batched=True,
     batch_size=5000,
     remove_columns=dataset.column_names,
-    num_proc=16,
+    num_proc=32,
 )
 
 # 数据整理器
@@ -121,7 +121,7 @@ training_args = TrainingArguments(
     warmup_ratio=0.1,
     lr_scheduler_type="cosine",
     num_train_epochs=1,
-    per_device_train_batch_size=12,
+    per_device_train_batch_size=2,
     gradient_accumulation_steps=16,
     save_steps=100_000,  # 保存中间模型
     save_total_limit=3,
